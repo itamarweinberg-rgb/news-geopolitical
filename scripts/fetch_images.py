@@ -54,8 +54,10 @@ def main():
             key = f"{b['date']}|{s['topic']}"
             if not s.get("img") or key in images:
                 continue
-            # `img` may hold several queries separated by ";", tried in order.
-            pick = next((c for q in s["img"].split(";") for c in candidates(q.strip())), None)
+            # `img` is a list of {"q": English Commons query, "he": short Hebrew caption},
+            # tried in order; the caption of the query that matched is kept.
+            opts = s["img"] if isinstance(s["img"], list) else [{"q": q} for q in s["img"].split(";")]
+            pick = next(({**c, "he": o.get("he", "")} for o in opts for c in candidates(o["q"].strip())), None)
             print(key, "->", pick and pick["title"])
             if not pick:
                 continue
