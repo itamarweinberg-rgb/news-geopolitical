@@ -64,7 +64,8 @@ def main():
             path = f"img/{b['date']}-{s['topic']}.jpg"
             with open(path, "wb") as f:
                 f.write(get(pick.pop("thumb")))
-            images[key] = {"src": path, **pick}
+            # Hidden on the site until the morning routine looks at it and drops "pending".
+            images[key] = {"src": path, **pick, "pending": True}
     with open("images.json", "w", encoding="utf-8") as f:
         json.dump(images, f, ensure_ascii=False, indent=1)
 

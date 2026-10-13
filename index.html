@@ -398,7 +398,8 @@ function story(s,i,prevDays){
   for(const d of prevDays){const j=d.stories.findIndex(x=>x.topic===s.topic);if(j<0)break;prev.push([d,j])}
   const streak=prev.length?`<button type="button" class="thread" data-goto="${prev[0][0].date}|s${prev[0][1]+1}">סיפור מתגלגל · יום ${prev.length+1} ברציפות</button>`:"";
   const prevList=prev.length?`<div class="prev">בימים הקודמים:<ul>${prev.map(([d,j])=>`<li><button type="button" data-goto="${d.date}|s${j+1}">${shortDate(d.date)}</button> · ${esc(d.stories[j].title)}</li>`).join("")}</ul></div>`:"";
-  const ph=IMG[DATA.briefings[idx].date+"|"+s.topic];
+  let ph=IMG[DATA.briefings[idx].date+"|"+s.topic];
+  if(ph&&ph.pending)ph=null;
   const photo=ph?`<figure class="photo"><img src="${esc(ph.src)}" alt="" loading="lazy"><figcaption>${ph.he?`<b>${esc(ph.he)}</b>`:""}<span>תמונת ארכיון להמחשה · <a href="${esc(ph.page)}" target="_blank" rel="noopener">צילום: ${esc(ph.credit)}, ${esc(ph.license)}</a></span></figcaption></figure>`:"";
   return `<article class="story fade" id="s${i+1}">
     ${photo}
