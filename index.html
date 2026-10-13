@@ -116,6 +116,10 @@ a{color:var(--sea)}
 .stories{display:flex;flex-direction:column;gap:22px;margin-top:44px}
 .story{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;background:var(--surface);border:1px solid var(--rule);border-radius:20px;padding:28px 30px;scroll-margin-top:80px}
 .story-main{min-width:0}
+.photo{grid-column:1/-1;position:relative;margin:-28px -30px 4px;border-radius:20px 20px 0 0;overflow:hidden;height:clamp(190px,24vw,280px);background:var(--land)}
+.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo figcaption{position:absolute;inset-inline:0;bottom:0;padding:22px 16px 8px;font-size:12px;color:#E9EFEE;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;background:linear-gradient(transparent,rgba(8,14,17,.72))}
+.photo figcaption a{color:inherit}
 .story-top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:8px}
 .rank{font-family:var(--f-display);font-weight:900;font-size:44px;line-height:.9;color:var(--signal)}
 .chip{font-size:12.5px;font-weight:600;letter-spacing:.03em;padding:3px 10px;border-radius:999px;background:var(--sea-soft);color:var(--sea)}
@@ -188,6 +192,8 @@ html{scroll-behavior:smooth}
   .hero{grid-template-columns:minmax(0,1fr);gap:22px;padding-block:24px 18px}
   .hero .mapcol{order:-1}
   .story{grid-template-columns:minmax(0,1fr);padding:22px 20px;gap:18px}
+  .photo{margin:-22px -20px 0}
+  .photo figcaption{font-size:11px;padding-inline:12px}
   .side{flex-direction:row;flex-wrap:wrap;align-items:flex-start}
   .side .lens{max-width:170px;margin:0}
   .side .fig,.side .chart{flex:1 1 220px;border-top:none;padding-top:0}
@@ -256,15 +262,18 @@ function pd(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
 function longDate(s){const d=pd(s);return d.getDate()+" ב"+MONTHS[d.getMonth()]+" "+d.getFullYear()}
 function shortDate(s){const d=pd(s);return d.getDate()+"."+(d.getMonth()+1)}
 
-let DATA,MK,WORLD,COUNTRIES,idx=0;
+let DATA,MK,WORLD,COUNTRIES,IMG={},idx=0;
+// Story photos are a trial: shown only with ?img in the address until approved.
+const PHOTOS=new URLSearchParams(location.search).has("img");
 const app=document.getElementById("app");
 
 Promise.all([
   fetch("briefings.json").then(r=>r.json()),
   fetch("markets.json").then(r=>r.json()).catch(()=>null),
-  fetch("world.json").then(r=>r.json()).catch(()=>null)
-]).then(([b,m,w])=>{
-  DATA=b;MK=m;WORLD=w;
+  fetch("world.json").then(r=>r.json()).catch(()=>null),
+  PHOTOS?fetch("images.json").then(r=>r.json()).catch(()=>({})):{}
+]).then(([b,m,w,im])=>{
+  DATA=b;MK=m;WORLD=w;IMG=im||{};
   DATA.briefings.sort((a,b)=>a.date<b.date?1:-1);
   if(w){COUNTRIES=topojson.feature(w,w.objects.countries).features.filter(f=>f.properties.name!=="Antarctica");}
   const h=(location.hash||"").replace("#d","");
@@ -389,7 +398,10 @@ function story(s,i,prevDays){
   for(const d of prevDays){const j=d.stories.findIndex(x=>x.topic===s.topic);if(j<0)break;prev.push([d,j])}
   const streak=prev.length?`<button type="button" class="thread" data-goto="${prev[0][0].date}|s${prev[0][1]+1}">סיפור מתגלגל · יום ${prev.length+1} ברציפות</button>`:"";
   const prevList=prev.length?`<div class="prev">בימים הקודמים:<ul>${prev.map(([d,j])=>`<li><button type="button" data-goto="${d.date}|s${j+1}">${shortDate(d.date)}</button> · ${esc(d.stories[j].title)}</li>`).join("")}</ul></div>`:"";
+  const ph=IMG[DATA.briefings[idx].date+"|"+s.topic];
+  const photo=ph?`<figure class="photo"><img src="${esc(ph.src)}" alt="" loading="lazy"><figcaption>תמונת ארכיון להמחשה · <a href="${esc(ph.page)}" target="_blank" rel="noopener">צילום: ${esc(ph.credit)}, ${esc(ph.license)}</a></figcaption></figure>`:"";
   return `<article class="story fade" id="s${i+1}">
+    ${photo}
     <div class="story-main">
       <div class="story-top"><span class="rank">${i+1}</span><span class="chip">${esc(s.cat)}</span>${streak}</div>
       <h3>${esc(s.title)}</h3>
