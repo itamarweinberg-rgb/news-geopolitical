@@ -7,7 +7,7 @@ import html, json, os, re, urllib.parse, urllib.request
 
 API = "https://commons.wikimedia.org/w/api.php"
 UA = {"User-Agent": "news-geopolitical-briefing/1.0 (github.com/itamarweinberg-rgb/news-geopolitical)"}
-BAD_TITLE = re.compile(r"map|flag|logo|coat of arms|emblem|diagram|chart|locator|svg|seal of", re.I)
+BAD_TITLE = re.compile(r"damaged|collision|restaurant|map|flag|logo|coat of arms|emblem|diagram|chart|locator|svg|seal of", re.I)
 OK_LICENSE = re.compile(r"^(cc0|cc by(-sa)? [\d.]+|public domain|pd)", re.I)
 
 
@@ -54,7 +54,8 @@ def main():
             key = f"{b['date']}|{s['topic']}"
             if not s.get("img") or key in images:
                 continue
-            pick = next(candidates(s["img"]), None)
+            # `img` may hold several queries separated by ";", tried in order.
+            pick = next((c for q in s["img"].split(";") for c in candidates(q.strip())), None)
             print(key, "->", pick and pick["title"])
             if not pick:
                 continue
