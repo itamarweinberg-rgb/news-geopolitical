@@ -5,3 +5,4 @@
 האתר: https://itamarweinberg-rgb.github.io/news-geopolitical/
 
 המידע לצורכי עיון בלבד ואינו ייעוץ השקעות.
+
