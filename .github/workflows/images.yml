@@ -1,0 +1,24 @@
+name: Story images
+on:
+  push:
+    branches: [main]
+    paths: [briefings.json]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: images
+jobs:
+  images:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/fetch_images.py
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898333+github-actions[bot]@users.noreply.github.com"
+          git add images.json img
+          git diff --cached --quiet || (git commit -m "Story images" && git pull --rebase origin main && git push)
