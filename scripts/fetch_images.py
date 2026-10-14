@@ -1,7 +1,9 @@
 """Pick a freely licensed Wikimedia Commons photo for each story that has an `img` query.
 
 Results go to images.json keyed by "<date>|<topic>", with an 800px copy saved under img/.
-Existing entries are kept, so each story is resolved once.
+Existing entries are kept, so each story is resolved once. When a reviewer rejects a photo,
+they delete its entry and add its title to images-rejected.json; the next run then picks the
+next candidate for that story.
 """
 import html, json, os, re, urllib.parse, urllib.request
 
@@ -48,6 +50,7 @@ def candidates(query):
 def main():
     briefings = json.load(open("briefings.json", encoding="utf-8"))["briefings"]
     images = json.load(open("images.json", encoding="utf-8")) if os.path.exists("images.json") else {}
+    rejected = json.load(open("images-rejected.json", encoding="utf-8")) if os.path.exists("images-rejected.json") else {}
     os.makedirs("img", exist_ok=True)
     for b in briefings:
         for s in b["stories"]:
@@ -57,7 +60,9 @@ def main():
             # `img` is a list of {"q": English Commons query, "he": short Hebrew caption},
             # tried in order; the caption of the query that matched is kept.
             opts = s["img"] if isinstance(s["img"], list) else [{"q": q} for q in s["img"].split(";")]
-            pick = next(({**c, "he": o.get("he", "")} for o in opts for c in candidates(o["q"].strip())), None)
+            skip = set(rejected.get(key, []))
+            pick = next(({**c, "he": o.get("he", "")} for o in opts for c in candidates(o["q"].strip())
+                         if c["title"] not in skip), None)
             print(key, "->", pick and pick["title"])
             if not pick:
                 continue

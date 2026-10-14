@@ -2,7 +2,7 @@ name: Story images
 on:
   push:
     branches: [main]
-    paths: [briefings.json]
+    paths: [briefings.json, images-rejected.json]
   workflow_dispatch:
 permissions:
   contents: write
