@@ -78,5 +78,23 @@
   "credit": "Martin Falbisoner",
   "title": "US Capitol west side.JPG",
   "he": "בניין הקפיטול בוושינגטון"
+ },
+ "2026-10-14|yemen": {
+  "src": "img/2026-10-14-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Moscow_Oil_Refinery_01.jpg",
+  "license": "CC BY 4.0",
+  "credit": "MBH",
+  "title": "Moscow Oil Refinery 01.jpg",
+  "he": "בית זיקוק לנפט בלילה",
+  "pending": true
+ },
+ "2026-10-14|horn": {
+  "src": "img/2026-10-14-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Adigrat_Woman,_Tigray_(52189949055).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Rod Waddington from Kergunyah, Australia",
+  "title": "Adigrat Woman, Tigray (52189949055).jpg",
+  "he": "העיר אדיגרט שבתיגראי",
+  "pending": true
  }
 }
