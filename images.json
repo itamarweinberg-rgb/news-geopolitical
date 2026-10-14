@@ -46,5 +46,59 @@
   "credit": "ITookSomePhotos",
   "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
   "he": "מכלית נפט בלב ים"
+ },
+ "2026-10-14|yemen": {
+  "src": "img/2026-10-14-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowfall_at_night_over_Brofjorden_and_Preemraff_oil_refinery.jpg",
+  "license": "CC0",
+  "credit": "W.carter",
+  "title": "Snowfall at night over Brofjorden and Preemraff oil refinery.jpg",
+  "he": "בית זיקוק לנפט בלילה",
+  "pending": true
+ },
+ "2026-10-14|horn": {
+  "src": "img/2026-10-14-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bus_to_Adigrat,_Tigray_(13622815094).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Rod Waddington from Kergunyah, Australia",
+  "title": "Bus to Adigrat, Tigray (13622815094).jpg",
+  "he": "העיר אדיגרט שבתיגראי",
+  "pending": true
+ },
+ "2026-10-14|nato-east": {
+  "src": "img/2026-10-14-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kaliakra.JPG",
+  "license": "CC BY 3.0",
+  "credit": "Spiridon Manoliu",
+  "title": "Kaliakra.JPG",
+  "he": "כף קליאקרה בחוף הים השחור בבולגריה",
+  "pending": true
+ },
+ "2026-10-14|hormuz": {
+  "src": "img/2026-10-14-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_(DSCF7542-DSCF7548).jpg",
+  "license": "CC BY 4.0",
+  "credit": "Trougnouf (Benoit Brummer)",
+  "title": "Berlaymont building (DSCF7542-DSCF7548).jpg",
+  "he": "בניין ברלמון, מטה הנציבות האירופית בבריסל",
+  "pending": true
+ },
+ "2026-10-14|ratehikes": {
+  "src": "img/2026-10-14-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_of_Shanghai,_Yangshan_Deep-water_Harbour_Zone,_02.jpg",
+  "license": "Public domain",
+  "credit": "The original uploader was Alex Needham at English Wikipedia.",
+  "title": "Port of Shanghai, Yangshan Deep-water Harbour Zone, 02.jpg",
+  "he": "נמל המים העמוקים יאנגשאן בשנגחאי",
+  "pending": true
+ },
+ "2026-10-14|ukraine": {
+  "src": "img/2026-10-14-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Martin Falbisoner",
+  "title": "US Capitol west side.JPG",
+  "he": "בניין הקפיטול בוושינגטון",
+  "pending": true
  }
 }
