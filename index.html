@@ -120,7 +120,7 @@ a{color:var(--sea)}
 .story{display:grid;grid-template-columns:minmax(0,1fr) 260px;gap:32px;background:var(--surface);border:1px solid var(--rule);border-radius:20px;padding:28px 30px;scroll-margin-top:80px}
 .story-main{min-width:0}
 .photo{grid-column:1/-1;position:relative;margin:-28px -30px 4px;border-radius:20px 20px 0 0;overflow:hidden;height:clamp(190px,24vw,280px);background:var(--land)}
-.photo img{width:100%;height:100%;object-fit:cover;display:block}
+.photo img,.photo svg{width:100%;height:100%;object-fit:cover;display:block}
 .photo figcaption{position:absolute;inset-inline:0;bottom:0;padding:22px 16px 8px;font-size:13px;color:#E9EFEE;background:linear-gradient(transparent,rgba(8,14,17,.72))}
 .photo figcaption a{color:inherit}
 .photo figcaption b{display:block;font-weight:600;color:#fff}
@@ -369,7 +369,7 @@ function render(){
 
   drawSparks(b);
   drawOverview();
-  b.stories.forEach((s,i)=>{drawLens(s,i);if(s.chart)drawChart(s,i)});
+  b.stories.forEach((s,i)=>{drawLens(s,i);drawBanner(s,i);if(s.chart)drawChart(s,i)});
 }
 
 function tick(b,k,l,f){
@@ -414,8 +414,10 @@ function story(s,i,prevDays){
   const streak=prev.length?`<button type="button" class="thread" data-goto="${prev[0][0].date}|s${prev[0][1]+1}">סיפור מתגלגל · יום ${prev.length+1} ברציפות</button>`:"";
   const prevList=prev.length?`<div class="prev">בימים הקודמים:<ul>${prev.map(([d,j])=>`<li><button type="button" data-goto="${d.date}|s${j+1}">${shortDate(d.date)}</button> · ${esc(d.stories[j].title)}</li>`).join("")}</ul></div>`:"";
   let ph=IMG[DATA.briefings[idx].date+"|"+s.topic];
-  if(ph&&ph.pending)ph=null;
-  const photo=ph?`<figure class="photo"><img src="${esc(ph.src)}" alt="" loading="lazy"><figcaption>${ph.he?`<b>${esc(ph.he)}</b>`:""}<span>תמונת ארכיון להמחשה · <a href="${esc(ph.page)}" target="_blank" rel="noopener">צילום: ${esc(ph.credit)}, ${esc(ph.license)}</a></span></figcaption></figure>`:"";
+  if(ph&&(ph.pending||ph.none))ph=null;
+  const photo=ph?`<figure class="photo"><img src="${esc(ph.src)}" alt="" loading="lazy"><figcaption>${ph.he?`<b>${esc(ph.he)}</b>`:""}<span>תמונת ארכיון להמחשה · <a href="${esc(ph.page)}" target="_blank" rel="noopener">צילום: ${esc(ph.credit)}, ${esc(ph.license)}</a></span></figcaption></figure>`
+    // No approved photo: a wide map of the region stands in, so every story opens with a picture.
+    :`<figure class="photo mapban"><svg id="ban${i}" viewBox="0 0 1000 380" preserveAspectRatio="xMidYMid slice" role="img" aria-label="מפה: ${esc(s.loc.place)}"></svg><figcaption><b>${esc(s.loc.place)}</b><span>מפת האזור</span></figcaption></figure>`;
   return `<article class="story fade" id="s${i+1}">
     ${photo}
     <div class="story-main">
@@ -510,6 +512,23 @@ function drawLens(s,i){
   const m=svg.append("g").attr("class","pin").attr("transform",`translate(${x},${y})`);
   m.append("circle").attr("class","halo").attr("r",7);
   m.append("circle").attr("class","dot").attr("r",6);
+}
+function drawBanner(s,i){
+  const el=document.getElementById("ban"+i);if(!el||!COUNTRIES)return;
+  const z=s.loc.zoom||1;
+  const proj=d3.geoMercator().center(s.loc.center).translate([500,190]).scale(160*Math.pow(2,z));
+  const path=d3.geoPath(proj);
+  const hot=new Set(s.loc.countries||[]),hit=new Set(s.loc.also||[]);
+  const svg=d3.select(el).html("");
+  svg.append("rect").attr("class","sphere").attr("width",1000).attr("height",380);
+  svg.append("path").attr("class","graticule").attr("d",path(d3.geoGraticule10()));
+  svg.append("g").selectAll("path").data(COUNTRIES).join("path")
+    .attr("class",d=>"country"+(hot.has(d.properties.name)?" hot":hit.has(d.properties.name)?" hit":""))
+    .attr("d",path);
+  const [x,y]=proj(s.loc.center);
+  const m=svg.append("g").attr("class","pin").attr("transform",`translate(${x},${y})`);
+  m.append("circle").attr("class","halo").attr("r",11);
+  m.append("circle").attr("class","dot").attr("r",8);
 }
 function drawChart(s,i){
   const host=document.querySelector(`#chart${i} > div`);if(!host||!MK)return;
