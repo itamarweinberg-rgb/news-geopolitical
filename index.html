@@ -94,7 +94,7 @@ a{color:var(--sea)}
 .landmass{fill:var(--land)}
 .bcountry{stroke:var(--surface);stroke-width:.9}
 .bcountry.hot{fill:var(--sea);stroke:var(--surface)}
-.blabel{text-anchor:middle;dominant-baseline:central;font-family:var(--f-body);font-weight:500;fill:var(--muted);paint-order:stroke;stroke:var(--land);stroke-width:3px;stroke-linejoin:round;letter-spacing:.01em}
+.blabel{text-anchor:middle;dominant-baseline:central;font-family:var(--f-body);font-weight:500;fill:var(--muted);paint-order:stroke;stroke:var(--land);stroke-width:3px;stroke-linejoin:round}
 .blabel.r1{fill:var(--sea);font-weight:600;stroke:var(--sea-soft)}
 .blabel.r2{fill:#fff;font-weight:700;stroke:var(--sea);stroke-width:2px}
 
@@ -557,7 +557,7 @@ function drawBanner(s,i){
       const w=d.he.length*fs*.58,h=fs*1.2,b=[d.c[0]-w/2,d.c[1]-h/2,d.c[0]+w/2,d.c[1]+h/2];
       if(b[0]<4||b[2]>W-4||boxes.some(o=>b[0]<o[2]&&b[2]>o[0]&&b[1]<o[3]&&b[3]>o[1]))return;
       boxes.push(b);
-      labels.append("text").attr("x",d.c[0]).attr("y",d.c[1]).attr("class","blabel r"+d.rank).style("font-size",fs+"px").text(d.he);
+      labels.append("text").attr("direction","rtl").attr("unicode-bidi","embed").attr("x",d.c[0]).attr("y",d.c[1]).attr("class","blabel r"+d.rank).style("font-size",fs+"px").text(d.he);
     });
   const m=svg.append("g").attr("class","pin").attr("transform",`translate(${pin[0]},${pin[1]})`);
   m.append("circle").attr("class","halo").attr("r",12);
