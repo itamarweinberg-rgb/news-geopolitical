@@ -176,8 +176,18 @@ a{color:var(--sea)}
   .more{display:inline-flex}
   .story.open .more{display:none}
   .story:not(.open) .story-main>p{max-height:7.4em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 45%,transparent);mask-image:linear-gradient(#000 45%,transparent)}
-  .story:not(.open) .why,.story:not(.open) .prev,.story:not(.open) .side,.story:not(.open) .next{display:none}
+  .story:not(.open) .why,.story:not(.open) .dbtn,.story:not(.open) .deep,.story:not(.open) .prev,.story:not(.open) .side,.story:not(.open) .next{display:none}
 }
+.term{all:unset;cursor:pointer;color:inherit;text-decoration:underline dotted;text-decoration-color:var(--sea);text-decoration-thickness:2px;text-underline-offset:4px}
+.term:hover,.term[aria-expanded="true"]{background:var(--sea-soft);border-radius:4px}
+.tip{position:absolute;z-index:70;max-width:min(340px,calc(100vw - 24px));background:var(--ink);color:var(--paper);border-radius:12px;padding:12px 14px;font-size:14.5px;line-height:1.55;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+.tip b{display:block;font-size:13px;opacity:.75;margin-bottom:2px}
+.dbtn{font:inherit;font-size:14px;font-weight:600;display:inline-flex;align-items:center;gap:6px;margin-top:14px;color:var(--sea);background:transparent;border:1px dashed var(--sea);border-radius:999px;padding:6px 14px;cursor:pointer}
+.deep{margin-top:12px;border-inline-start:3px solid var(--sea);padding:4px 16px;max-width:72ch}
+.deep h4{margin:0 0 4px;font-size:13px;letter-spacing:.1em;color:var(--sea);font-weight:700}
+.deep p{margin:0 0 10px;font-size:16px}
+.deep ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px;font-size:14.5px}
+.deep li::before{content:"↖ ";color:var(--muted)}
 .prev{margin-top:14px;font-size:14.5px;color:var(--muted)}
 .prev ul{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
 .prev button{all:unset;cursor:pointer;color:var(--sea);text-decoration:underline;text-underline-offset:3px}
@@ -452,6 +462,7 @@ function render(){
     pp.querySelector(".reset").onclick=()=>{savePrefs(null);render()};
   }
   const mb=document.getElementById("moreStories");if(mb)mb.onclick=()=>{const first=app.querySelector(".stories.extra .story");expandExtra();first&&first.scrollIntoView({block:"start",behavior:"smooth"})};
+  app.querySelectorAll("[data-deep]").forEach(el=>el.addEventListener("click",()=>{const d=el.nextElementSibling,o=d.hidden;d.hidden=!o;el.setAttribute("aria-expanded",o);el.textContent=o?"סגירת הרקע":"להעמקה: רקע וקריאה נוספת"}));
   app.querySelectorAll("[data-more]").forEach(el=>el.addEventListener("click",()=>el.closest(".story").classList.add("open")));
   app.querySelectorAll("[data-next]").forEach(el=>el.addEventListener("click",()=>{
     const nx=(el.dataset.next&&document.getElementById("s"+el.dataset.next))||(!el.closest(".extra")&&app.querySelector(".morewrap"))||app.querySelector(".watch");
@@ -499,7 +510,37 @@ function drawSparks(b){
   });
 }
 
+// Hard terms become tappable: the first appearance of each one opens a short explanation.
+function withTerms(text,terms,used){
+  let h=esc(text);
+  (terms||[]).forEach(t=>{
+    if(used.has(t.t))return;const k=esc(t.t);
+    // match only in text, never inside a button inserted for an earlier term
+    const parts=h.split(/(<[^>]*>[^<]*<\/button>)/);
+    const j=parts.findIndex((x,n)=>n%2===0&&x.includes(k));if(j<0)return;
+    used.add(t.t);
+    parts[j]=parts[j].replace(k,()=>`<button type="button" class="term" data-term="${k}" data-d="${esc(t.d)}" aria-expanded="false">${k}</button>`);
+    h=parts.join("");
+  });
+  return h;
+}
+let tipEl=null;
+function closeTip(){if(tipEl){tipEl.remove();tipEl=null;document.querySelectorAll('.term[aria-expanded="true"]').forEach(b=>b.setAttribute("aria-expanded","false"))}}
+function openTip(btn){
+  const was=btn.getAttribute("aria-expanded")==="true";closeTip();if(was)return;
+  tipEl=document.createElement("div");tipEl.className="tip";tipEl.setAttribute("role","tooltip");
+  tipEl.innerHTML=`<b>${btn.dataset.term}</b>${btn.dataset.d}`;
+  document.body.appendChild(tipEl);btn.setAttribute("aria-expanded","true");
+  const r=btn.getBoundingClientRect(),w=tipEl.offsetWidth,vw=document.documentElement.clientWidth;
+  const left=Math.min(Math.max(12,r.right-w),vw-w-12);
+  tipEl.style.left=left+scrollX+"px";tipEl.style.top=r.bottom+scrollY+8+"px";
+}
+document.addEventListener("click",e=>{const t=e.target.closest(".term");if(t){e.stopPropagation();openTip(t)}else if(!e.target.closest(".tip"))closeTip()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape")closeTip()});
+window.addEventListener("resize",closeTip);
+
 function story(s,i,prevDays,next,tagged,toMore){
+  const used=new Set();
   // earlier appearances of the same topic, in consecutive prior briefings
   const prev=[];
   for(const d of prevDays){const j=d.stories.findIndex(x=>x.topic===s.topic);if(j<0)break;prev.push([d,j])}
@@ -515,8 +556,10 @@ function story(s,i,prevDays,next,tagged,toMore){
     <div class="story-main">
       <div class="story-top"><span class="rank">${i+1}</span><span class="chip">${esc(s.cat)}</span>${tagged&&s.core?`<span class="core">חשוב לכולם</span>`:""}${streak}<button type="button" class="sshare" data-share="${i+1}" aria-label="שיתוף הידיעה"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>שיתוף</span></button></div>
       <h3>${esc(s.title)}</h3>
-      <p>${esc(s.body)}</p>
-      <div class="why"><h4>למה זה חשוב</h4><p>${esc(s.why)}</p></div>
+      <p>${withTerms(s.body,s.terms,used)}</p>
+      <div class="why"><h4>למה זה חשוב</h4><p>${withTerms(s.why,s.terms,used)}</p></div>
+      ${s.deeper?`<button type="button" class="dbtn" data-deep aria-expanded="false">להעמקה: רקע וקריאה נוספת</button>
+      <div class="deep" hidden><h4>רקע</h4><p>${esc(s.deeper.text)}</p>${(s.deeper.links||[]).length?`<ul>${s.deeper.links.map(l=>`<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></li>`).join("")}</ul>`:""}</div>`:""}
       <button type="button" class="more" data-more>לקריאה המלאה</button>
       ${prevList}
     </div>
