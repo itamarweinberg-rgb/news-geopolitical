@@ -16,6 +16,13 @@
 <meta name="twitter:image" content="https://itamarweinberg-rgb.github.io/news-geopolitical/og-image.png">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 26'%3E%3Ccircle cx='13' cy='13' r='11.5' fill='none' stroke='%231C5D6C' stroke-width='2'/%3E%3Cellipse cx='13' cy='13' rx='5' ry='11.5' fill='none' stroke='%231C5D6C' stroke-width='1.4'/%3E%3Ccircle cx='17.5' cy='8.5' r='3' fill='%23D24A12'/%3E%3C/svg%3E">
 <title>תדריך הבוקר</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="theme-color" content="#1C5D6C">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="תדריך הבוקר">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="description" content="סריקה יומית של התפתחויות גאופוליטיות וכלכליות שלא מקבלות מספיק תשומת לב, עם מפות וגרפים.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -235,6 +242,11 @@ html{scroll-behavior:smooth}
   .sshare span{display:none}
   .sshare{padding:5px 8px}
 }
+.install{position:fixed;inset-inline:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:60;display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:12px 14px;box-shadow:0 8px 30px rgba(0,0,0,.18);max-width:460px;margin-inline:auto;font-size:14.5px;line-height:1.45}
+.install img{width:40px;height:40px;border-radius:10px;flex:none}
+.install p{margin:0;flex:1}
+.install .go{font:inherit;font-weight:600;color:#fff;background:var(--sea);border:0;border-radius:999px;padding:7px 14px;cursor:pointer}
+.install .x{font:inherit;font-size:20px;line-height:1;color:var(--muted);background:transparent;border:0;cursor:pointer;padding:4px}
 </style>
 </head>
 <body>
@@ -619,6 +631,30 @@ addEventListener("scroll",()=>{if(raf)return;raf=requestAnimationFrame(()=>{raf=
   prog.style.width=(max>0?Math.min(100,y/max*100):0)+"%";
   if(Math.abs(y-last)>8){bar.classList.toggle("compact",y>last&&y>240);last=y}
 })},{passive:true});})();
+</script>
+<script>
+// Home-screen app: offline fallback, plus a one-time hint on phones explaining how to install.
+if("serviceWorker" in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+(function(){
+  const standalone=matchMedia("(display-mode: standalone)").matches||navigator.standalone;
+  const phone=matchMedia("(max-width:700px)").matches;
+  let seen=false;try{seen=localStorage.getItem("installHint")==="1"}catch(e){}
+  if(standalone||!phone||seen)return;
+  const ios=/iPhone|iPad|iPod/.test(navigator.userAgent);
+  let deferred=null;
+  window.addEventListener("beforeinstallprompt",e=>{e.preventDefault();deferred=e;show()});
+  function close(){try{localStorage.setItem("installHint","1")}catch(e){}box&&box.remove()}
+  let box=null;
+  function show(){
+    if(box)return;
+    box=document.createElement("div");box.className="install";box.setAttribute("role","dialog");
+    box.innerHTML=`<img src="icons/icon-192.png" alt=""><p>${ios?"להוספת התדריך למסך הבית: לוחצים על כפתור השיתוף של ספארי ואז ״הוספה למסך הבית״.":"אפשר להוסיף את התדריך למסך הבית ולפתוח אותו כמו אפליקציה."}</p>${deferred?'<button type="button" class="go">הוספה</button>':""}<button type="button" class="x" aria-label="סגירה">×</button>`;
+    document.body.appendChild(box);
+    box.querySelector(".x").onclick=close;
+    const g=box.querySelector(".go");if(g)g.onclick=()=>{deferred.prompt();deferred.userChoice.finally(close)};
+  }
+  if(ios)setTimeout(show,6000);
+})();
 </script>
 </body>
 </html>
