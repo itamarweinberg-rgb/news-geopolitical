@@ -84,5 +84,59 @@
  },
  "2026-10-14|horn": {
   "none": true
+ },
+ "2026-10-15|ratehikes": {
+  "src": "img/2026-10-15-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-15|hormuz": {
+  "src": "img/2026-10-15-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:USCGC_Aquidneck_in_Strait_of_Hormuz_201202-N-IE405-2219.JPG",
+  "license": "Public domain",
+  "credit": "MC2 Indra Beaufort",
+  "title": "USCGC Aquidneck in Strait of Hormuz 201202-N-IE405-2219.JPG",
+  "he": "ספינת מכולות במצר הורמוז",
+  "pending": true
+ },
+ "2026-10-15|trade": {
+  "src": "img/2026-10-15-trade.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_of_Shanghai,_Yangshan_Deep-water_Harbour_Zone,_02.jpg",
+  "license": "Public domain",
+  "credit": "The original uploader was Alex Needham at English Wikipedia.",
+  "title": "Port of Shanghai, Yangshan Deep-water Harbour Zone, 02.jpg",
+  "he": "נמל המים העמוקים יאנגשאן בשנגחאי",
+  "pending": true
+ },
+ "2026-10-15|ai": {
+  "src": "img/2026-10-15-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nasdaq_MarketSite_(51494550508).jpg",
+  "license": "CC BY 2.0",
+  "credit": "ajay_suresh",
+  "title": "Nasdaq MarketSite (51494550508).jpg",
+  "he": "בניין הנאסד״ק בטיימס סקוור",
+  "pending": true
+ },
+ "2026-10-15|plague": {
+  "src": "img/2026-10-15-plague.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bunia,_Ituri_Province,_DR_Congo-_MONUSCO_Guatemala_and_Bangladesh_Contingents_ready_to_confront_illegal_armed_groups.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "MONUSCO Photos",
+  "title": "Bunia, Ituri Province, DR Congo- MONUSCO Guatemala and Bangladesh Contingents ready to confront illegal armed groups.jpg",
+  "he": "העיר בוניה שבמחוז איטורי",
+  "pending": true
+ },
+ "2026-10-15|yemen": {
+  "src": "img/2026-10-15-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Khalid_International_Airport,_Riyadh_Saudi_Arabia_-_panoramio_(2).jpg",
+  "license": "CC BY 3.0",
+  "credit": "liton islam",
+  "title": "King Khalid International Airport, Riyadh Saudi Arabia - panoramio (2).jpg",
+  "he": "נמל התעופה הבינלאומי המלך חאלד בריאד",
+  "pending": true
  }
 }
