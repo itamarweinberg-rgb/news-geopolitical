@@ -78,6 +78,24 @@ a{color:var(--sea)}
 .date{font-family:var(--f-display);font-weight:900;font-size:clamp(40px,6vw,68px);line-height:1;margin:10px 0 6px;text-wrap:balance}
 .meta{color:var(--muted);font-size:15px;display:flex;gap:14px;flex-wrap:wrap}
 .meta b{color:var(--ink);font-weight:600}
+.pbtn{font:inherit;font-size:13.5px;font-weight:600;display:inline-flex;align-items:center;gap:6px;color:var(--sea);background:var(--sea-soft);border:0;border-radius:999px;padding:5px 12px;cursor:pointer}
+.pbtn.on{background:var(--sea);color:#fff}
+.prefs{margin-top:14px;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:16px 18px}
+.prefs p{margin:0 0 10px;font-size:14.5px;color:var(--muted)}
+.prefs h5{margin:12px 0 6px;font-size:13px;color:var(--ink);font-weight:700}
+.prefs .chips{display:flex;flex-wrap:wrap;gap:6px}
+.prefs .chips button{font:inherit;font-size:14px;padding:5px 12px;border-radius:999px;border:1px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.prefs .chips button[aria-pressed="true"]{background:var(--sea);border-color:var(--sea);color:#fff}
+.prefs .acts{display:flex;gap:8px;margin-top:14px}
+.prefs .acts button{font:inherit;font-size:14px;font-weight:600;border-radius:999px;padding:6px 16px;cursor:pointer}
+.prefs .save{background:var(--sea);color:#fff;border:0}
+.prefs .reset{background:transparent;color:var(--muted);border:1px solid var(--rule)}
+.tocmore{padding:10px 0;font-size:14px;color:var(--muted)}
+.core{font-size:12px;font-weight:600;color:var(--signal);background:var(--signal-soft);padding:3px 9px;border-radius:999px}
+.stories[hidden]{display:none}
+.morewrap{display:flex;justify-content:center;margin:26px 0 0}
+.morebtn{font:inherit;font-size:15px;font-weight:600;color:var(--sea);background:var(--surface);border:1px solid var(--sea);border-radius:999px;padding:10px 20px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
+.morebtn small{font-size:12.5px;font-weight:400;color:var(--muted)}
 .toc{list-style:none;margin:26px 0 0;padding:0;display:flex;flex-direction:column;border-top:1px solid var(--rule)}
 .toc li{border-bottom:1px solid var(--rule)}
 .toc a{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:10px 0;text-decoration:none;color:var(--ink);font-size:15.5px;line-height:1.45}
@@ -188,6 +206,7 @@ a{color:var(--sea)}
 .chart .area{fill:var(--sea);opacity:.1}
 
 /* watch */
+.morewrap{scroll-margin-top:80px}
 .watch{scroll-margin-top:80px;margin-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px}
 .tl{list-style:none;margin:0;padding:0;position:relative}
 .tl::before{content:"";position:absolute;inset-inline-start:27px;top:8px;bottom:8px;width:2px;background:var(--rule)}
@@ -330,7 +349,7 @@ function buildDays(){
   nav.onclick=e=>{const btn=e.target.closest("button");if(!btn)return;go(+btn.dataset.i)};
 }
 // On phones stories start folded; anything that jumps to a story unfolds it first.
-function toStory(el,smooth){if(!el)return;if(el.classList.contains("story"))el.classList.add("open");window.padBar&&padBar();el.scrollIntoView({block:"start",behavior:smooth?"smooth":"instant"})}
+function toStory(el,smooth){if(!el)return;if(el.closest(".stories.extra"))expandExtra();if(el.classList.contains("story"))el.classList.add("open");window.padBar&&padBar();el.scrollIntoView({block:"start",behavior:smooth?"smooth":"instant"})}
 function go(i,anchor){
   idx=i;
   document.querySelectorAll("#days button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===i));
@@ -350,9 +369,33 @@ function avSeries(key){
   return MK.series[key].data.filter(r=>r[0]<cut);
 }
 
+// Personal edition: readers pick regions and fields; the day's must-read stories always stay on top.
+const REGIONS=[["mideast","מזרח תיכון"],["europe","אירופה ורוסיה"],["asia","אסיה"],["americas","אמריקה"],["africa","אפריקה"],["global","עולמי"]];
+const FIELDS=[["markets","כלכלה ושווקים"],["energy","אנרגיה"],["security","ביטחון ומלחמות"],["politics","פוליטיקה ובחירות"],["trade","סחר וספנות"],["tech","טכנולוגיה"],["health","בריאות"]];
+const MAIN_N=6;
+function loadPrefs(){try{const v=JSON.parse(localStorage.getItem("prefs")||"null");return v&&v.length?v:null}catch(e){return null}}
+function savePrefs(v){try{v&&v.length?localStorage.setItem("prefs",JSON.stringify(v)):localStorage.removeItem("prefs")}catch(e){}}
+function pickStories(b,prefs){
+  const all=b.stories.map((s,i)=>i);
+  if(!b.stories.some(s=>s.tags))return {main:all,extra:[]};
+  const core=all.filter(i=>b.stories[i].core);
+  const main=prefs?all.filter(i=>b.stories[i].core||(b.stories[i].tags||[]).some(t=>prefs.includes(t)))
+                  :all.slice(0,Math.max(MAIN_N,core.length));
+  return {main,extra:all.filter(i=>!main.includes(i))};
+}
+function expandExtra(){
+  const ex=app.querySelector(".stories.extra");if(!ex||!ex.hidden)return;
+  ex.hidden=false;const w=app.querySelector(".morewrap");if(w)w.remove();
+  const b=DATA.briefings[idx];ex.querySelectorAll(".story").forEach(a=>{const i=+a.id.slice(1)-1;drawBanner(b.stories[i],i)});
+}
+
 function render(){
   const b=DATA.briefings[idx];
-  const words=b.stories.reduce((n,s)=>n+(s.body+" "+s.why).split(/\s+/).length,0);
+  const prefs=loadPrefs(),tagged=b.stories.some(s=>s.tags);
+  const {main,extra}=pickStories(b,prefs);
+  const seq=main.concat(extra);
+  const nextOf=i=>{const k=seq.indexOf(i);const n=seq[k+1];return (n===undefined||(main.includes(i)&&!main.includes(n)))?null:n};
+  const words=main.reduce((n,i)=>n+(b.stories[i].body+" "+b.stories[i].why).split(/\s+/).length,0);
   const mins=Math.max(3,Math.round(words/190));
   const prevDays=DATA.briefings.slice(idx+1);
 
@@ -360,8 +403,12 @@ function render(){
     <div>
       <div class="eyebrow">${esc(b.day)} · תדריך יומי</div>
       <h1 class="date">${longDate(b.date)}</h1>
-      <div class="meta"><span><b>${b.stories.length}</b> ידיעות לפי חשיבות</span><span><b>${mins}</b> דקות קריאה</span></div>
-      <ol class="toc">${b.stories.map((s,i)=>`<li><a href="#s${i+1}" data-s="${i+1}"><span class="n">${i+1}</span><span><span class="c">${esc(s.cat)}</span><span class="t">${esc(s.title)}</span></span></a></li>`).join("")}</ol>
+      <div class="meta"><span><b>${main.length}</b> ${prefs?"ידיעות לפי הבחירה שלך":"ידיעות לפי חשיבות"}</span><span><b>${mins}</b> דקות קריאה</span>${tagged?`<button type="button" class="pbtn${prefs?" on":""}" id="pbtn" aria-expanded="false"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></svg>${prefs?"החדשות שלי · "+prefs.length+" נבחרו":"התאמה אישית"}</button>`:""}</div>
+      ${tagged?`<div class="prefs" id="prefs" hidden><p>בחרו מה מעניין אתכם. הידיעות שמסומנות "חשוב לכולם" יופיעו תמיד, והשאר לפי הבחירה. הבחירה נשמרת בדפדפן הזה בלבד.</p>
+        <h5>אזורים</h5><div class="chips">${REGIONS.map(([k,l])=>`<button type="button" data-t="${k}" aria-pressed="${!!(prefs&&prefs.includes(k))}">${l}</button>`).join("")}</div>
+        <h5>תחומים</h5><div class="chips">${FIELDS.map(([k,l])=>`<button type="button" data-t="${k}" aria-pressed="${!!(prefs&&prefs.includes(k))}">${l}</button>`).join("")}</div>
+        <div class="acts"><button type="button" class="save">שמירה</button><button type="button" class="reset">איפוס, להציג הכול</button></div></div>`:""}
+      <ol class="toc">${main.map(i=>[b.stories[i],i]).map(([s,i])=>`<li><a href="#s${i+1}" data-s="${i+1}"><span class="n">${i+1}</span><span><span class="c">${esc(s.cat)}</span><span class="t">${esc(s.title)}</span></span></a></li>`).join("")}${extra.length?`<li class="tocmore">ועוד ${extra.length} ידיעות בהמשך הדף</li>`:""}</ol>
     </div>
     <div class="mapcol">
       <div class="mapbox" id="overview" role="img" aria-label="מפת הידיעות של היום"></div>
@@ -374,7 +421,9 @@ function render(){
     <div class="tape">${MKT.map(([k,l,f])=>tick(b,k,l,f)).join("")}</div>
   </section>
 
-  <section class="stories">${b.stories.map((s,i)=>story(s,i,prevDays)).join("")}</section>
+  <section class="stories">${main.map(i=>story(b.stories[i],i,prevDays,nextOf(i),tagged,extra.length>0)).join("")}</section>
+  ${extra.length?`<div class="morewrap"><button type="button" class="morebtn" id="moreStories">עוד ${extra.length} ידיעות מהיום<small>${prefs?"מחוץ לתחומים שבחרת":"פחות דחופות, למי שרוצה עוד"}</small></button></div>
+  <section class="stories extra" hidden>${extra.map(i=>story(b.stories[i],i,prevDays,nextOf(i),tagged)).join("")}</section>`:""}
 
   <section class="watch">
     <div>
@@ -395,16 +444,24 @@ function render(){
     const n=el.dataset.share,st=b.stories[n-1];
     shareLink(location.origin+location.pathname+"#d"+b.date+"-s"+n,st.title,el.querySelector("span"));
   }));
+  const pb=document.getElementById("pbtn"),pp=document.getElementById("prefs");
+  if(pb){
+    pb.onclick=()=>{pp.hidden=!pp.hidden;pb.setAttribute("aria-expanded",!pp.hidden)};
+    pp.querySelectorAll("[data-t]").forEach(c=>c.onclick=()=>c.setAttribute("aria-pressed",c.getAttribute("aria-pressed")!=="true"));
+    pp.querySelector(".save").onclick=()=>{savePrefs([...pp.querySelectorAll('[aria-pressed="true"]')].map(c=>c.dataset.t));render()};
+    pp.querySelector(".reset").onclick=()=>{savePrefs(null);render()};
+  }
+  const mb=document.getElementById("moreStories");if(mb)mb.onclick=()=>{const first=app.querySelector(".stories.extra .story");expandExtra();first&&first.scrollIntoView({block:"start",behavior:"smooth"})};
   app.querySelectorAll("[data-more]").forEach(el=>el.addEventListener("click",()=>el.closest(".story").classList.add("open")));
   app.querySelectorAll("[data-next]").forEach(el=>el.addEventListener("click",()=>{
-    const nx=document.getElementById("s"+el.dataset.next)||app.querySelector(".watch");
+    const nx=(el.dataset.next&&document.getElementById("s"+el.dataset.next))||(!el.closest(".extra")&&app.querySelector(".morewrap"))||app.querySelector(".watch");
     nx.scrollIntoView({block:"start",behavior:"smooth"});
   }));
   app.querySelectorAll("[data-goto]").forEach(el=>el.addEventListener("click",()=>{const [d,a]=el.dataset.goto.split("|");go(DATA.briefings.findIndex(x=>x.date===d),a)}));
 
   drawSparks(b);
   drawOverview();
-  b.stories.forEach((s,i)=>{drawLens(s,i);drawBanner(s,i);if(s.chart)drawChart(s,i)});
+  b.stories.forEach((s,i)=>{drawLens(s,i);if(main.includes(i))drawBanner(s,i);if(s.chart)drawChart(s,i)});
 }
 
 function tick(b,k,l,f){
@@ -442,7 +499,7 @@ function drawSparks(b){
   });
 }
 
-function story(s,i,prevDays){
+function story(s,i,prevDays,next,tagged,toMore){
   // earlier appearances of the same topic, in consecutive prior briefings
   const prev=[];
   for(const d of prevDays){const j=d.stories.findIndex(x=>x.topic===s.topic);if(j<0)break;prev.push([d,j])}
@@ -456,7 +513,7 @@ function story(s,i,prevDays){
   return `<article class="story fade" id="s${i+1}">
     ${photo}
     <div class="story-main">
-      <div class="story-top"><span class="rank">${i+1}</span><span class="chip">${esc(s.cat)}</span>${streak}<button type="button" class="sshare" data-share="${i+1}" aria-label="שיתוף הידיעה"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>שיתוף</span></button></div>
+      <div class="story-top"><span class="rank">${i+1}</span><span class="chip">${esc(s.cat)}</span>${tagged&&s.core?`<span class="core">חשוב לכולם</span>`:""}${streak}<button type="button" class="sshare" data-share="${i+1}" aria-label="שיתוף הידיעה"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5l6.8 4M15.4 6.5l-6.8 4"/></svg><span>שיתוף</span></button></div>
       <h3>${esc(s.title)}</h3>
       <p>${esc(s.body)}</p>
       <div class="why"><h4>למה זה חשוב</h4><p>${esc(s.why)}</p></div>
@@ -469,7 +526,7 @@ function story(s,i,prevDays){
       ${s.chart?`<div class="chart fig" id="chart${i}"><h5>${esc(MK&&MK.series[s.chart]?MK.series[s.chart].label:"")} · מאז יולי</h5><div></div></div>`:""}
       ${s.figure?figure(s.figure):""}
     </aside>
-    <button type="button" class="next" data-next="${i+2}">${i+1<DATA.briefings[idx].stories.length?"לידיעה הבאה":"למה לעקוב השבוע"} <span aria-hidden="true">←</span></button>
+    <button type="button" class="next" data-next="${next===null?"":next+1}">${next!==null?"לידיעה הבאה":toMore?"לעוד ידיעות":"למה לעקוב השבוע"} <span aria-hidden="true">←</span></button>
   </article>`;
 }
 function figure(f){
