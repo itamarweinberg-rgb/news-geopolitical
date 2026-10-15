@@ -143,6 +143,16 @@ a{color:var(--sea)}
 .why{background:var(--signal-soft);border-radius:14px;padding:14px 18px;max-width:72ch}
 .why h4{margin:0 0 4px;font-size:13px;letter-spacing:.1em;color:var(--signal);font-weight:700}
 .why p{margin:0;font-size:16px}
+.more,.next{font:inherit;font-size:14.5px;font-weight:600;cursor:pointer;border-radius:999px;padding:8px 16px}
+.more{display:none;color:var(--sea);background:transparent;border:1px solid var(--sea);margin-top:-4px}
+.next{grid-column:1/-1;justify-self:end;display:flex;align-items:center;gap:6px;margin-top:-8px;color:var(--muted);background:transparent;border:1px solid var(--rule)}
+.next:hover{color:var(--sea);border-color:var(--sea)}
+@media (max-width:700px){
+  .more{display:inline-flex}
+  .story.open .more{display:none}
+  .story:not(.open) .story-main>p{max-height:7.4em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 45%,transparent);mask-image:linear-gradient(#000 45%,transparent)}
+  .story:not(.open) .why,.story:not(.open) .prev,.story:not(.open) .side,.story:not(.open) .next{display:none}
+}
 .prev{margin-top:14px;font-size:14.5px;color:var(--muted)}
 .prev ul{margin:6px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:4px}
 .prev button{all:unset;cursor:pointer;color:var(--sea);text-decoration:underline;text-underline-offset:3px}
@@ -171,7 +181,7 @@ a{color:var(--sea)}
 .chart .area{fill:var(--sea);opacity:.1}
 
 /* watch */
-.watch{margin-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px}
+.watch{scroll-margin-top:80px;margin-top:56px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px}
 .tl{list-style:none;margin:0;padding:0;position:relative}
 .tl::before{content:"";position:absolute;inset-inline-start:27px;top:8px;bottom:8px;width:2px;background:var(--rule)}
 .tl li{display:grid;grid-template-columns:56px minmax(0,1fr);gap:16px;padding:10px 0;position:relative}
@@ -296,7 +306,7 @@ Promise.all([
   const hi=DATA.briefings.findIndex(x=>x.date===h[1]);
   idx=hi>=0?hi:0;
   buildDays();render();if(window.padBar)padBar();
-  if(hi>=0&&h[2]){const el=document.getElementById("s"+h[2]);if(el)document.fonts.ready.then(()=>setTimeout(()=>el.scrollIntoView({block:"start",behavior:"instant"}),120))}
+  if(hi>=0&&h[2]){const el=document.getElementById("s"+h[2]);if(el)document.fonts.ready.then(()=>setTimeout(()=>toStory(el),120))}
   const u=new Date(DATA.updated);
   document.getElementById("upd").textContent="עדכון אחרון: "+longDate(DATA.briefings[0].date);
   let t;window.addEventListener("resize",()=>{clearTimeout(t);t=setTimeout(()=>{drawOverview();DATA.briefings[idx].stories.forEach(drawBanner)},150)});
@@ -307,12 +317,14 @@ function buildDays(){
   nav.innerHTML=DATA.briefings.map((b,i)=>`<button type="button" data-i="${i}" aria-pressed="${i===idx}">${i===0?"היום · ":""}${esc(b.day.replace("יום ",""))} ${shortDate(b.date)}</button>`).join("");
   nav.onclick=e=>{const btn=e.target.closest("button");if(!btn)return;go(+btn.dataset.i)};
 }
+// On phones stories start folded; anything that jumps to a story unfolds it first.
+function toStory(el,smooth){if(!el)return;if(el.classList.contains("story"))el.classList.add("open");window.padBar&&padBar();el.scrollIntoView({block:"start",behavior:smooth?"smooth":"instant"})}
 function go(i,anchor){
   idx=i;
   document.querySelectorAll("#days button").forEach(b=>b.setAttribute("aria-pressed",+b.dataset.i===i));
   try{history.replaceState(null,"","#d"+DATA.briefings[i].date)}catch(e){}
   render();
-  if(anchor){const el=document.getElementById(anchor);if(el)el.scrollIntoView({block:"start"})}
+  if(anchor)toStory(document.getElementById(anchor))
   else window.scrollTo({top:0});
 }
 
@@ -366,10 +378,15 @@ function render(){
   </section>`;
   app.innerHTML=html;
 
-  app.querySelectorAll(".toc a").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();document.getElementById("s"+a.dataset.s).scrollIntoView({block:"start"})}));
+  app.querySelectorAll(".toc a").forEach(a=>a.addEventListener("click",e=>{e.preventDefault();toStory(document.getElementById("s"+a.dataset.s))}));
   app.querySelectorAll("[data-share]").forEach(el=>el.addEventListener("click",()=>{
     const n=el.dataset.share,st=b.stories[n-1];
     shareLink(location.origin+location.pathname+"#d"+b.date+"-s"+n,st.title,el.querySelector("span"));
+  }));
+  app.querySelectorAll("[data-more]").forEach(el=>el.addEventListener("click",()=>el.closest(".story").classList.add("open")));
+  app.querySelectorAll("[data-next]").forEach(el=>el.addEventListener("click",()=>{
+    const nx=document.getElementById("s"+el.dataset.next)||app.querySelector(".watch");
+    nx.scrollIntoView({block:"start",behavior:"smooth"});
   }));
   app.querySelectorAll("[data-goto]").forEach(el=>el.addEventListener("click",()=>{const [d,a]=el.dataset.goto.split("|");go(DATA.briefings.findIndex(x=>x.date===d),a)}));
 
@@ -431,6 +448,7 @@ function story(s,i,prevDays){
       <h3>${esc(s.title)}</h3>
       <p>${esc(s.body)}</p>
       <div class="why"><h4>למה זה חשוב</h4><p>${esc(s.why)}</p></div>
+      <button type="button" class="more" data-more>לקריאה המלאה</button>
       ${prevList}
     </div>
     <aside class="side">
@@ -439,6 +457,7 @@ function story(s,i,prevDays){
       ${s.chart?`<div class="chart fig" id="chart${i}"><h5>${esc(MK&&MK.series[s.chart]?MK.series[s.chart].label:"")} · מאז יולי</h5><div></div></div>`:""}
       ${s.figure?figure(s.figure):""}
     </aside>
+    <button type="button" class="next" data-next="${i+2}">${i+1<DATA.briefings[idx].stories.length?"לידיעה הבאה":"למה לעקוב השבוע"} <span aria-hidden="true">←</span></button>
   </article>`;
 }
 function figure(f){
@@ -490,8 +509,8 @@ function drawOverview(){
     placed.push([x,y]);
     const p=g.append("g").attr("class","pin").attr("transform",`translate(${x},${y})`).attr("tabindex",0).attr("role","link")
       .attr("aria-label",`ידיעה ${i+1}: ${s.title}`)
-      .on("click",()=>document.getElementById("s"+(i+1)).scrollIntoView({block:"start"}))
-      .on("keydown",e=>{if(e.key==="Enter")document.getElementById("s"+(i+1)).scrollIntoView({block:"start"})});
+      .on("click",()=>toStory(document.getElementById("s"+(i+1))))
+      .on("keydown",e=>{if(e.key==="Enter")toStory(document.getElementById("s"+(i+1)))});
     p.append("title").text(s.title);
     p.append("circle").attr("class","halo").attr("r",10).style("animation-delay",(i*0.35)+"s");
     p.append("circle").attr("class","dot").attr("r",10);
