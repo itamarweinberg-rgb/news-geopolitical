@@ -198,21 +198,6 @@
   "he": "כיכר סקנדרבג בטירנה"
  },
  "2026-10-16|yemen": {
-  "src": "img/2026-10-16-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Trump_at_King_Khalid_International_Airport.jpg",
-  "license": "Public domain",
-  "credit": "Shealeah Craighead",
-  "title": "Trump at King Khalid International Airport.jpg",
-  "he": "נמל התעופה המלך חאלד בריאד",
-  "pending": true
- },
- "2026-10-16|brazil": {
-  "src": "img/2026-10-16-brazil.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Dasfour2022",
-  "title": "PalaciodoplanaltoFR.jpg",
-  "he": "ארמון הפלנאלטו, מושב נשיא ברזיל בברזיליה",
-  "pending": true
+  "none": true
  }
 }
