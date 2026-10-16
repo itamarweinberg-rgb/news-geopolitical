@@ -199,5 +199,14 @@
  },
  "2026-10-16|yemen": {
   "none": true
+ },
+ "2026-10-16|brazil": {
+  "src": "img/2026-10-16-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_do_Planalto_em_2020.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Senado Federal",
+  "title": "Palácio do Planalto em 2020.jpg",
+  "he": "ארמון הפלנאלטו, מושב נשיא ברזיל בברזיליה",
+  "pending": true
  }
 }
