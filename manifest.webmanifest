@@ -1,4 +1,5 @@
 {
+  "id": "./",
   "name": "תדריך הבוקר",
   "short_name": "תדריך הבוקר",
   "description": "סריקה יומית של התפתחויות גאופוליטיות וכלכליות שלא מקבלות מספיק תשומת לב.",
@@ -10,8 +11,61 @@
   "background_color": "#F1F4F2",
   "theme_color": "#1C5D6C",
   "icons": [
-    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
-    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
-    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": [
+    "news"
+  ],
+  "screenshots": [
+    {
+      "src": "store/screen-1-home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "עמוד הבית: שווקים ומפה"
+    },
+    {
+      "src": "store/screen-2-contents.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "תוכן העניינים"
+    },
+    {
+      "src": "store/screen-3-story.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "ידיעה מלאה"
+    },
+    {
+      "src": "store/screen-4-terms.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "הסבר מונחים"
+    },
+    {
+      "src": "store/screen-5-personal.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "התאמה אישית"
+    }
   ]
 }
