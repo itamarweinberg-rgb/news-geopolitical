@@ -5,7 +5,7 @@ Existing entries are kept, so each story is resolved once. When a reviewer rejec
 they delete its entry and add its title to images-rejected.json; the next run then picks the
 next candidate for that story.
 """
-import html, json, os, re, urllib.parse, urllib.request
+import html, json, os, re, time, urllib.parse, urllib.request
 
 API = "https://commons.wikimedia.org/w/api.php"
 UA = {"User-Agent": "news-geopolitical-briefing/1.0 (github.com/itamarweinberg-rgb/news-geopolitical)"}
@@ -14,8 +14,16 @@ OK_LICENSE = re.compile(r"^(cc0|cc by(-sa)? [\d.]+|public domain|pd)", re.I)
 
 
 def get(url):
-    with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
-        return r.read()
+    # Commons sometimes throttles or times out; retry a few times before giving up.
+    for attempt in range(4):
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=30) as r:
+                return r.read()
+        except Exception as e:
+            if attempt == 3:
+                raise
+            print("retry", url[:80], e)
+            time.sleep(5 * (attempt + 1))
 
 
 def strip(s):
@@ -61,14 +69,20 @@ def main():
             # tried in order; the caption of the query that matched is kept.
             opts = s["img"] if isinstance(s["img"], list) else [{"q": q} for q in s["img"].split(";")]
             skip = set(rejected.get(key, []))
-            pick = next(({**c, "he": o.get("he", "")} for o in opts for c in candidates(o["q"].strip())
-                         if c["title"] not in skip), None)
-            print(key, "->", pick and pick["title"])
-            if not pick:
+            # One story failing must not lose the photos already found for the others.
+            try:
+                pick = next(({**c, "he": o.get("he", "")} for o in opts for c in candidates(o["q"].strip())
+                             if c["title"] not in skip), None)
+                print(key, "->", pick and pick["title"])
+                if not pick:
+                    continue
+                path = f"img/{b['date']}-{s['topic']}.jpg"
+                data = get(pick.pop("thumb"))
+            except Exception as e:
+                print(key, "failed:", e)
                 continue
-            path = f"img/{b['date']}-{s['topic']}.jpg"
             with open(path, "wb") as f:
-                f.write(get(pick.pop("thumb")))
+                f.write(data)
             # Hidden on the site until the morning routine looks at it and drops "pending".
             images[key] = {"src": path, **pick, "pending": True}
     with open("images.json", "w", encoding="utf-8") as f:
