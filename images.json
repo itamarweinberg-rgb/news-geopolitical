@@ -132,5 +132,86 @@
   "credit": "HokieRNB",
   "title": "Bunia.JPG",
   "he": "העיר בוניה שבמחוז איטורי"
+ },
+ "2026-10-16|ratehikes": {
+  "src": "img/2026-10-16-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-16|ai": {
+  "src": "img/2026-10-16-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yeouido_Skyline_seen_Yongsan_Station_2023.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Ox1997cow",
+  "title": "Yeouido Skyline seen Yongsan Station 2023.jpg",
+  "he": "קו הרקיע של רובע יאואידו בסיאול",
+  "pending": true
+ },
+ "2026-10-16|hormuz": {
+  "src": "img/2026-10-16-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
+  "he": "מצר הורמוז במבט מהחלל",
+  "pending": true
+ },
+ "2026-10-16|yemen": {
+  "src": "img/2026-10-16-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Khalid_International_Airport.JPG",
+  "license": "CC BY-SA 4.0",
+  "credit": "Vanquish0",
+  "title": "King Khalid International Airport.JPG",
+  "he": "נמל התעופה המלך חאלד בריאד",
+  "pending": true
+ },
+ "2026-10-16|food": {
+  "src": "img/2026-10-16-food.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-09-11_HAPPINESS_BULKER_-_IMO_9919515_%E2%80%93_Port_Angeles_WA_USA.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Gordon Leggett",
+  "title": "2024-09-11 HAPPINESS BULKER - IMO 9919515 – Port Angeles WA USA.jpg",
+  "he": "ספינת צובר לשינוע מטען בתפזורת",
+  "pending": true
+ },
+ "2026-10-16|ukraine": {
+  "src": "img/2026-10-16-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Starlink_Dish_20250111_101122.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ka23 13",
+  "title": "Starlink Dish 20250111 101122.jpg",
+  "he": "צלחת מסוף של רשת הלוויינים Starlink",
+  "pending": true
+ },
+ "2026-10-16|eu": {
+  "src": "img/2026-10-16-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Europa_Building_in_Brussels.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "PPEscientist",
+  "title": "Europa Building in Brussels.jpg",
+  "he": "בניין אירופה, מושב מועצת האיחוד בבריסל",
+  "pending": true
+ },
+ "2026-10-16|horn": {
+  "src": "img/2026-10-16-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Aksum_obelisk.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Tesfawel",
+  "title": "Aksum obelisk.jpg",
+  "he": "האובליסק העתיק באקסום",
+  "pending": true
+ },
+ "2026-10-16|europe-protest": {
+  "src": "img/2026-10-16-europe-protest.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tirana_-_Skanderbeg_Square_(Sheshi_Sk%C3%ABnderbej)_-_by_Pudelek.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Pudelek",
+  "title": "Tirana - Skanderbeg Square (Sheshi Skënderbej) - by Pudelek.jpg",
+  "he": "כיכר סקנדרבג בטירנה",
+  "pending": true
  }
 }
