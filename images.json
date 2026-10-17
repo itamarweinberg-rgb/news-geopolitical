@@ -255,5 +255,41 @@
   "credit": "abdallahh from Montréal, Canada",
   "title": "Airbus A320 of Middle East Airlines at Beirut Rafic Hariri International Airport.jpg",
   "he": "נמל התעופה הבינלאומי של ביירות"
+ },
+ "2026-10-17|indonesia": {
+  "src": "img/2026-10-17-indonesia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jakarta_Panorama.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Gunawan Kartapranata",
+  "title": "Jakarta Panorama.jpg",
+  "he": "קו הרקיע של ג׳קרטה",
+  "pending": true
+ },
+ "2026-10-17|nato-east": {
+  "src": "img/2026-10-17-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Salida_del_lago_de_Varna_al_mar_Negro,_Varna,_Bulgaria,_2016-05-27,_DD_117.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Diego Delso",
+  "title": "Salida del lago de Varna al mar Negro, Varna, Bulgaria, 2016-05-27, DD 117.jpg",
+  "he": "נמל ורנה בבולגריה",
+  "pending": true
+ },
+ "2026-10-17|brazil": {
+  "src": "img/2026-10-17-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg",
+  "license": "CC BY-SA 2.5",
+  "credit": "Eurico Zimbres",
+  "title": "Brazilian National Congress.jpg",
+  "he": "בניין הקונגרס הלאומי של ברזיל",
+  "pending": true
+ },
+ "2026-10-17|horn": {
+  "src": "img/2026-10-17-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Destroyed_playground_in_Mekelle,_Tigray_(2022).jpg",
+  "license": "Public domain",
+  "credit": "Mulugeta Atsbeha",
+  "title": "Destroyed playground in Mekelle, Tigray (2022).jpg",
+  "he": "העיר מקלה בתיגראי",
+  "pending": true
  }
 }
