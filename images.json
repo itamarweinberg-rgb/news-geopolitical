@@ -207,5 +207,95 @@
   "credit": "Senado Federal",
   "title": "Palácio do Planalto em 2020.jpg",
   "he": "ארמון הפלנאלטו, מושב נשיא ברזיל בברזיליה"
+ },
+ "2026-10-17|ai": {
+  "src": "img/2026-10-17-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-10-17|hormuz": {
+  "src": "img/2026-10-17-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בלב ים",
+  "pending": true
+ },
+ "2026-10-17|indonesia": {
+  "src": "img/2026-10-17-indonesia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Hutan_Kota_GBK_(02-02-2024).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Baqotun0023",
+  "title": "Hutan Kota GBK (02-02-2024).jpg",
+  "he": "בניין הבורסה של אינדונזיה בג׳קרטה",
+  "pending": true
+ },
+ "2026-10-17|yemen": {
+  "src": "img/2026-10-17-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Aden_postcard.jpg",
+  "license": "Public domain",
+  "credit": "Unknown authorUnknown author",
+  "title": "Aden postcard.jpg",
+  "he": "נמל עדן בתימן",
+  "pending": true
+ },
+ "2026-10-17|ukraine": {
+  "src": "img/2026-10-17-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Patriot_missiles_being_launched_to_intercept_an_Iraqi_Scud_missile.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "https://www.flickr.com/people/69061470@N05",
+  "title": "Flickr - Government Press Office (GPO) - Patriot missiles being launched to intercept an Iraqi Scud missile.jpg",
+  "he": "משגר של מערכת פטריוט",
+  "pending": true
+ },
+ "2026-10-17|nato-east": {
+  "src": "img/2026-10-17-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Catedral_de_la_Dormici%C3%B3n_de_la_Madre_de_Dios,_Varna,_Bulgaria,_2016-05-27,_DD_109-111_HDR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Diego Delso",
+  "title": "Catedral de la Dormición de la Madre de Dios, Varna, Bulgaria, 2016-05-27, DD 109-111 HDR.jpg",
+  "he": "נמל ורנה בבולגריה",
+  "pending": true
+ },
+ "2026-10-17|canada": {
+  "src": "img/2026-10-17-canada.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alberta_Legislature_Building,_Edmonton,_Alberta,_2026-09-27_13.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Chris Woodrich",
+  "title": "Alberta Legislature Building, Edmonton, Alberta, 2026-09-27 13.jpg",
+  "he": "בניין בית המחוקקים של אלברטה באדמונטון",
+  "pending": true
+ },
+ "2026-10-17|lebanon": {
+  "src": "img/2026-10-17-lebanon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Airbus_A320_of_Middle_East_Airlines_at_Beirut_Rafic_Hariri_International_Airport.jpg",
+  "license": "CC BY 2.0",
+  "credit": "abdallahh from Montréal, Canada",
+  "title": "Airbus A320 of Middle East Airlines at Beirut Rafic Hariri International Airport.jpg",
+  "he": "נמל התעופה הבינלאומי של ביירות",
+  "pending": true
+ },
+ "2026-10-17|brazil": {
+  "src": "img/2026-10-17-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Discurso_do_presidente_do_Tribunal_Superior_Eleitoral,_Nelson_Hungria,_tendo_%C3%A0_sua_direita_o_vice-presidente_da_Rep%C3%BAblica_Jo%C3%A3o_Goulart_-_BR_RJANRIO_PH_0_FOT_00694_0069,_Acervo_do_Arquivo_Nacional.jpg",
+  "license": "Public domain",
+  "credit": "Agência Nacional",
+  "title": "Discurso do presidente do Tribunal Superior Eleitoral, Nelson Hungria, tendo à sua direita o vice-presidente da República João Goulart - BR RJANRIO PH 0 FOT 00694 0069, Acervo do Arquivo Nacional.jpg",
+  "he": "בניין בית הדין העליון לבחירות בברזיליה",
+  "pending": true
+ },
+ "2026-10-17|horn": {
+  "src": "img/2026-10-17-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mekelle,_Ethiopia.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Yonas Kidane",
+  "title": "Mekelle, Ethiopia.jpg",
+  "he": "העיר מקלה בתיגראי",
+  "pending": true
  }
 }
