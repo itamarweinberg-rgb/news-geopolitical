@@ -338,5 +338,32 @@
   "credit": "Flauta",
   "title": "Caracas skyline and Avila mountain from my penthouse.JPG",
   "he": "קו הרקיע של קראקס"
+ },
+ "2026-10-18|yemen": {
+  "src": "img/2026-10-18-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Museum%C2%B4s_door_(14609686108).jpg",
+  "license": "CC BY 2.0",
+  "credit": "Jorge Láscar from Melbourne, Australia",
+  "title": "Egyptian Museum´s door (14609686108).jpg",
+  "he": "בניין הפרלמנט המצרי בקהיר",
+  "pending": true
+ },
+ "2026-10-18|russia-sanctions": {
+  "src": "img/2026-10-18-russia-sanctions.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_White_House_June_2024.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "DJTechYT",
+  "title": "The White House June 2024.jpg",
+  "he": "הבית הלבן בוושינגטון",
+  "pending": true
+ },
+ "2026-10-18|sudan": {
+  "src": "img/2026-10-18-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Confluence_of_the_Nile_(8626639594).jpg",
+  "license": "CC BY 2.0",
+  "credit": "David Stanley from Nanaimo, Canada",
+  "title": "Confluence of the Nile (8626639594).jpg",
+  "he": "מפגש הנילוס הלבן והכחול בחרטום",
+  "pending": true
  }
 }
