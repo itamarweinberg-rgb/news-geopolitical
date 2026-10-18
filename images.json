@@ -283,32 +283,13 @@
  "2026-10-17|horn": {
   "none": true
  },
- "2026-10-18|yemen": {
-  "src": "img/2026-10-18-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Museum_(14795799955).jpg",
-  "license": "CC BY 2.0",
-  "credit": "Jorge Láscar from Melbourne, Australia",
-  "title": "Egyptian Museum (14795799955).jpg",
-  "he": "בניין הפרלמנט המצרי בקהיר",
-  "pending": true
- },
- "2026-10-18|russia-sanctions": {
-  "src": "img/2026-10-18-russia-sanctions.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Madrid_-_Edificio_Grassy_(Gran_V%C3%ADa_1)_-_north_facade_-_relief_over_entrance.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Tomascastelazo",
-  "title": "Madrid - Edificio Grassy (Gran Vía 1) - north facade - relief over entrance.jpg",
-  "he": "הבית הלבן בוושינגטון",
-  "pending": true
- },
  "2026-10-18|hormuz": {
   "src": "img/2026-10-18-hormuz.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
   "license": "Public domain",
   "credit": "MODIS Land Rapid Response Team, NASA GSFC",
   "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
-  "he": "מצר הורמוז מהחלל",
-  "pending": true
+  "he": "מצר הורמוז מהחלל"
  },
  "2026-10-18|europe-protest": {
   "src": "img/2026-10-18-europe-protest.jpg",
@@ -316,8 +297,7 @@
   "license": "CC BY 4.0",
   "credit": "Pierre-Selim Huard",
   "title": "Paris - 2017-12-01 - Place de la République - 5517.jpg",
-  "he": "כיכר הרפובליקה בפריז",
-  "pending": true
+  "he": "כיכר הרפובליקה בפריז"
  },
  "2026-10-18|ukraine": {
   "src": "img/2026-10-18-ukraine.jpg",
@@ -325,8 +305,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Florstein (Telegram:WikiPhoto.Space)",
   "title": "Sea port of SPB.jpg",
-  "he": "נמל סנקט פטרבורג",
-  "pending": true
+  "he": "נמל סנקט פטרבורג"
  },
  "2026-10-18|bonds": {
   "src": "img/2026-10-18-bonds.jpg",
@@ -334,8 +313,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-10-18|ai": {
   "src": "img/2026-10-18-ai.jpg",
@@ -343,8 +321,7 @@
   "license": "CC0",
   "credit": "LPS.1",
   "title": "Meta Platforms Headquarters Menlo Park California.jpg",
-  "he": "מטה מטא במנלו פארק",
-  "pending": true
+  "he": "מטה מטא במנלו פארק"
  },
  "2026-10-18|sahel": {
   "src": "img/2026-10-18-sahel.jpg",
@@ -352,17 +329,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "diasUndKompott",
   "title": "Niger river in Niamey.jpg",
-  "he": "נהר הניז׳ר בניאמיי",
-  "pending": true
- },
- "2026-10-18|sudan": {
-  "src": "img/2026-10-18-sudan.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Confluence_of_Nile_(Khartoum)_001.jpg",
-  "license": "CC BY-SA 3.0 cz",
-  "credit": "Petr Adam Dohnálek",
-  "title": "Confluence of Nile (Khartoum) 001.jpg",
-  "he": "מפגש הנילוס הלבן והכחול בחרטום",
-  "pending": true
+  "he": "נהר הניז׳ר בניאמיי"
  },
  "2026-10-18|venezuela": {
   "src": "img/2026-10-18-venezuela.jpg",
@@ -370,7 +337,6 @@
   "license": "CC BY-SA 3.0",
   "credit": "Flauta",
   "title": "Caracas skyline and Avila mountain from my penthouse.JPG",
-  "he": "קו הרקיע של קראקס",
-  "pending": true
+  "he": "קו הרקיע של קראקס"
  }
 }
