@@ -271,6 +271,9 @@ html{scroll-behavior:smooth}
   .sshare span{display:none}
   .sshare{padding:5px 8px}
 }
+.tomap{position:fixed;inset-inline-end:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:40;display:flex;align-items:center;gap:6px;font:inherit;font-size:14px;font-weight:600;color:var(--paper);background:var(--sea);border:0;border-radius:999px;padding:10px 14px;box-shadow:0 6px 20px rgba(0,0,0,.2);cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .2s,transform .2s}
+.tomap.show{opacity:1;transform:none;pointer-events:auto}
+@media (prefers-reduced-motion:reduce){.tomap{transition:none}}
 .install{position:fixed;inset-inline:12px;bottom:calc(12px + env(safe-area-inset-bottom));z-index:60;display:flex;align-items:center;gap:12px;background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:12px 14px;box-shadow:0 8px 30px rgba(0,0,0,.18);max-width:460px;margin-inline:auto;font-size:14.5px;line-height:1.45}
 .install img{width:40px;height:40px;border-radius:10px;flex:none}
 .install p{margin:0;flex:1}
@@ -731,6 +734,18 @@ addEventListener("scroll",()=>{if(raf)return;raf=requestAnimationFrame(()=>{raf=
   prog.style.width=(max>0?Math.min(100,y/max*100):0)+"%";
   if(Math.abs(y-last)>8){bar.classList.toggle("compact",y>last&&y>240);last=y}
 })},{passive:true});})();
+</script>
+<script>
+// "Back to the map" button: appears once the map at the top has scrolled out of view.
+(function(){
+  const b=document.createElement("button");b.type="button";b.className="tomap";b.setAttribute("aria-label","חזרה למפה בראש העמוד");
+  b.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7"/></svg>למפה';
+  b.onclick=()=>window.scrollTo({top:0});
+  document.body.appendChild(b);
+  let on=false;
+  function upd(){const h=document.querySelector(".hero");const lim=h?h.offsetTop+h.offsetHeight:600;const v=window.scrollY>lim;if(v!==on){on=v;b.classList.toggle("show",v)}}
+  window.addEventListener("scroll",upd,{passive:true});upd();
+})();
 </script>
 <script>
 // Home-screen app: offline fallback, plus a one-time hint on phones explaining how to install.
