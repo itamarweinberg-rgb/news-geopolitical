@@ -359,13 +359,7 @@
   "he": "מפגש הנילוס הלבן והכחול בחרטום"
  },
  "2026-10-19|yemen": {
-  "src": "img/2026-10-19-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Museum_(14795799955).jpg",
-  "license": "CC BY 2.0",
-  "credit": "Jorge Láscar from Melbourne, Australia",
-  "title": "Egyptian Museum (14795799955).jpg",
-  "he": "בניין הפרלמנט המצרי בקהיר",
-  "pending": true
+  "none": true
  },
  "2026-10-19|ukraine": {
   "src": "img/2026-10-19-ukraine.jpg",
@@ -373,8 +367,7 @@
   "license": "CC BY 3.0",
   "credit": "Рустам Абдрахимов",
   "title": "Морские ворота города Ленинграда - panoramio.jpg",
-  "he": "נמל סנט פטרבורג",
-  "pending": true
+  "he": "נמל סנט פטרבורג"
  },
  "2026-10-19|hormuz": {
   "src": "img/2026-10-19-hormuz.jpg",
@@ -382,8 +375,7 @@
   "license": "Public domain",
   "credit": "MODIS Land Rapid Response Team, NASA GSFC",
   "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
-  "he": "מצר הורמוז מהחלל",
-  "pending": true
+  "he": "מצר הורמוז מהחלל"
  },
  "2026-10-19|china-economy": {
   "src": "img/2026-10-19-china-economy.jpg",
@@ -391,8 +383,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Bruno Corpet (Quoique)",
   "title": "Shanghai-Yangshan-Port-Containers2013-01.JPG",
-  "he": "נמל המכולות יאנגשאן בשנגחאי",
-  "pending": true
+  "he": "נמל המכולות יאנגשאן בשנגחאי"
  },
  "2026-10-19|ai": {
   "src": "img/2026-10-19-ai.jpg",
@@ -400,8 +391,7 @@
   "license": "CC BY 2.0",
   "credit": "ajay_suresh",
   "title": "Nasdaq MarketSite (51494550508).jpg",
-  "he": "בניין הנאסד״ק בטיימס סקוור",
-  "pending": true
+  "he": "בניין הנאסד״ק בטיימס סקוור"
  },
  "2026-10-19|china": {
   "src": "img/2026-10-19-china.jpg",
@@ -409,8 +399,7 @@
   "license": "CC BY 2.0",
   "credit": "總統府",
   "title": "Patrol vessel PP-3582 of Coast Guard Administration 20191206.jpg",
-  "he": "ספינת סיור של משמר החופים הטייוואני",
-  "pending": true
+  "he": "ספינת סיור של משמר החופים הטייוואני"
  },
  "2026-10-19|canada": {
   "src": "img/2026-10-19-canada.jpg",
@@ -418,8 +407,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Chris Woodrich",
   "title": "Alberta Legislature Building, Edmonton, Alberta, 2026-09-27 13.jpg",
-  "he": "בניין בית המחוקקים של אלברטה באדמונטון",
-  "pending": true
+  "he": "בניין בית המחוקקים של אלברטה באדמונטון"
  },
  "2026-10-19|imf": {
   "src": "img/2026-10-19-imf.jpg",
@@ -427,8 +415,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "Tijs Zwinkels",
   "title": "Skyline downtown Bogota.jpg",
-  "he": "קו הרקיע של בוגוטה",
-  "pending": true
+  "he": "קו הרקיע של בוגוטה"
  },
  "2026-10-19|sudan": {
   "src": "img/2026-10-19-sudan.jpg",
@@ -436,7 +423,6 @@
   "license": "CC BY-SA 4.0",
   "credit": "Wlyeldeen Abkar",
   "title": "Marra mountain.jpg",
-  "he": "רכס ג׳בל מרה בדארפור",
-  "pending": true
+  "he": "רכס ג׳בל מרה בדארפור"
  }
 }
