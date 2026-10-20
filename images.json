@@ -431,17 +431,10 @@
   "license": "CC BY-SA 4.0",
   "credit": "ITookSomePhotos",
   "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בים",
-  "pending": true
+  "he": "מכלית נפט בים"
  },
  "2026-10-20|yemen": {
-  "src": "img/2026-10-20-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Museum_(14795799955).jpg",
-  "license": "CC BY 2.0",
-  "credit": "Jorge Láscar from Melbourne, Australia",
-  "title": "Egyptian Museum (14795799955).jpg",
-  "he": "בניין הפרלמנט המצרי בקהיר",
-  "pending": true
+  "none": true
  },
  "2026-10-20|europe-protest": {
   "src": "img/2026-10-20-europe-protest.jpg",
@@ -449,17 +442,7 @@
   "license": "CC0",
   "credit": "DimiTalen",
   "title": "Michel de l'Hospital statue, Louis-Pierre Deseine, Palais Bourbon, Paris, 2016.jpg",
-  "he": "ארמון בורבון, משכן האספה הלאומית בפריז",
-  "pending": true
- },
- "2026-10-20|korea": {
-  "src": "img/2026-10-20-korea.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Namhae_Gun_County_39_(16078951304).jpg",
-  "license": "CC BY-SA 2.0",
-  "credit": "Republic of  Korea from Seoul, Republic of Korea",
-  "title": "Namhae Gun County 39 (16078951304).jpg",
-  "he": "בניין הבורסה הקוריאנית בסיאול",
-  "pending": true
+  "he": "פסל בחזית ארמון בורבון, משכן האספה הלאומית בפריז"
  },
  "2026-10-20|ai": {
   "src": "img/2026-10-20-ai.jpg",
@@ -467,8 +450,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה של ניו יורק",
-  "pending": true
+  "he": "בניין הבורסה של ניו יורק"
  },
  "2026-10-20|canada": {
   "src": "img/2026-10-20-canada.jpg",
@@ -476,8 +458,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Chris Woodrich",
   "title": "Alberta Legislature Building, Edmonton, Alberta, 2026-09-27 09.jpg",
-  "he": "בניין בית המחוקקים של אלברטה באדמונטון",
-  "pending": true
+  "he": "בניין בית המחוקקים של אלברטה באדמונטון"
  },
  "2026-10-20|ebola": {
   "src": "img/2026-10-20-ebola.jpg",
@@ -485,8 +466,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "li  yong",
   "title": "Jomo Kenyatta International Airport (JKIA).jpg",
-  "he": "נמל התעופה הבינלאומי ג׳ומו קניאטה בניירובי",
-  "pending": true
+  "he": "נמל התעופה הבינלאומי ג׳ומו קניאטה בניירובי"
  },
  "2026-10-20|russia-sanctions": {
   "src": "img/2026-10-20-russia-sanctions.jpg",
@@ -494,8 +474,7 @@
   "license": "CC BY 4.0",
   "credit": "颐园居",
   "title": "Eisenhower Executive Office Building 20240601.jpg",
-  "he": "בניין אייזנהאואר ליד הבית הלבן",
-  "pending": true
+  "he": "בניין אייזנהאואר ליד הבית הלבן"
  },
  "2026-10-20|ukraine": {
   "src": "img/2026-10-20-ukraine.jpg",
@@ -503,8 +482,7 @@
   "license": "CC BY 3.0",
   "credit": "Рустам Абдрахимов",
   "title": "Морские ворота города Ленинграда - panoramio.jpg",
-  "he": "מסוף הנפט בנמל סנט פטרבורג",
-  "pending": true
+  "he": "מסוף הנפט בנמל סנט פטרבורג"
  },
  "2026-10-20|sudan": {
   "src": "img/2026-10-20-sudan.jpg",
@@ -512,7 +490,6 @@
   "license": "CC BY 4.0",
   "credit": "Shihab E.",
   "title": "Upper Atbara and Setit Dam Complex Power Plant.jpg",
-  "he": "מתחם הסכרים עטברה העליון וסתית",
-  "pending": true
+  "he": "מתחם הסכרים עטברה העליון וסתית"
  }
 }
