@@ -563,13 +563,7 @@
   "he": "נמל התעופה נמדי אזיקיווה באבוג׳ה"
  },
  "2026-10-21|libya-turkey": {
-  "src": "img/2026-10-21-libya-turkey.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Crib_board_(AM_1997.39.1-2).jpg",
-  "license": "CC BY 4.0",
-  "credit": "Norman Leaf",
-  "title": "Crib board (AM 1997.39.1-2).jpg",
-  "he": "נמל טוברוק בלוב",
-  "pending": true
+  "none": true
  },
  "2026-10-21|afghanistan": {
   "src": "img/2026-10-21-afghanistan.jpg",
@@ -577,7 +571,6 @@
   "license": "CC BY-SA 2.0",
   "credit": "koldo hormaza from madrid, españa",
   "title": "A view of Kabul City in 2005.jpg",
-  "he": "מבט על העיר קאבול",
-  "pending": true
+  "he": "מבט על העיר קאבול"
  }
 }
