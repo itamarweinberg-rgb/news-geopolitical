@@ -494,5 +494,104 @@
  },
  "2026-10-20|korea": {
   "none": true
+ },
+ "2026-10-21|hormuz": {
+  "src": "img/2026-10-21-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Azadi_Tower_at_night_in_low_angle.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "بهادر های زاده",
+  "title": "Azadi Tower at night in low angle.jpg",
+  "he": "מגדל אזאדי בטהרן",
+  "pending": true
+ },
+ "2026-10-21|yemen": {
+  "src": "img/2026-10-21-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Khalid_International_Airport,_Riyadh_Saudi_Arabia_-_panoramio_(2).jpg",
+  "license": "CC BY 3.0",
+  "credit": "liton islam",
+  "title": "King Khalid International Airport, Riyadh Saudi Arabia - panoramio (2).jpg",
+  "he": "נמל התעופה המלך ח׳אלד בריאד",
+  "pending": true
+ },
+ "2026-10-21|libya-turkey": {
+  "src": "img/2026-10-21-libya-turkey.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Crib_board_(AM_1997.39.1-3).jpg",
+  "license": "CC BY 4.0",
+  "credit": "Norman Leaf",
+  "title": "Crib board (AM 1997.39.1-3).jpg",
+  "he": "נמל טוברוק בלוב",
+  "pending": true
+ },
+ "2026-10-21|ukraine": {
+  "src": "img/2026-10-21-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oslo_R%C3%A5dhus_-_Oslo_City_Hall_-_Oslo,_Norway_2020-09-16.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ryan Hodnett",
+  "title": "Oslo Rådhus - Oslo City Hall - Oslo, Norway 2020-09-16.jpg",
+  "he": "בניין העירייה של אוסלו",
+  "pending": true
+ },
+ "2026-10-21|korea": {
+  "src": "img/2026-10-21-korea.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Namhae_Gun_County_39_(16078951304).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Republic of  Korea from Seoul, Republic of Korea",
+  "title": "Namhae Gun County 39 (16078951304).jpg",
+  "he": "בניין הבורסה הקוריאנית בסיאול",
+  "pending": true
+ },
+ "2026-10-21|ai": {
+  "src": "img/2026-10-21-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה של ניו יורק",
+  "pending": true
+ },
+ "2026-10-21|sudan": {
+  "src": "img/2026-10-21-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sudan_Envoy_-_Abyei.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Sudan Envoy",
+  "title": "Sudan Envoy - Abyei.jpg",
+  "he": "העיר אביי",
+  "pending": true
+ },
+ "2026-10-21|arctic": {
+  "src": "img/2026-10-21-arctic.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_(DSCF7542-DSCF7548).jpg",
+  "license": "CC BY 4.0",
+  "credit": "Trougnouf (Benoit Brummer)",
+  "title": "Berlaymont building (DSCF7542-DSCF7548).jpg",
+  "he": "בניין ברלמון, מטה הנציבות האירופית בבריסל",
+  "pending": true
+ },
+ "2026-10-21|canada": {
+  "src": "img/2026-10-21-canada.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Alberta_Legislature_Building,_Edmonton,_Alberta,_2026-09-27_13.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Chris Woodrich",
+  "title": "Alberta Legislature Building, Edmonton, Alberta, 2026-09-27 13.jpg",
+  "he": "בניין בית המחוקקים של אלברטה באדמונטון",
+  "pending": true
+ },
+ "2026-10-21|ebola": {
+  "src": "img/2026-10-21-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:At_Nnamdi_Azikiwe_International_Airport_10.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Kritzolina",
+  "title": "At Nnamdi Azikiwe International Airport 10.jpg",
+  "he": "נמל התעופה נמדי אזיקיווה באבוג׳ה",
+  "pending": true
+ },
+ "2026-10-21|afghanistan": {
+  "src": "img/2026-10-21-afghanistan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:-kabul_city_view_(4937563515).jpg",
+  "license": "CC BY 2.0",
+  "credit": "Jadi from Iran",
+  "title": "-kabul city view (4937563515).jpg",
+  "he": "מבט על העיר קאבול",
+  "pending": true
  }
 }
