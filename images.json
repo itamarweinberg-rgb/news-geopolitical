@@ -644,5 +644,23 @@
   "credit": "MarcelX42",
   "title": "Leipzig Halle Airport Aerotranscargo Boeing 747-409(BDSF) ER-BAM (DSC02596).jpg",
   "he": "שדה התעופה לייפציג-האלה"
+ },
+ "2026-10-22|brazil": {
+  "src": "img/2026-10-22-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brazilian_National_Congress.jpg",
+  "license": "CC BY-SA 2.5",
+  "credit": "Eurico Zimbres",
+  "title": "Brazilian National Congress.jpg",
+  "he": "בניין הקונגרס בברזיליה",
+  "pending": true
+ },
+ "2026-10-22|sahel": {
+  "src": "img/2026-10-22-sahel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ouagadougou_road.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Ferdinand Reus from Arnhem, Holland",
+  "title": "Ouagadougou road.jpg",
+  "he": "העיר ואגדוגו",
+  "pending": true
  }
 }
