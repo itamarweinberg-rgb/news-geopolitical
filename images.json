@@ -579,8 +579,7 @@
   "license": "Public domain",
   "credit": "MODIS Land Rapid Response Team, NASA GSFC",
   "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
-  "he": "מצר הורמוז מהחלל",
-  "pending": true
+  "he": "מצר הורמוז מהחלל"
  },
  "2026-10-22|yemen": {
   "src": "img/2026-10-22-yemen.jpg",
@@ -588,8 +587,7 @@
   "license": "CC BY 3.0",
   "credit": "liton islam",
   "title": "King Khalid International Airport, Riyadh Saudi Arabia - panoramio (2).jpg",
-  "he": "שדה התעופה המלך חאלד בריאד",
-  "pending": true
+  "he": "שדה התעופה המלך חאלד בריאד"
  },
  "2026-10-22|ukraine": {
   "src": "img/2026-10-22-ukraine.jpg",
@@ -597,8 +595,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "Andrey Korchagin from St. Petersburg, Russia",
   "title": "Konstantinovsky Palace. Strelna, Saint-Petersburg. Константиновский дворец в Стрельне. (14057827223).jpg",
-  "he": "ארמון קונסטנטינובסקי ליד סנט פטרבורג",
-  "pending": true
+  "he": "ארמון קונסטנטינובסקי ליד סנט פטרבורג"
  },
  "2026-10-22|ai": {
   "src": "img/2026-10-22-ai.jpg",
@@ -606,8 +603,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה של ניו יורק",
-  "pending": true
+  "he": "בניין הבורסה של ניו יורק"
  },
  "2026-10-22|china": {
   "src": "img/2026-10-22-china.jpg",
@@ -615,8 +611,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Martin Falbisoner",
   "title": "US Capitol west side.JPG",
-  "he": "גבעת הקפיטול בוושינגטון",
-  "pending": true
+  "he": "גבעת הקפיטול בוושינגטון"
  },
  "2026-10-22|russia-sanctions": {
   "src": "img/2026-10-22-russia-sanctions.jpg",
@@ -624,8 +619,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "ITookSomePhotos",
   "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בים",
-  "pending": true
+  "he": "מכלית נפט בים"
  },
  "2026-10-22|eu": {
   "src": "img/2026-10-22-eu.jpg",
@@ -633,8 +627,7 @@
   "license": "CC BY 4.0",
   "credit": "KenSwe72",
   "title": "Berlaymont building Brussels.jpg",
-  "he": "בניין ברלמון בבריסל",
-  "pending": true
+  "he": "בניין ברלמון בבריסל"
  },
  "2026-10-22|sudan": {
   "src": "img/2026-10-22-sudan.jpg",
@@ -642,17 +635,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "MediaSociety",
   "title": "Palais des Nations, United Nations, Geneva.jpg",
-  "he": "ארמון האומות בז׳נבה",
-  "pending": true
- },
- "2026-10-22|brazil": {
-  "src": "img/2026-10-22-brazil.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Discurso_do_presidente_do_Tribunal_Superior_Eleitoral,_Nelson_Hungria,_tendo_%C3%A0_sua_direita_o_vice-presidente_da_Rep%C3%BAblica_Jo%C3%A3o_Goulart_-_BR_RJANRIO_PH_0_FOT_00694_0069,_Acervo_do_Arquivo_Nacional.jpg",
-  "license": "Public domain",
-  "credit": "Agência Nacional",
-  "title": "Discurso do presidente do Tribunal Superior Eleitoral, Nelson Hungria, tendo à sua direita o vice-presidente da República João Goulart - BR RJANRIO PH 0 FOT 00694 0069, Acervo do Arquivo Nacional.jpg",
-  "he": "בניין בית הדין העליון לבחירות בברזיליה",
-  "pending": true
+  "he": "ארמון האומות בז׳נבה"
  },
  "2026-10-22|nato-east": {
   "src": "img/2026-10-22-nato-east.jpg",
@@ -660,16 +643,6 @@
   "license": "CC BY-SA 4.0",
   "credit": "MarcelX42",
   "title": "Leipzig Halle Airport Aerotranscargo Boeing 747-409(BDSF) ER-BAM (DSC02596).jpg",
-  "he": "שדה התעופה לייפציג-האלה",
-  "pending": true
- },
- "2026-10-22|sahel": {
-  "src": "img/2026-10-22-sahel.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Ouagadougou_city_centre.JPG",
-  "license": "CC BY-SA 3.0",
-  "credit": "Wegmann",
-  "title": "Ouagadougou city centre.JPG",
-  "he": "העיר ואגדוגו",
-  "pending": true
+  "he": "שדה התעופה לייפציג-האלה"
  }
 }
