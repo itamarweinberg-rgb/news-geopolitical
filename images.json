@@ -572,5 +572,104 @@
   "credit": "koldo hormaza from madrid, españa",
   "title": "A view of Kabul City in 2005.jpg",
   "he": "מבט על העיר קאבול"
+ },
+ "2026-10-22|hormuz": {
+  "src": "img/2026-10-22-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
+  "he": "מצר הורמוז מהחלל",
+  "pending": true
+ },
+ "2026-10-22|yemen": {
+  "src": "img/2026-10-22-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Khalid_International_Airport,_Riyadh_Saudi_Arabia_-_panoramio_(2).jpg",
+  "license": "CC BY 3.0",
+  "credit": "liton islam",
+  "title": "King Khalid International Airport, Riyadh Saudi Arabia - panoramio (2).jpg",
+  "he": "שדה התעופה המלך חאלד בריאד",
+  "pending": true
+ },
+ "2026-10-22|ukraine": {
+  "src": "img/2026-10-22-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Konstantinovsky_Palace._Strelna,_Saint-Petersburg._%D0%9A%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%82%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9_%D0%B4%D0%B2%D0%BE%D1%80%D0%B5%D1%86_%D0%B2_%D0%A1%D1%82%D1%80%D0%B5%D0%BB%D1%8C%D0%BD%D0%B5._(14057827223).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Andrey Korchagin from St. Petersburg, Russia",
+  "title": "Konstantinovsky Palace. Strelna, Saint-Petersburg. Константиновский дворец в Стрельне. (14057827223).jpg",
+  "he": "ארמון קונסטנטינובסקי ליד סנט פטרבורג",
+  "pending": true
+ },
+ "2026-10-22|ai": {
+  "src": "img/2026-10-22-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה של ניו יורק",
+  "pending": true
+ },
+ "2026-10-22|china": {
+  "src": "img/2026-10-22-china.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Martin Falbisoner",
+  "title": "US Capitol west side.JPG",
+  "he": "גבעת הקפיטול בוושינגטון",
+  "pending": true
+ },
+ "2026-10-22|russia-sanctions": {
+  "src": "img/2026-10-22-russia-sanctions.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים",
+  "pending": true
+ },
+ "2026-10-22|eu": {
+  "src": "img/2026-10-22-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_Brussels.jpg",
+  "license": "CC BY 4.0",
+  "credit": "KenSwe72",
+  "title": "Berlaymont building Brussels.jpg",
+  "he": "בניין ברלמון בבריסל",
+  "pending": true
+ },
+ "2026-10-22|sudan": {
+  "src": "img/2026-10-22-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Palais_des_Nations,_United_Nations,_Geneva.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "MediaSociety",
+  "title": "Palais des Nations, United Nations, Geneva.jpg",
+  "he": "ארמון האומות בז׳נבה",
+  "pending": true
+ },
+ "2026-10-22|brazil": {
+  "src": "img/2026-10-22-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Discurso_do_presidente_do_Tribunal_Superior_Eleitoral,_Nelson_Hungria,_tendo_%C3%A0_sua_direita_o_vice-presidente_da_Rep%C3%BAblica_Jo%C3%A3o_Goulart_-_BR_RJANRIO_PH_0_FOT_00694_0069,_Acervo_do_Arquivo_Nacional.jpg",
+  "license": "Public domain",
+  "credit": "Agência Nacional",
+  "title": "Discurso do presidente do Tribunal Superior Eleitoral, Nelson Hungria, tendo à sua direita o vice-presidente da República João Goulart - BR RJANRIO PH 0 FOT 00694 0069, Acervo do Arquivo Nacional.jpg",
+  "he": "בניין בית הדין העליון לבחירות בברזיליה",
+  "pending": true
+ },
+ "2026-10-22|nato-east": {
+  "src": "img/2026-10-22-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Leipzig_Halle_Airport_Aerotranscargo_Boeing_747-409(BDSF)_ER-BAM_(DSC02596).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "MarcelX42",
+  "title": "Leipzig Halle Airport Aerotranscargo Boeing 747-409(BDSF) ER-BAM (DSC02596).jpg",
+  "he": "שדה התעופה לייפציג-האלה",
+  "pending": true
+ },
+ "2026-10-22|sahel": {
+  "src": "img/2026-10-22-sahel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ouagadougou_city_centre.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Wegmann",
+  "title": "Ouagadougou city centre.JPG",
+  "he": "העיר ואגדוגו",
+  "pending": true
  }
 }
