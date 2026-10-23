@@ -667,8 +667,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Ciacho5",
   "title": "Dammam0136.jpg",
-  "he": "נמל התעופה המלך פהד בדמאם",
-  "pending": true
+  "he": "נמל התעופה המלך פהד בדמאם"
  },
  "2026-10-23|ai": {
   "src": "img/2026-10-23-ai.jpg",
@@ -676,8 +675,7 @@
   "license": "CC BY 2.0",
   "credit": "ajay_suresh",
   "title": "Nasdaq MarketSite (51494550508).jpg",
-  "he": "בניין הנאסד״ק בטיימס סקוור",
-  "pending": true
+  "he": "בניין הנאסד״ק בטיימס סקוור"
  },
  "2026-10-23|china-economy": {
   "src": "img/2026-10-23-china-economy.jpg",
@@ -685,8 +683,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "DXR",
   "title": "Minor skyscrapers in Lujiazui, Shanghai as seen from Lujiazui Pedestrian Bridge 20120602 1.jpg",
-  "he": "בניין הבורסה בשנגחאי",
-  "pending": true
+  "he": "רובע הפיננסים לוג׳יאזווי בשנגחאי"
  },
  "2026-10-23|ratehikes": {
   "src": "img/2026-10-23-ratehikes.jpg",
@@ -694,8 +691,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-10-23|hormuz": {
   "src": "img/2026-10-23-hormuz.jpg",
@@ -703,8 +699,7 @@
   "license": "Public domain",
   "credit": "MODIS Land Rapid Response Team, NASA GSFC",
   "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
-  "he": "מצר הורמוז מהחלל",
-  "pending": true
+  "he": "מצר הורמוז מהחלל"
  },
  "2026-10-23|ebola": {
   "src": "img/2026-10-23-ebola.jpg",
@@ -712,8 +707,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "Shiraz Chakera",
   "title": "AbujaNationalMosque.jpg",
-  "he": "המסגד הלאומי באבוג׳ה",
-  "pending": true
+  "he": "המסגד הלאומי באבוג׳ה"
  },
  "2026-10-23|serbia": {
   "src": "img/2026-10-23-serbia.jpg",
@@ -721,8 +715,7 @@
   "license": "CC BY-SA 3.0 rs",
   "credit": "Pudelek (Marcin Szala)",
   "title": "National Assembly of Serbia building (by Pudelek).JPG",
-  "he": "בניין הפרלמנט של סרביה בבלגרד",
-  "pending": true
+  "he": "בניין הפרלמנט של סרביה בבלגרד"
  },
  "2026-10-23|canada": {
   "src": "img/2026-10-23-canada.jpg",
@@ -730,8 +723,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Ex13",
   "title": "Presidential Complex Ankara.jpg",
-  "he": "מתחם הנשיאות באנקרה",
-  "pending": true
+  "he": "מתחם הנשיאות באנקרה"
  },
  "2026-10-23|bonds": {
   "src": "img/2026-10-23-bonds.jpg",
@@ -739,16 +731,9 @@
   "license": "CC BY-SA 2.0",
   "credit": "besopha",
   "title": "Le métro du côté de Bercy.jpg",
-  "he": "משרד הכלכלה הצרפתי בברסי, פריז",
-  "pending": true
+  "he": "משרד הכלכלה הצרפתי בברסי, פריז"
  },
  "2026-10-23|korea": {
-  "src": "img/2026-10-23-korea.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Demilitarized_Zone_of_Korea_16.JPG",
-  "license": "CC BY-SA 3.0",
-  "credit": "Nicor",
-  "title": "Demilitarized Zone of Korea 16.JPG",
-  "he": "האזור המפורז בין שתי הקוריאות",
-  "pending": true
+  "none": true
  }
 }
