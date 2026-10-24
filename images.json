@@ -735,5 +735,113 @@
  },
  "2026-10-23|korea": {
   "none": true
+ },
+ "2026-10-24|hormuz": {
+  "src": "img/2026-10-24-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz and Musandam Peninsula (MODIS 2018-12-10).jpg",
+  "he": "חופי חצי האי מוסנדם מול מצר הורמוז",
+  "pending": true
+ },
+ "2026-10-24|ratehikes": {
+  "src": "img/2026-10-24-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-24|brazil": {
+  "src": "img/2026-10-24-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dasfour2022",
+  "title": "PalaciodoplanaltoFR.jpg",
+  "he": "ארמון הפלנאלטו, משכן הנשיא בברזיליה",
+  "pending": true
+ },
+ "2026-10-24|bonds": {
+  "src": "img/2026-10-24-bonds.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pont_de_Bercy,_Paris_23_December_2021.jpg",
+  "license": "CC0",
+  "credit": "Pierre Blaché from Paris, France",
+  "title": "Pont de Bercy, Paris 23 December 2021.jpg",
+  "he": "משרד הכלכלה והאוצר הצרפתי בברסי, פריז",
+  "pending": true
+ },
+ "2026-10-24|yemen": {
+  "src": "img/2026-10-24-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bosphorus_skyline_4.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Jwslubbock",
+  "title": "Bosphorus skyline 4.jpg",
+  "he": "קו הרקיע של איסטנבול לאורך הבוספורוס",
+  "pending": true
+ },
+ "2026-10-24|ukraine": {
+  "src": "img/2026-10-24-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kherson,_river_Koshevaya,_base_fishing_%22Delta_Dnieper%22._%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD,_%D1%80%D0%B5%D0%BA%D0%B0_%D0%9A%D0%BE%D1%88%D0%B5%D0%B2%D0%B0%D1%8F,_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%BB%D1%8E%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D1%80%D1%8B%D0%B1%D0%BD%D0%BE%D0%B9_%D0%BB%D0%BE%D0%B2%D0%BB%D0%B8_%C2%AB%D0%94%D0%B5%D0%BB%D1%8C%D1%82%D0%B0_%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%B0%C2%BB_-_panoramio.jpg",
+  "license": "CC BY 3.0",
+  "credit": "7777777kz",
+  "title": "Kherson, river Koshevaya, base fishing \"Delta Dnieper\". Херсон, река Кошевая, база любителей рыбной ловли «Дельта Днепра» - panoramio.jpg",
+  "he": "נהר הדנייפר בחרסון",
+  "pending": true
+ },
+ "2026-10-24|japan": {
+  "src": "img/2026-10-24-japan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Japan_2010.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Wiiii",
+  "title": "Bank of Japan 2010.jpg",
+  "he": "מטה בנק יפן בניהונבאשי, טוקיו",
+  "pending": true
+ },
+ "2026-10-24|spacex": {
+  "src": "img/2026-10-24-spacex.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cellphone_Tower_Tree.jpg",
+  "license": "CC0",
+  "credit": "Yann Kemper",
+  "title": "Cellphone Tower Tree.jpg",
+  "he": "אנטנה סלולרית על תורן",
+  "pending": true
+ },
+ "2026-10-24|sudan": {
+  "src": "img/2026-10-24-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Marra_mountain.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Wlyeldeen Abkar",
+  "title": "Marra mountain.jpg",
+  "he": "רכס ג׳בל מרה בדארפור",
+  "pending": true
+ },
+ "2026-10-24|horn": {
+  "src": "img/2026-10-24-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Moyale_road.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "george kaguangi",
+  "title": "Moyale road.jpg",
+  "he": "העיר מויאלה בגבול קניה–אתיופיה",
+  "pending": true
+ },
+ "2026-10-24|nato-east": {
+  "src": "img/2026-10-24-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ki%C5%A1in%C4%9Bv,_budova_vl%C3%A1dy_(2019-03-16;_01_cropped).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Harold",
+  "title": "Kišiněv, budova vlády (2019-03-16; 01 cropped).jpg",
+  "he": "בית הממשלה בקישינב",
+  "pending": true
+ },
+ "2026-10-24|venezuela": {
+  "src": "img/2026-10-24-venezuela.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Miraflores_2010.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Guillermo Ramos Flamerich",
+  "title": "Miraflores 2010.JPG",
+  "he": "ארמון מירפלורס בקראקס",
+  "pending": true
  }
 }
