@@ -822,16 +822,9 @@
   "license": "CC BY-SA 2.0",
   "credit": "besopha",
   "title": "Le métro du côté de Bercy.jpg",
-  "he": "משרד הכלכלה והאוצר הצרפתי בברסי, פריז",
-  "pending": true
+  "he": "משרד הכלכלה והאוצר הצרפתי בברסי, פריז"
  },
  "2026-10-24|yemen": {
-  "src": "img/2026-10-24-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Bosphorus_skyline_5.jpg",
-  "license": "CC BY-SA 3.0",
-  "credit": "Jwslubbock",
-  "title": "Bosphorus skyline 5.jpg",
-  "he": "קו הרקיע של איסטנבול לאורך הבוספורוס",
-  "pending": true
+  "none": true
  }
 }
