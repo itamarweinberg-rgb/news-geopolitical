@@ -815,5 +815,23 @@
   "credit": "Guillermo Ramos Flamerich",
   "title": "Miraflores 2010.JPG",
   "he": "ארמון מירפלורס בקראקס"
+ },
+ "2026-10-24|bonds": {
+  "src": "img/2026-10-24-bonds.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Le_m%C3%A9tro_du_c%C3%B4t%C3%A9_de_Bercy.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "besopha",
+  "title": "Le métro du côté de Bercy.jpg",
+  "he": "משרד הכלכלה והאוצר הצרפתי בברסי, פריז",
+  "pending": true
+ },
+ "2026-10-24|yemen": {
+  "src": "img/2026-10-24-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bosphorus_skyline_5.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Jwslubbock",
+  "title": "Bosphorus skyline 5.jpg",
+  "he": "קו הרקיע של איסטנבול לאורך הבוספורוס",
+  "pending": true
  }
 }
