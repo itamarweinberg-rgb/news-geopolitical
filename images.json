@@ -826,5 +826,104 @@
  },
  "2026-10-24|yemen": {
   "none": true
+ },
+ "2026-10-25|yemen": {
+  "src": "img/2026-10-25-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Khalid_International_Airport,_Riyadh_Saudi_Arabia_-_panoramio_(2).jpg",
+  "license": "CC BY 3.0",
+  "credit": "liton islam",
+  "title": "King Khalid International Airport, Riyadh Saudi Arabia - panoramio (2).jpg",
+  "he": "נמל התעופה המלך חאלד בריאד",
+  "pending": true
+ },
+ "2026-10-25|hormuz": {
+  "src": "img/2026-10-25-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_and_Musandam_Peninsula_(MODIS_2018-12-10).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz and Musandam Peninsula (MODIS 2018-12-10).jpg",
+  "he": "חופי חצי האי מוסנדם מול מצר הורמוז",
+  "pending": true
+ },
+ "2026-10-25|europe-protest": {
+  "src": "img/2026-10-25-europe-protest.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Michel_de_l%27Hospital_statue,_Louis-Pierre_Deseine,_Palais_Bourbon,_Paris,_2016.jpg",
+  "license": "CC0",
+  "credit": "DimiTalen",
+  "title": "Michel de l'Hospital statue, Louis-Pierre Deseine, Palais Bourbon, Paris, 2016.jpg",
+  "he": "ארמון בורבון, משכן האספה הלאומית בפריז",
+  "pending": true
+ },
+ "2026-10-25|ratehikes": {
+  "src": "img/2026-10-25-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-25|imf": {
+  "src": "img/2026-10-25-imf.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:DIFC_2013_-_Team_Vietnam_059.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "tuankiet65",
+  "title": "DIFC 2013 - Team Vietnam 059.jpg",
+  "he": "מרכז הפיננסים הבינלאומי בדובאי",
+  "pending": true
+ },
+ "2026-10-25|brazil": {
+  "src": "img/2026-10-25-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dasfour2022",
+  "title": "PalaciodoplanaltoFR.jpg",
+  "he": "ארמון הפלנאלטו, משכן הנשיא בברזיליה",
+  "pending": true
+ },
+ "2026-10-25|serbia": {
+  "src": "img/2026-10-25-serbia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Assembly_of_Serbia_building_(by_Pudelek).JPG",
+  "license": "CC BY-SA 3.0 rs",
+  "credit": "Pudelek (Marcin Szala)",
+  "title": "National Assembly of Serbia building (by Pudelek).JPG",
+  "he": "בניין הפרלמנט של סרביה בבלגרד",
+  "pending": true
+ },
+ "2026-10-25|ukraine": {
+  "src": "img/2026-10-25-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:80-391-9014_Kyiv_Sofia_2_RB_24.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Rbrechko",
+  "title": "80-391-9014 Kyiv Sofia 2 RB 24.jpg",
+  "he": "קתדרלת סופיה הקדושה בקייב",
+  "pending": true
+ },
+ "2026-10-25|jordan": {
+  "src": "img/2026-10-25-jordan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kerak_BW_1.JPG",
+  "license": "CC BY 3.0",
+  "credit": "Berthold Werner",
+  "title": "Kerak BW 1.JPG",
+  "he": "מבצר כרכ בירדן",
+  "pending": true
+ },
+ "2026-10-25|ebola": {
+  "src": "img/2026-10-25-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Albertsee-Albertnil.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Albert Backer",
+  "title": "Albertsee-Albertnil.jpg",
+  "he": "אגם אלברט בגבול אוגנדה וקונגו",
+  "pending": true
+ },
+ "2026-10-25|china-economy": {
+  "src": "img/2026-10-25-china-economy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Minor_skyscrapers_in_Lujiazui,_Shanghai_as_seen_from_Lujiazui_Pedestrian_Bridge_20120602_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "DXR",
+  "title": "Minor skyscrapers in Lujiazui, Shanghai as seen from Lujiazui Pedestrian Bridge 20120602 1.jpg",
+  "he": "בניין הבורסה בשנגחאי",
+  "pending": true
  }
 }
