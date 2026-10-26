@@ -975,21 +975,9 @@
   "he": "בניין בנק אנגליה בלונדון"
  },
  "2026-10-26|rba": {
-  "src": "img/2026-10-26-rba.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Nagpur_Reserve_Bank.JPG",
-  "license": "CC BY-SA 3.0",
-  "credit": "Gppande",
-  "title": "Nagpur Reserve Bank.JPG",
-  "he": "בניין הבנק המרכזי של אוסטרליה בסידני",
-  "pending": true
+  "none": true
  },
  "2026-10-26|ukraine": {
-  "src": "img/2026-10-26-ukraine.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Port_of_Odesa_27.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Zinnsoldat",
-  "title": "Port of Odesa 27.jpg",
-  "he": "נמל אודסה",
-  "pending": true
+  "none": true
  }
 }
