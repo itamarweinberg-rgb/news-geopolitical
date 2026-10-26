@@ -909,5 +909,95 @@
  },
  "2026-10-25|imf": {
   "none": true
+ },
+ "2026-10-26|brazil": {
+  "src": "img/2026-10-26-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dasfour2022",
+  "title": "PalaciodoplanaltoFR.jpg",
+  "he": "ארמון הנשיאות פלנלטו בברזיליה",
+  "pending": true
+ },
+ "2026-10-26|serbia": {
+  "src": "img/2026-10-26-serbia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:House_of_the_National_Assembly_of_Serbia_005.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "MikyM",
+  "title": "House of the National Assembly of Serbia 005.jpg",
+  "he": "בניין האספה הלאומית של סרביה בבלגרד",
+  "pending": true
+ },
+ "2026-10-26|hormuz": {
+  "src": "img/2026-10-26-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
+  "he": "מצר הורמוז במבט מהחלל",
+  "pending": true
+ },
+ "2026-10-26|yemen": {
+  "src": "img/2026-10-26-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:King_Khalid_International_Airport,_Riyadh_Saudi_Arabia_-_panoramio_(2).jpg",
+  "license": "CC BY 3.0",
+  "credit": "liton islam",
+  "title": "King Khalid International Airport, Riyadh Saudi Arabia - panoramio (2).jpg",
+  "he": "נמל התעופה המלך חאלד בריאד",
+  "pending": true
+ },
+ "2026-10-26|ratehikes": {
+  "src": "img/2026-10-26-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-26|ai": {
+  "src": "img/2026-10-26-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Asoundd",
+  "title": "Googleplex HQ (cropped).jpg",
+  "he": "מטה גוגל במאונטן וויו",
+  "pending": true
+ },
+ "2026-10-26|korea": {
+  "src": "img/2026-10-26-korea.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yeouido_Skyline_seen_Yongsan_Station_2023.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Ox1997cow",
+  "title": "Yeouido Skyline seen Yongsan Station 2023.jpg",
+  "he": "קו הרקיע של יאידו בסיאול",
+  "pending": true
+ },
+ "2026-10-26|rba": {
+  "src": "img/2026-10-26-rba.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:RBA2.jpg",
+  "license": "Public domain",
+  "credit": "Danausi",
+  "title": "RBA2.jpg",
+  "he": "בניין הבנק המרכזי של אוסטרליה בסידני",
+  "pending": true
+ },
+ "2026-10-26|ukraine": {
+  "src": "img/2026-10-26-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_of_Odesa_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Zinnsoldat",
+  "title": "Port of Odesa 1.jpg",
+  "he": "נמל אודסה",
+  "pending": true
+ },
+ "2026-10-26|gold": {
+  "src": "img/2026-10-26-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Diliff",
+  "title": "Bank of England Building, London, UK - Diliff.jpg",
+  "he": "בניין בנק אנגליה בלונדון",
+  "pending": true
  }
 }
