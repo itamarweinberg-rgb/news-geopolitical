@@ -33,7 +33,7 @@
 :root{
   --paper:#F1F4F2; --surface:#FBFCFB; --ink:#14212A; --muted:#5B6A72; --rule:#D3DBD8;
   --sea:#1C5D6C; --sea-soft:#D7E6E8; --land:#DCE3DE; --land-edge:#C3CDC8; --ocean:#E6EEEE;
-  --signal:#D24A12; --signal-soft:#FBE7DC; --up:#17794A; --down:#B3261E; --grid:#E1E7E4;
+  --signal:#D24A12; --signal-ink:#B0400F; --on-fill:#fff; --signal-soft:#FBE7DC; --up:#156F42; --down:#B3261E; --grid:#E1E7E4;
   --f-display:"Frank Ruhl Libre","David Libre","Times New Roman",serif;
   --f-body:"IBM Plex Sans Hebrew","Assistant","Arial Hebrew",Arial,sans-serif;
   color-scheme:light;
@@ -41,12 +41,12 @@
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
   --paper:#0C1418; --surface:#111C21; --ink:#E4ECEA; --muted:#93A4AB; --rule:#24343B;
   --sea:#62B5C6; --sea-soft:#163842; --land:#1B282E; --land-edge:#2A3A41; --ocean:#0F1B20;
-  --signal:#FF7B42; --signal-soft:#3A1E12; --up:#4CC38A; --down:#FF6B5E; --grid:#1C2A30;
+  --signal:#FF7B42; --signal-ink:#FF7B42; --on-fill:#0C1418; --signal-soft:#3A1E12; --up:#4CC38A; --down:#FF6B5E; --grid:#1C2A30;
   color-scheme:dark;}}
 :root[data-theme="dark"]{
   --paper:#0C1418; --surface:#111C21; --ink:#E4ECEA; --muted:#93A4AB; --rule:#24343B;
   --sea:#62B5C6; --sea-soft:#163842; --land:#1B282E; --land-edge:#2A3A41; --ocean:#0F1B20;
-  --signal:#FF7B42; --signal-soft:#3A1E12; --up:#4CC38A; --down:#FF6B5E; --grid:#1C2A30;
+  --signal:#FF7B42; --signal-ink:#FF7B42; --on-fill:#0C1418; --signal-soft:#3A1E12; --up:#4CC38A; --down:#FF6B5E; --grid:#1C2A30;
   color-scheme:dark;}
 
 *{box-sizing:border-box}
@@ -57,6 +57,8 @@ a{color:var(--sea)}
 .num{font-variant-numeric:tabular-nums;direction:ltr;unicode-bidi:isolate}
 
 /* top bar */
+.skip{position:fixed;top:-60px;inset-inline-start:12px;z-index:30;background:var(--ink);color:var(--paper);padding:8px 14px;border-radius:8px;text-decoration:none;font-weight:600}
+.skip:focus{top:calc(env(safe-area-inset-top,0px) + 8px)}
 .bar{position:fixed;top:0;inset-inline:0;padding-top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--paper) 88%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
 .progress{position:absolute;inset-inline-start:0;bottom:-1px;height:2px;width:0;background:var(--signal);transition:width .1s linear}
 .bar .wrap{display:flex;align-items:center;gap:16px;min-height:56px;flex-wrap:wrap;padding-block:6px}
@@ -91,7 +93,7 @@ a{color:var(--sea)}
 .prefs .save{background:var(--sea);color:#fff;border:0}
 .prefs .reset{background:transparent;color:var(--muted);border:1px solid var(--rule)}
 .tocmore{padding:10px 0;font-size:14px;color:var(--muted)}
-.core{font-size:12px;font-weight:600;color:var(--signal);background:var(--signal-soft);padding:3px 9px;border-radius:999px}
+.core{font-size:12px;font-weight:600;color:var(--signal-ink);background:var(--signal-soft);padding:3px 9px;border-radius:999px}
 .stories[hidden]{display:none}
 .morewrap{display:flex;justify-content:center;margin:26px 0 0}
 .morebtn{font:inherit;font-size:15px;font-weight:600;color:var(--sea);background:var(--surface);border:1px solid var(--sea);border-radius:999px;padding:10px 20px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px}
@@ -100,7 +102,7 @@ a{color:var(--sea)}
 .toc li{border-bottom:1px solid var(--rule)}
 .toc a{display:grid;grid-template-columns:28px minmax(0,1fr);gap:10px;padding:10px 0;text-decoration:none;color:var(--ink);font-size:15.5px;line-height:1.45}
 .toc a:hover .t{color:var(--sea)}
-.toc .n{font-family:var(--f-display);font-weight:900;color:var(--signal);font-size:18px;line-height:1.2}
+.toc .n{font-family:var(--f-display);font-weight:900;color:var(--signal-ink);font-size:18px;line-height:1.2}
 .toc .c{display:block;font-size:12px;color:var(--muted);letter-spacing:.04em}
 .mapbox{position:relative;background:var(--ocean);border-radius:18px;overflow:hidden;border:1px solid var(--rule);aspect-ratio:1.75;max-width:100%}
 .mapbox svg{display:block;width:100%;height:100%}
@@ -166,19 +168,22 @@ a{color:var(--sea)}
 .story h3{font-family:var(--f-display);font-weight:700;font-size:clamp(22px,2.6vw,29px);line-height:1.3;margin:4px 0 12px;text-wrap:balance}
 .story p{margin:0 0 14px;max-width:68ch}
 .why{background:var(--signal-soft);border-radius:14px;padding:14px 18px;max-width:72ch}
-.why h4{margin:0 0 4px;font-size:13px;letter-spacing:.1em;color:var(--signal);font-weight:700}
+.why h4{margin:0 0 4px;font-size:13px;letter-spacing:.1em;color:var(--signal-ink);font-weight:700}
 .why p{margin:0;font-size:16px}
 .more,.next{font:inherit;font-size:14.5px;font-weight:600;cursor:pointer;border-radius:999px;padding:8px 16px}
 .more{display:none;color:var(--sea);background:transparent;border:1px solid var(--sea);margin-top:-4px}
 .next{grid-column:1/-1;justify-self:end;display:flex;align-items:center;gap:6px;margin-top:-8px;color:var(--muted);background:transparent;border:1px solid var(--rule)}
 .next:hover{color:var(--sea);border-color:var(--sea)}
+.report{display:inline-block;margin-top:14px;font-size:13.5px;color:var(--muted)}
+.report:hover{color:var(--sea)}
 @media (max-width:700px){
   .more{display:inline-flex}
   .story.open .more{display:none}
   .story:not(.open) .story-main>p{max-height:7.4em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 45%,transparent);mask-image:linear-gradient(#000 45%,transparent)}
-  .story:not(.open) .why,.story:not(.open) .dbtn,.story:not(.open) .deep,.story:not(.open) .prev,.story:not(.open) .side,.story:not(.open) .next{display:none}
+  .story:not(.open) .why,.story:not(.open) .dbtn,.story:not(.open) .deep,.story:not(.open) .prev,.story:not(.open) .report,.story:not(.open) .side,.story:not(.open) .next{display:none}
 }
 .term{all:unset;cursor:pointer;color:inherit;text-decoration:underline dotted;text-decoration-color:var(--sea);text-decoration-thickness:2px;text-underline-offset:4px}
+.term:focus-visible{outline:2px solid var(--signal);outline-offset:2px;border-radius:4px}
 .term:hover,.term[aria-expanded="true"]{background:var(--sea-soft);border-radius:4px}
 .tip{position:absolute;z-index:70;max-width:min(340px,calc(100vw - 24px));background:var(--ink);color:var(--paper);border-radius:12px;padding:12px 14px;font-size:14.5px;line-height:1.55;box-shadow:0 10px 30px rgba(0,0,0,.25)}
 .tip b{display:block;font-size:13px;opacity:.75;margin-bottom:2px}
@@ -205,8 +210,8 @@ a{color:var(--sea)}
 .bar-row .fill{height:100%;border-radius:5px;background:var(--sea)}
 .bar-row:first-child .fill{background:var(--signal)}
 .split{display:flex;height:30px;border-radius:8px;overflow:hidden;gap:2px}
-.split div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:13px;font-weight:600}
-.split div:nth-child(1){background:var(--signal)}
+.split div{display:flex;align-items:center;justify-content:center;color:var(--on-fill);font-size:13px;font-weight:600}
+.split div:nth-child(1){background:var(--signal-ink)}
 .split div:nth-child(2){background:var(--sea)}
 .split-leg{display:flex;justify-content:space-between;font-size:13px;margin-top:6px;gap:8px}
 .chart svg{width:100%;height:auto;display:block}
@@ -227,7 +232,7 @@ a{color:var(--sea)}
 .dbox small{font-size:11px;color:var(--muted);margin-top:3px}
 .tl .txt{padding-top:6px;min-width:0}
 .cd{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:6px;margin-top:4px;background:var(--grid);color:var(--muted)}
-.cd.soon{background:var(--signal-soft);color:var(--signal)}
+.cd.soon{background:var(--signal-soft);color:var(--signal-ink)}
 .tl li.past{opacity:.55}
 details.src{background:var(--surface);border:1px solid var(--rule);border-radius:16px;padding:14px 18px;align-self:start}
 details.src summary{cursor:pointer;font-weight:600}
@@ -284,6 +289,7 @@ html{scroll-behavior:smooth}
 <body>
 
 
+<a class="skip" href="#app">דלג לתוכן</a>
 <header class="bar">
   <div class="wrap">
     <div class="brand">
@@ -309,7 +315,7 @@ html{scroll-behavior:smooth}
   <p class="disc">המידע כאן הוא לצורכי עיון בלבד ואינו מהווה ייעוץ השקעות או המלצה לפעולה. נתוני השווקים עשויים להיות מעוכבים.</p>
 </section>
 <footer>
-  <div>תדריך הבוקר · ניטרלי, תמציתי, ומתמקד במה שלא מקבל מספיק תשומת לב. · <a href="privacy.html" style="color:inherit">מדיניות פרטיות</a></div>
+  <div>תדריך הבוקר · ניטרלי, תמציתי, ומתמקד במה שלא מקבל מספיק תשומת לב. · <a href="privacy.html" style="color:inherit">מדיניות פרטיות</a> · <a href="accessibility.html" style="color:inherit">הצהרת נגישות</a></div>
   <div id="upd"></div>
 </footer></div>
 
@@ -334,6 +340,17 @@ function pd(s){const [y,m,d]=s.split("-").map(Number);return new Date(y,m-1,d)}
 function longDate(s){const d=pd(s);return d.getDate()+" ב"+MONTHS[d.getMonth()]+" "+d.getFullYear()}
 function shortDate(s){const d=pd(s);return d.getDate()+"."+(d.getMonth()+1)}
 
+// Where "found a mistake?" reports go. Empty hides the link.
+const REPORT_EMAIL="";
+// GoatCounter site code (privacy-friendly visit count, no cookies). Empty loads nothing.
+const GOATCOUNTER="";
+if(GOATCOUNTER&&!/^(localhost|127\.)/.test(location.hostname)){const g=document.createElement("script");g.async=true;g.src="https://gc.zgo.at/count.js";g.dataset.goatcounter=`https://${GOATCOUNTER}.goatcounter.com/count`;document.head.appendChild(g)}
+function reportHref(s,i){
+  const d=DATA.briefings[idx].date;
+  const subj=`טעות בתדריך ${shortDate(d)}, ידיעה ${i+1}`;
+  const body=`הידיעה: ${s.title}\n\nמה לא מדויק, ומה נכון לדעתך (קישור למקור יעזור):\n\n`;
+  return `mailto:${REPORT_EMAIL}?subject=${encodeURIComponent(subj)}&body=${encodeURIComponent(body)}`;
+}
 let DATA,MK,WORLD,COUNTRIES,IMG={},idx=0;
 const app=document.getElementById("app");
 
@@ -424,14 +441,14 @@ function render(){
       <ol class="toc">${main.map(i=>[b.stories[i],i]).map(([s,i])=>`<li><a href="#s${i+1}" data-s="${i+1}"><span class="n">${i+1}</span><span><span class="c">${esc(s.cat)}</span><span class="t">${esc(s.title)}</span></span></a></li>`).join("")}${extra.length?`<li class="tocmore">ועוד ${extra.length} ידיעות בהמשך הדף</li>`:""}</ol>
     </div>
     <div class="mapcol">
-      <div class="mapbox" id="overview" role="img" aria-label="מפת הידיעות של היום"></div>
+      <div class="mapbox" id="overview" role="group" aria-label="מפת הידיעות של היום"></div>
       <div class="mapcap">כל נקודה היא ידיעה. לחיצה עליה מובילה אליה.</div>
     </div>
   </section>
 
   <section class="fade" aria-labelledby="mh">
     <div class="section-h"><h2 id="mh">מצב השווקים</h2><span>${esc(b.marketsAsOf)}</span><span class="swipe">החליקו לעוד ←</span></div>
-    <div class="tape">${MKT.map(([k,l,f])=>tick(b,k,l,f)).join("")}</div>
+    <div class="tape" tabindex="0" role="region" aria-label="נתוני השווקים">${MKT.map(([k,l,f])=>tick(b,k,l,f)).join("")}</div>
   </section>
 
   <section class="stories">${main.map(i=>story(b.stories[i],i,prevDays,nextOf(i),tagged,extra.length>0)).join("")}</section>
@@ -565,13 +582,14 @@ function story(s,i,prevDays,next,tagged,toMore){
       <div class="deep" hidden><h4>רקע</h4><p>${esc(s.deeper.text)}</p>${(s.deeper.links||[]).length?`<ul>${s.deeper.links.map(l=>`<li><a href="${esc(l.url)}" target="_blank" rel="noopener">${esc(l.title)}</a></li>`).join("")}</ul>`:""}</div>`:""}
       <button type="button" class="more" data-more>לקריאה המלאה</button>
       ${prevList}
+      ${REPORT_EMAIL?`<a class="report" href="${esc(reportHref(s,i))}">מצאת טעות? ספרו לנו</a>`:""}
     </div>
-    <aside class="side">
+    <div class="side">
       <div class="lens"><svg id="lens${i}" viewBox="0 0 240 240" role="img" aria-label="מפה: ${esc(s.loc.place)}"></svg>
         <div class="lab">${esc(s.loc.place)}</div></div>
       ${s.chart?`<div class="chart fig" id="chart${i}"><h5>${esc(MK&&MK.series[s.chart]?MK.series[s.chart].label:"")} · מאז יולי</h5><div></div></div>`:""}
       ${s.figure?figure(s.figure):""}
-    </aside>
+    </div>
     <button type="button" class="next" data-next="${next===null?"":next+1}">${next!==null?"לידיעה הבאה":toMore?"לעוד ידיעות":"למה לעקוב השבוע"} <span aria-hidden="true">←</span></button>
   </article>`;
 }
