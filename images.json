@@ -1074,17 +1074,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Clema12",
   "title": "Knesset front side - 2022.jpg",
-  "he": "בניין הכנסת בירושלים",
-  "pending": true
- },
- "2026-10-28|yemen": {
-  "src": "img/2026-10-28-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Snowfall_at_night_over_Brofjorden_and_Preemraff_oil_refinery.jpg",
-  "license": "CC0",
-  "credit": "W.carter",
-  "title": "Snowfall at night over Brofjorden and Preemraff oil refinery.jpg",
-  "he": "בית זיקוק נפט בלילה",
-  "pending": true
+  "he": "בניין הכנסת בירושלים"
  },
  "2026-10-28|hormuz": {
   "src": "img/2026-10-28-hormuz.jpg",
@@ -1092,8 +1082,7 @@
   "license": "Public domain",
   "credit": "MODIS Land Rapid Response Team, NASA GSFC",
   "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
-  "he": "מצר הורמוז במבט מהחלל",
-  "pending": true
+  "he": "מצר הורמוז במבט מהחלל"
  },
  "2026-10-28|bonds": {
   "src": "img/2026-10-28-bonds.jpg",
@@ -1101,26 +1090,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
- },
- "2026-10-28|ratehikes": {
-  "src": "img/2026-10-28-ratehikes.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:RBA2.jpg",
-  "license": "Public domain",
-  "credit": "Danausi",
-  "title": "RBA2.jpg",
-  "he": "בניין הבנק המרכזי של אוסטרליה בסידני",
-  "pending": true
- },
- "2026-10-28|ai": {
-  "src": "img/2026-10-28-ai.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Duga-1_radar_data_center_inside_empty_server_racks_2018.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Joël van der Loo",
-  "title": "Duga-1 radar data center inside empty server racks 2018.jpg",
-  "he": "ארונות שרתים בחוות שרתים",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-10-28|china-economy": {
   "src": "img/2026-10-28-china-economy.jpg",
@@ -1128,8 +1098,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "DXR",
   "title": "Minor skyscrapers in Lujiazui, Shanghai as seen from Lujiazui Pedestrian Bridge 20120602 1.jpg",
-  "he": "בניין הבורסה של שנגחאי",
-  "pending": true
+  "he": "רובע הפיננסים לוג׳יאזווי בשנגחאי"
  },
  "2026-10-28|ukraine": {
   "src": "img/2026-10-28-ukraine.jpg",
@@ -1137,8 +1106,7 @@
   "license": "CC BY 3.0",
   "credit": "7777777kz",
   "title": "Kherson, river Koshevaya, base fishing \"Delta Dnieper\". Херсон, река Кошевая, база любителей рыбной ловли «Дельта Днепра» - panoramio.jpg",
-  "he": "נהר הדנייפר ליד חרסון",
-  "pending": true
+  "he": "גדת הנהר בחרסון"
  },
  "2026-10-28|horn": {
   "src": "img/2026-10-28-horn.jpg",
@@ -1146,7 +1114,9 @@
   "license": "CC BY-SA 3.0",
   "credit": "Simfan34",
   "title": "Addis Ababa skyline.jpg",
-  "he": "קו הרקיע של אדיס אבבה",
-  "pending": true
+  "he": "קו הרקיע של אדיס אבבה"
+ },
+ "2026-10-28|brazil": {
+  "none": true
  }
 }
