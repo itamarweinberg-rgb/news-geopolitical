@@ -1120,22 +1120,10 @@
   "none": true
  },
  "2026-10-28|yemen": {
-  "src": "img/2026-10-28-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow_Oil_Refinery_01.jpg",
-  "license": "CC BY 4.0",
-  "credit": "MBH",
-  "title": "Moscow Oil Refinery 01.jpg",
-  "he": "בית זיקוק נפט בלילה",
-  "pending": true
+  "none": true
  },
  "2026-10-28|ratehikes": {
-  "src": "img/2026-10-28-ratehikes.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Nagpur_Reserve_Bank.JPG",
-  "license": "CC BY-SA 3.0",
-  "credit": "Gppande",
-  "title": "Nagpur Reserve Bank.JPG",
-  "he": "בניין הבנק המרכזי של אוסטרליה בסידני",
-  "pending": true
+  "none": true
  },
  "2026-10-28|ai": {
   "src": "img/2026-10-28-ai.jpg",
@@ -1143,7 +1131,6 @@
   "license": "CC BY-SA 4.0",
   "credit": "PiDatacenters",
   "title": "Racks Amravati Data Center.jpg",
-  "he": "ארונות שרתים בחוות שרתים",
-  "pending": true
+  "he": "ארונות שרתים בחוות שרתים"
  }
 }
