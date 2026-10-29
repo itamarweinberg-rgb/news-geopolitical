@@ -1132,5 +1132,95 @@
   "credit": "PiDatacenters",
   "title": "Racks Amravati Data Center.jpg",
   "he": "ארונות שרתים בחוות שרתים"
+ },
+ "2026-10-29|israel-election": {
+  "src": "img/2026-10-29-israel-election.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Knesset_front_side_-_2022.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Clema12",
+  "title": "Knesset front side - 2022.jpg",
+  "he": "בניין הכנסת בירושלים",
+  "pending": true
+ },
+ "2026-10-29|bonds": {
+  "src": "img/2026-10-29-bonds.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-29|hormuz": {
+  "src": "img/2026-10-29-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים",
+  "pending": true
+ },
+ "2026-10-29|ai": {
+  "src": "img/2026-10-29-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Googleplex_HQ_(cropped).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Asoundd",
+  "title": "Googleplex HQ (cropped).jpg",
+  "he": "מטה גוגל במאונטן ויו",
+  "pending": true
+ },
+ "2026-10-29|iran": {
+  "src": "img/2026-10-29-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vienna_International_Center_from_Danube_River_to_Northnorthwest_-_Vienna-.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Hubertl",
+  "title": "Vienna International Center from Danube River to Northnorthwest - Vienna-.jpg",
+  "he": "מרכז האו״ם בווינה, מטה סבא״א",
+  "pending": true
+ },
+ "2026-10-29|ratehikes": {
+  "src": "img/2026-10-29-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ottawa_-_ON_-_Bank_of_Canada.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Wladyslaw",
+  "title": "Ottawa - ON - Bank of Canada.jpg",
+  "he": "בניין בנק קנדה באוטווה",
+  "pending": true
+ },
+ "2026-10-29|yemen": {
+  "src": "img/2026-10-29-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowfall_at_night_over_Brofjorden_and_Preemraff_oil_refinery.jpg",
+  "license": "CC0",
+  "credit": "W.carter",
+  "title": "Snowfall at night over Brofjorden and Preemraff oil refinery.jpg",
+  "he": "בית זיקוק נפט בלילה",
+  "pending": true
+ },
+ "2026-10-29|ukraine": {
+  "src": "img/2026-10-29-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0_%D1%82%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B8_%D0%BA%D0%BE%D0%BC%D0%BF%D1%80%D0%B5%D1%81%D1%81%D0%BE%D1%80%D0%BD%D0%BE%D0%B9_%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Majskij",
+  "title": "На территории компрессорной станции.jpg",
+  "he": "צינור גז באוקראינה",
+  "pending": true
+ },
+ "2026-10-29|brazil": {
+  "src": "img/2026-10-29-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Supremo_Tribunal_Federal_por_Henrique_Goldenstein_(01).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Falcão Alado",
+  "title": "Supremo Tribunal Federal por Henrique Goldenstein (01).jpg",
+  "he": "בניין בית המשפט העליון בברזיליה",
+  "pending": true
+ },
+ "2026-10-29|sudan": {
+  "src": "img/2026-10-29-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SudanCamels.jpg",
+  "license": "Public domain",
+  "credit": "Tropical Photo Stores, G. Karakashian, Khartoum (Sudan)",
+  "title": "SudanCamels.jpg",
+  "he": "העיר אל-אוביד בסודן",
+  "pending": true
  }
 }
