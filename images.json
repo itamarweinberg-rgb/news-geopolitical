@@ -1202,5 +1202,14 @@
  },
  "2026-10-29|nato-east": {
   "none": true
+ },
+ "2026-10-29|ukraine": {
+  "src": "img/2026-10-29-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Broken-down_Memorable_sign_from_German_team_of_the_builders_of_the_Gas_pipeline_(2018-11-17)_02.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Oleh Kushch",
+  "title": "Broken-down Memorable sign from German team of the builders of the Gas pipeline (2018-11-17) 02.jpg",
+  "he": "צינור גז באוקראינה",
+  "pending": true
  }
 }
