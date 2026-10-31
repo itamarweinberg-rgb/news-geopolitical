@@ -1285,5 +1285,95 @@
   "credit": "Basil D Soufi",
   "title": "United Nations General Assembly Hall (3).jpg",
   "he": "אולם העצרת הכללית של האו״ם"
+ },
+ "2026-10-31|ai": {
+  "src": "img/2026-10-31-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Intel_HQ.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Sixflashphoto",
+  "title": "Intel HQ.jpg",
+  "he": "מטה אינטל בסנטה קלרה",
+  "pending": true
+ },
+ "2026-10-31|hormuz": {
+  "src": "img/2026-10-31-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
+  "he": "מצר הורמוז מהחלל",
+  "pending": true
+ },
+ "2026-10-31|crypto": {
+  "src": "img/2026-10-31-crypto.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pyongyang_Skyline_-_02.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Jan Engelhardt",
+  "title": "Pyongyang Skyline - 02.jpg",
+  "he": "קו הרקיע של פיונגיאנג",
+  "pending": true
+ },
+ "2026-10-31|bonds": {
+  "src": "img/2026-10-31-bonds.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-10-31|israel-election": {
+  "src": "img/2026-10-31-israel-election.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Knesset_front_side_-_2022.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Clema12",
+  "title": "Knesset front side - 2022.jpg",
+  "he": "בניין הכנסת בירושלים",
+  "pending": true
+ },
+ "2026-10-31|nato-east": {
+  "src": "img/2026-10-31-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Toompea_loss_2014.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Abrget47j",
+  "title": "Toompea loss 2014.jpg",
+  "he": "גבעת טומפאה בטאלין",
+  "pending": true
+ },
+ "2026-10-31|ukraine": {
+  "src": "img/2026-10-31-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Snowfall_at_night_over_Brofjorden_and_Preemraff_oil_refinery.jpg",
+  "license": "CC0",
+  "credit": "W.carter",
+  "title": "Snowfall at night over Brofjorden and Preemraff oil refinery.jpg",
+  "he": "בית זיקוק נפט בלילה",
+  "pending": true
+ },
+ "2026-10-31|blacksea": {
+  "src": "img/2026-10-31-blacksea.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:MSC_HARMONY_III_(container_ship,_2006)_in_Port_Koper_(SIKOP,_2024).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Petar Milošević",
+  "title": "MSC HARMONY III (container ship, 2006) in Port Koper (SIKOP, 2024).jpg",
+  "he": "ספינת מכולות בים",
+  "pending": true
+ },
+ "2026-10-31|fatf": {
+  "src": "img/2026-10-31-fatf.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Shwedagon_Zedi_Daw_Yangon_4.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "kallerna",
+  "title": "Shwedagon Zedi Daw Yangon 4.jpg",
+  "he": "פגודת שוודגון ביאנגון",
+  "pending": true
+ },
+ "2026-10-31|brazil": {
+  "src": "img/2026-10-31-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dasfour2022",
+  "title": "PalaciodoplanaltoFR.jpg",
+  "he": "ארמון פלנאלטו בברזיליה",
+  "pending": true
  }
 }
