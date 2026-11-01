@@ -1363,5 +1363,95 @@
  },
  "2026-10-31|sudan": {
   "none": true
+ },
+ "2026-11-01|hormuz": {
+  "src": "img/2026-11-01-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Strait_of_Hormuz_(MODIS_2020-12-04).jpg",
+  "license": "Public domain",
+  "credit": "MODIS Land Rapid Response Team, NASA GSFC",
+  "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
+  "he": "מצר הורמוז מהחלל",
+  "pending": true
+ },
+ "2026-11-01|poland-court": {
+  "src": "img/2026-11-01-poland-court.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:09%272022_Constitutional_Tribunal_1.jpg",
+  "license": "CC0",
+  "credit": "PanBe",
+  "title": "09'2022 Constitutional Tribunal 1.jpg",
+  "he": "בניין בית הדין לחוקה בוורשה",
+  "pending": true
+ },
+ "2026-11-01|france-debt": {
+  "src": "img/2026-11-01-france-debt.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Le_m%C3%A9tro_du_c%C3%B4t%C3%A9_de_Bercy.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "besopha",
+  "title": "Le métro du côté de Bercy.jpg",
+  "he": "משרד הכלכלה הצרפתי בברסי, פריז",
+  "pending": true
+ },
+ "2026-11-01|ukraine": {
+  "src": "img/2026-11-01-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Flickr_-_Government_Press_Office_(GPO)_-_Patriot_missiles_being_launched_to_intercept_an_Iraqi_Scud_missile.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "https://www.flickr.com/people/69061470@N05",
+  "title": "Flickr - Government Press Office (GPO) - Patriot missiles being launched to intercept an Iraqi Scud missile.jpg",
+  "he": "משגר של מערכת פטריוט",
+  "pending": true
+ },
+ "2026-11-01|ebola": {
+  "src": "img/2026-11-01-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ebola_treatment_centre_-_plan_of_Kerry_Town_(15692080876).jpg",
+  "license": "CC BY 2.0",
+  "credit": "DFID - UK Department for International Development",
+  "title": "Ebola treatment centre - plan of Kerry Town (15692080876).jpg",
+  "he": "מרכז טיפול באבולה",
+  "pending": true
+ },
+ "2026-11-01|ukraine-grid": {
+  "src": "img/2026-11-01-ukraine-grid.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kherson,_river_Koshevaya,_base_fishing_%22Delta_Dnieper%22._%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD,_%D1%80%D0%B5%D0%BA%D0%B0_%D0%9A%D0%BE%D1%88%D0%B5%D0%B2%D0%B0%D1%8F,_%D0%B1%D0%B0%D0%B7%D0%B0_%D0%BB%D1%8E%D0%B1%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9_%D1%80%D1%8B%D0%B1%D0%BD%D0%BE%D0%B9_%D0%BB%D0%BE%D0%B2%D0%BB%D0%B8_%C2%AB%D0%94%D0%B5%D0%BB%D1%8C%D1%82%D0%B0_%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%B0%C2%BB_-_panoramio.jpg",
+  "license": "CC BY 3.0",
+  "credit": "7777777kz",
+  "title": "Kherson, river Koshevaya, base fishing \"Delta Dnieper\". Херсон, река Кошевая, база любителей рыбной ловли «Дельта Днепра» - panoramio.jpg",
+  "he": "נהר הדנייפר באזור חרסון",
+  "pending": true
+ },
+ "2026-11-01|canada": {
+  "src": "img/2026-11-01-canada.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Centre_Block_-_Parliament_Hill.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Saffron Blaze",
+  "title": "Centre Block - Parliament Hill.jpg",
+  "he": "גבעת הפרלמנט באוטווה",
+  "pending": true
+ },
+ "2026-11-01|korea": {
+  "src": "img/2026-11-01-korea.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Atlanta_skyline_from_Jackson_Street_Bridge_2020.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Marc Merlin",
+  "title": "Atlanta skyline from Jackson Street Bridge 2020.jpg",
+  "he": "קו הרקיע של אטלנטה",
+  "pending": true
+ },
+ "2026-11-01|brazil": {
+  "src": "img/2026-11-01-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dasfour2022",
+  "title": "PalaciodoplanaltoFR.jpg",
+  "he": "ארמון הפלנלטו בברזיליה",
+  "pending": true
+ },
+ "2026-11-01|horn": {
+  "src": "img/2026-11-01-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mekelle,_Ethiopia.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Yonas Kidane",
+  "title": "Mekelle, Ethiopia.jpg",
+  "he": "העיר מקלה בתיגראי",
+  "pending": true
  }
 }
