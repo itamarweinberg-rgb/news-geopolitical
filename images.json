@@ -1413,13 +1413,7 @@
   "he": "ארמון הפלנלטו בברזיליה"
  },
  "2026-11-01|poland-court": {
-  "src": "img/2026-11-01-poland-court.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:09%272022_Constitutional_Tribunal_2.jpg",
-  "license": "CC0",
-  "credit": "PanBe",
-  "title": "09'2022 Constitutional Tribunal 2.jpg",
-  "he": "בניין בית הדין לחוקה בוורשה",
-  "pending": true
+  "none": true
  },
  "2026-11-01|ukraine": {
   "src": "img/2026-11-01-ukraine.jpg",
@@ -1427,25 +1421,12 @@
   "license": "CC BY-SA 4.0",
   "credit": "Z3144228",
   "title": "Japan Air Self-Defense Force MIM-104 Patriot launcher.jpg",
-  "he": "משגר של מערכת פטריוט",
-  "pending": true
+  "he": "משגר של מערכת פטריוט"
  },
  "2026-11-01|ebola": {
-  "src": "img/2026-11-01-ebola.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Development_Secretary_meets_the_military_helping_to_build_Kerry_Town_Ebola_treatment_centre_(15578517956).jpg",
-  "license": "CC BY 2.0",
-  "credit": "DFID - UK Department for International Development",
-  "title": "Development Secretary meets the military helping to build Kerry Town Ebola treatment centre (15578517956).jpg",
-  "he": "מרכז טיפול באבולה",
-  "pending": true
+  "none": true
  },
  "2026-11-01|horn": {
-  "src": "img/2026-11-01-horn.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Destroyed_playground_in_Mekelle,_Tigray_(2022).jpg",
-  "license": "Public domain",
-  "credit": "Mulugeta Atsbeha",
-  "title": "Destroyed playground in Mekelle, Tigray (2022).jpg",
-  "he": "העיר מקלה בתיגראי",
-  "pending": true
+  "none": true
  }
 }
