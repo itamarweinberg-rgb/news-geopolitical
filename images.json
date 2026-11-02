@@ -1435,8 +1435,7 @@
   "license": "CC BY 4.0",
   "credit": "Zairon",
   "title": "Doha Skyline 10.jpg",
-  "he": "קו הרקיע של דוחא",
-  "pending": true
+  "he": "קו הרקיע של דוחא"
  },
  "2026-11-02|crypto": {
   "src": "img/2026-11-02-crypto.jpg",
@@ -1444,8 +1443,7 @@
   "license": "CC BY 2.0",
   "credit": "ajay_suresh",
   "title": "FBI Headquarters - J. Edgar Hoover Building (53840035941).jpg",
-  "he": "מטה ה-FBI בוושינגטון",
-  "pending": true
+  "he": "מטה ה-FBI בוושינגטון"
  },
  "2026-11-02|china-economy": {
   "src": "img/2026-11-02-china-economy.jpg",
@@ -1453,8 +1451,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "King of Hearts",
   "title": "Pudong Shanghai November 2017 panorama.jpg",
-  "he": "קו הרקיע של לוג׳יאזוי בשנגחאי",
-  "pending": true
+  "he": "רובע הפיננסים פודונג בשנגחאי"
  },
  "2026-11-02|us-midterms": {
   "src": "img/2026-11-02-us-midterms.jpg",
@@ -1462,8 +1459,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Martin Falbisoner",
   "title": "US Capitol west side.JPG",
-  "he": "בניין הקפיטול בוושינגטון",
-  "pending": true
+  "he": "בניין הקפיטול בוושינגטון"
  },
  "2026-11-02|opec": {
   "src": "img/2026-11-02-opec.jpg",
@@ -1471,17 +1467,15 @@
   "license": "CC0",
   "credit": "Gary Todd from Xinzheng, China",
   "title": "Vienna OPEC Headquarters (9812748993).jpg",
-  "he": "מטה אופ״ק בווינה",
-  "pending": true
+  "he": "מטה אופ״ק בווינה"
  },
  "2026-11-02|ukraine": {
   "src": "img/2026-11-02-ukraine.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:E7157-Kstovo-industrial-left.jpg",
   "license": "CC BY-SA 3.0",
-  "credit": "Vmenkov\nother_versions=Image:E7158-Kstovo-industrial-center.jpg\nImage:E7159-Ksto",
+  "credit": "Vmenkov",
   "title": "E7157-Kstovo-industrial-left.jpg",
-  "he": "זיקוק הנפט בקסטובו",
-  "pending": true
+  "he": "זיקוק הנפט בקסטובו"
  },
  "2026-11-02|gulf": {
   "src": "img/2026-11-02-gulf.jpg",
@@ -1489,8 +1483,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Zairon",
   "title": "Manama Bahrain World Trade Centre 04.jpg",
-  "he": "מרכז הסחר העולמי במנאמה",
-  "pending": true
+  "he": "מרכז הסחר העולמי במנאמה"
  },
  "2026-11-02|ebola": {
   "src": "img/2026-11-02-ebola.jpg",
@@ -1498,8 +1491,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "ByaduniaEspoir",
   "title": "La Gombe, Kinshasa, RDC.jpg",
-  "he": "קו הרקיע של קינשאסה",
-  "pending": true
+  "he": "קו הרקיע של קינשאסה"
  },
  "2026-11-02|caucasus": {
   "src": "img/2026-11-02-caucasus.jpg",
@@ -1507,8 +1499,7 @@
   "license": "CC0",
   "credit": "Avisadehh",
   "title": "BAKU AT NIGHT .RED TOWERS.באקו בלילה מגדלים באדום.jpg",
-  "he": "מגדלי הלהבות בבאקו",
-  "pending": true
+  "he": "מגדלי הלהבות בבאקו"
  },
  "2026-11-02|piracy": {
   "src": "img/2026-11-02-piracy.jpg",
@@ -1516,8 +1507,7 @@
   "license": "Public domain",
   "credit": "The Miller Atlas (Lopo Homem-Reineis Atlas), 1519 (my cropping of a much larger ",
   "title": "Red Sea Gulf of Aden 1519.jpg",
-  "he": "מפרץ עדן",
-  "pending": true
+  "he": "מפרץ עדן וים סוף במפה מ-1519"
  },
  "2026-11-02|gold": {
   "src": "img/2026-11-02-gold.jpg",
@@ -1525,7 +1515,9 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
+ },
+ "2026-11-02|turkey-pkk": {
+  "none": true
  }
 }
