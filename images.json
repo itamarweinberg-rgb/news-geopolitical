@@ -1428,5 +1428,104 @@
  },
  "2026-11-01|horn": {
   "none": true
+ },
+ "2026-11-02|hormuz": {
+  "src": "img/2026-11-02-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Doha_Skyline_10.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Zairon",
+  "title": "Doha Skyline 10.jpg",
+  "he": "קו הרקיע של דוחא",
+  "pending": true
+ },
+ "2026-11-02|crypto": {
+  "src": "img/2026-11-02-crypto.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:FBI_Headquarters_-_J._Edgar_Hoover_Building_(53840035941).jpg",
+  "license": "CC BY 2.0",
+  "credit": "ajay_suresh",
+  "title": "FBI Headquarters - J. Edgar Hoover Building (53840035941).jpg",
+  "he": "מטה ה-FBI בוושינגטון",
+  "pending": true
+ },
+ "2026-11-02|china-economy": {
+  "src": "img/2026-11-02-china-economy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pudong_Shanghai_November_2017_panorama.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "King of Hearts",
+  "title": "Pudong Shanghai November 2017 panorama.jpg",
+  "he": "קו הרקיע של לוג׳יאזוי בשנגחאי",
+  "pending": true
+ },
+ "2026-11-02|us-midterms": {
+  "src": "img/2026-11-02-us-midterms.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:US_Capitol_west_side.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Martin Falbisoner",
+  "title": "US Capitol west side.JPG",
+  "he": "בניין הקפיטול בוושינגטון",
+  "pending": true
+ },
+ "2026-11-02|opec": {
+  "src": "img/2026-11-02-opec.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vienna_OPEC_Headquarters_(9812748993).jpg",
+  "license": "CC0",
+  "credit": "Gary Todd from Xinzheng, China",
+  "title": "Vienna OPEC Headquarters (9812748993).jpg",
+  "he": "מטה אופ״ק בווינה",
+  "pending": true
+ },
+ "2026-11-02|ukraine": {
+  "src": "img/2026-11-02-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:E7157-Kstovo-industrial-left.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Vmenkov\nother_versions=Image:E7158-Kstovo-industrial-center.jpg\nImage:E7159-Ksto",
+  "title": "E7157-Kstovo-industrial-left.jpg",
+  "he": "זיקוק הנפט בקסטובו",
+  "pending": true
+ },
+ "2026-11-02|gulf": {
+  "src": "img/2026-11-02-gulf.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Manama_Bahrain_World_Trade_Centre_04.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Zairon",
+  "title": "Manama Bahrain World Trade Centre 04.jpg",
+  "he": "מרכז הסחר העולמי במנאמה",
+  "pending": true
+ },
+ "2026-11-02|ebola": {
+  "src": "img/2026-11-02-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:La_Gombe,_Kinshasa,_RDC.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ByaduniaEspoir",
+  "title": "La Gombe, Kinshasa, RDC.jpg",
+  "he": "קו הרקיע של קינשאסה",
+  "pending": true
+ },
+ "2026-11-02|caucasus": {
+  "src": "img/2026-11-02-caucasus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BAKU_AT_NIGHT_.RED_TOWERS.%D7%91%D7%90%D7%A7%D7%95_%D7%91%D7%9C%D7%99%D7%9C%D7%94_%D7%9E%D7%92%D7%93%D7%9C%D7%99%D7%9D_%D7%91%D7%90%D7%93%D7%95%D7%9D.jpg",
+  "license": "CC0",
+  "credit": "Avisadehh",
+  "title": "BAKU AT NIGHT .RED TOWERS.באקו בלילה מגדלים באדום.jpg",
+  "he": "מגדלי הלהבות בבאקו",
+  "pending": true
+ },
+ "2026-11-02|piracy": {
+  "src": "img/2026-11-02-piracy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Red_Sea_Gulf_of_Aden_1519.jpg",
+  "license": "Public domain",
+  "credit": "The Miller Atlas (Lopo Homem-Reineis Atlas), 1519 (my cropping of a much larger ",
+  "title": "Red Sea Gulf of Aden 1519.jpg",
+  "he": "מפרץ עדן",
+  "pending": true
+ },
+ "2026-11-02|gold": {
+  "src": "img/2026-11-02-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ibex73",
+  "title": "Gold ingot and bar of Banque de France.jpg",
+  "he": "מטילי זהב",
+  "pending": true
  }
 }
