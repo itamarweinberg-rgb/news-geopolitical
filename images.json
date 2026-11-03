@@ -1526,8 +1526,7 @@
   "license": "Public domain",
   "credit": "MODIS Land Rapid Response Team, NASA GSFC",
   "title": "Strait of Hormuz (MODIS 2020-12-04).jpg",
-  "he": "מצר הורמוז מהחלל",
-  "pending": true
+  "he": "מצר הורמוז מהחלל"
  },
  "2026-11-03|us-midterms": {
   "src": "img/2026-11-03-us-midterms.jpg",
@@ -1535,8 +1534,7 @@
   "license": "Public domain",
   "credit": "Architect of the Capitol",
   "title": "United States Capitol - west front.jpg",
-  "he": "גבעת הקפיטול בוושינגטון",
-  "pending": true
+  "he": "גבעת הקפיטול בוושינגטון"
  },
  "2026-11-03|china": {
   "src": "img/2026-11-03-china.jpg",
@@ -1544,8 +1542,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Ermell",
   "title": "Auditorium of the Great Hall of the People-20131231-RM-192738.jpg",
-  "he": "היכל העם בבייג׳ינג",
-  "pending": true
+  "he": "אולם המליאה בהיכל העם בבייג׳ינג"
  },
  "2026-11-03|ai": {
   "src": "img/2026-11-03-ai.jpg",
@@ -1553,8 +1550,7 @@
   "license": "CC BY 2.0",
   "credit": "ajay_suresh",
   "title": "Nasdaq MarketSite (51494550508).jpg",
-  "he": "בניין הנאסד״ק בטיימס סקוור",
-  "pending": true
+  "he": "בניין הנאסד״ק בטיימס סקוור"
  },
  "2026-11-03|israel-tech": {
   "src": "img/2026-11-03-israel-tech.jpg",
@@ -1562,8 +1558,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Ynhockey",
   "title": "Tel Aviv Skyline 02.jpg",
-  "he": "קו הרקיע של תל אביב",
-  "pending": true
+  "he": "קו הרקיע של תל אביב"
  },
  "2026-11-03|russia-sanctions": {
   "src": "img/2026-11-03-russia-sanctions.jpg",
@@ -1571,8 +1566,7 @@
   "license": "Public domain",
   "credit": "Captain Albert E. Theberge, NOAA Corps (ret.)",
   "title": "Line3174 - Shipping Containers at the terminal at Port Elizabeth, New Jersey - NOAA.jpg",
-  "he": "נמל ניוארק בניו ג׳רזי",
-  "pending": true
+  "he": "נמל ניוארק בניו ג׳רזי"
  },
  "2026-11-03|w-sahara": {
   "src": "img/2026-11-03-w-sahara.jpg",
@@ -1580,17 +1574,7 @@
   "license": "CC BY 2.0",
   "credit": "dimitri from Millau, France",
   "title": "Ruta N1 entre El Aaiun y El Marsa (puerto de El Aaiun).jpg",
-  "he": "העיר אל-עיון בסהרה המערבית",
-  "pending": true
- },
- "2026-11-03|bulgaria": {
-  "src": "img/2026-11-03-bulgaria.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Central_street_in_Sofia,_Bulgaria_September_2005_2.jpg",
-  "license": "CC BY-SA 3.0",
-  "credit": "Konstantin",
-  "title": "Central street in Sofia, Bulgaria September 2005 2.jpg",
-  "he": "בניין הנשיאות בסופיה",
-  "pending": true
+  "he": "הכביש מאל-עיון לנמל העיר, סהרה המערבית"
  },
  "2026-11-03|europe-protest": {
   "src": "img/2026-11-03-europe-protest.jpg",
@@ -1598,16 +1582,6 @@
   "license": "CC BY-SA 3.0 de",
   "credit": "Ansgar Koreng",
   "title": "Reichstagsgebäude und Paul-Löbe-Haus, Berlin-Mitte, 170327, ako.jpg",
-  "he": "בניין הרייכסטאג בברלין",
-  "pending": true
- },
- "2026-11-03|yemen": {
-  "src": "img/2026-11-03-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Southwestern_Saudi_Arabia_at_Night_(9495028083).jpg",
-  "license": "Public domain",
-  "credit": "NASA Goddard Space Flight Center from Greenbelt, MD, USA",
-  "title": "Southwestern Saudi Arabia at Night (9495028083).jpg",
-  "he": "העיר ג׳יזאן בדרום סעודיה",
-  "pending": true
+  "he": "בניין הרייכסטאג ובית פאול לבה בברלין"
  }
 }
