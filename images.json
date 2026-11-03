@@ -1585,21 +1585,9 @@
   "he": "בניין הרייכסטאג ובית פאול לבה בברלין"
  },
  "2026-11-03|bulgaria": {
-  "src": "img/2026-11-03-bulgaria.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:EP_President_Antonio_Tajani_and_the_Conference_of_Presidents_visit_Sofia_(38613261541).jpg",
-  "license": "CC BY 2.0",
-  "credit": "EU2018BG Bulgarian Presidency",
-  "title": "EP President Antonio Tajani and the Conference of Presidents visit Sofia (38613261541).jpg",
-  "he": "בניין הנשיאות בסופיה",
-  "pending": true
+  "none": true
  },
  "2026-11-03|yemen": {
-  "src": "img/2026-11-03-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:ISS-36_Nighttime_view_of_southwestern_Saudi_Arabia.jpg",
-  "license": "Public domain",
-  "credit": "NASA",
-  "title": "ISS-36 Nighttime view of southwestern Saudi Arabia.jpg",
-  "he": "העיר ג׳יזאן בדרום סעודיה",
-  "pending": true
+  "none": true
  }
 }
