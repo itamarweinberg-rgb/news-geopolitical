@@ -1645,5 +1645,41 @@
   "credit": "Frankbel",
   "title": "Johannesburg-city-skyline-night.jpg",
   "he": "קו הרקיע של יוהנסבורג"
+ },
+ "2026-11-04|us-aid": {
+  "src": "img/2026-11-04-us-aid.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Pentagon_January_2008.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "David B. Gleason from Chicago, IL",
+  "title": "The Pentagon January 2008.jpg",
+  "he": "בניין הפנטגון בארלינגטון",
+  "pending": true
+ },
+ "2026-11-04|rba": {
+  "src": "img/2026-11-04-rba.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nagpur_Reserve_Bank.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Gppande",
+  "title": "Nagpur Reserve Bank.JPG",
+  "he": "בניין הבנק המרכזי של אוסטרליה בסידני",
+  "pending": true
+ },
+ "2026-11-04|crypto": {
+  "src": "img/2026-11-04-crypto.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pyongyang_skyline_at_night.jpg",
+  "license": "CC BY 2.0",
+  "credit": "John Pavelka",
+  "title": "Pyongyang skyline at night.jpg",
+  "he": "קו הרקיע של פיונגיאנג",
+  "pending": true
+ },
+ "2026-11-04|poland-court": {
+  "src": "img/2026-11-04-poland-court.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:09%272022_Constitutional_Tribunal_2.jpg",
+  "license": "CC0",
+  "credit": "PanBe",
+  "title": "09'2022 Constitutional Tribunal 2.jpg",
+  "he": "בניין בית הדין לחוקה בוורשה",
+  "pending": true
  }
 }
