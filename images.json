@@ -1596,8 +1596,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Martin Falbisoner",
   "title": "US Capitol east side.JPG",
-  "he": "בניין הקפיטול בוושינגטון",
-  "pending": true
+  "he": "בניין הקפיטול בוושינגטון"
  },
  "2026-11-04|hormuz": {
   "src": "img/2026-11-04-hormuz.jpg",
@@ -1605,17 +1604,7 @@
   "license": "Public domain",
   "credit": "NASA image using data provided courtesy of the University of Maryland’s Global L",
   "title": "QeshmIsland NASA.jpg",
-  "he": "האי קשם במפרץ הפרסי",
-  "pending": true
- },
- "2026-11-04|us-aid": {
-  "src": "img/2026-11-04-us-aid.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Aerial_view_of_the_Pentagon_during_rescue_operations_post-September_11_attack.JPEG",
-  "license": "Public domain",
-  "credit": "TSGT CEDRIC H. RUDISILL, USAF",
-  "title": "Aerial view of the Pentagon during rescue operations post-September 11 attack.JPEG",
-  "he": "בניין הפנטגון בארלינגטון",
-  "pending": true
+  "he": "האי קשם במפרץ הפרסי"
  },
  "2026-11-04|ukraine-grid": {
   "src": "img/2026-11-04-ukraine-grid.jpg",
@@ -1623,26 +1612,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "alexndm",
   "title": "Khmelnitskiy 2010-1.jpg",
-  "he": "תחנת הכוח הגרעינית חמלניצקי",
-  "pending": true
- },
- "2026-11-04|rba": {
-  "src": "img/2026-11-04-rba.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:RBA2.jpg",
-  "license": "Public domain",
-  "credit": "Danausi",
-  "title": "RBA2.jpg",
-  "he": "בניין הבנק המרכזי של אוסטרליה בסידני",
-  "pending": true
- },
- "2026-11-04|crypto": {
-  "src": "img/2026-11-04-crypto.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Pyongyang_Skyline_-_02.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Jan Engelhardt",
-  "title": "Pyongyang Skyline - 02.jpg",
-  "he": "קו הרקיע של פיונגיאנג",
-  "pending": true
+  "he": "תחנת הכוח הגרעינית חמלניצקי"
  },
  "2026-11-04|aramco": {
   "src": "img/2026-11-04-aramco.jpg",
@@ -1650,8 +1620,7 @@
   "license": "CC BY 3.0",
   "credit": "Suresh Babunair",
   "title": "Oil pipelines, jubail desert, Saudi Arabia - panoramio.jpg",
-  "he": "צינור נפט במדבר",
-  "pending": true
+  "he": "צינור נפט במדבר ליד ג׳ובייל, סעודיה"
  },
  "2026-11-04|yemen": {
   "src": "img/2026-11-04-yemen.jpg",
@@ -1659,17 +1628,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "Rod Waddington from Kergunyah, Australia",
   "title": "Old City Market, Sanaa (10035332343).jpg",
-  "he": "העיר העתיקה של צנעא",
-  "pending": true
- },
- "2026-11-04|poland-court": {
-  "src": "img/2026-11-04-poland-court.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:09%272022_Constitutional_Tribunal_1.jpg",
-  "license": "CC0",
-  "credit": "PanBe",
-  "title": "09'2022 Constitutional Tribunal 1.jpg",
-  "he": "בניין בית הדין לחוקה בוורשה",
-  "pending": true
+  "he": "העיר העתיקה של צנעא"
  },
  "2026-11-04|horn": {
   "src": "img/2026-11-04-horn.jpg",
@@ -1677,8 +1636,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "george kaguangi",
   "title": "Moyale road.jpg",
-  "he": "העיר מויאלה בגבול קניה",
-  "pending": true
+  "he": "העיר מויאלה בגבול קניה"
  },
  "2026-11-04|sa-election": {
   "src": "img/2026-11-04-sa-election.jpg",
@@ -1686,7 +1644,6 @@
   "license": "CC BY-SA 4.0",
   "credit": "Frankbel",
   "title": "Johannesburg-city-skyline-night.jpg",
-  "he": "קו הרקיע של יוהנסבורג",
-  "pending": true
+  "he": "קו הרקיע של יוהנסבורג"
  }
 }
