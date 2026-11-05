@@ -1726,5 +1726,23 @@
   "credit": "Ank Kumar",
   "title": "Exchange Square (交易廣塲), Hong Kong Stock Exchange, Hong Kong SAR, China (Ank Kumar, Infosys Limited) 03.jpg",
   "he": "מתחם הבורסה בהונג קונג"
+ },
+ "2026-11-05|ai": {
+  "src": "img/2026-11-05-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Yeouido,_a_prominent_finance_district_in_Seoul.jpg",
+  "license": "CC BY 4.0",
+  "credit": "S h y numis",
+  "title": "Skyline of Yeouido, a prominent finance district in Seoul.jpg",
+  "he": "קו הרקיע של יואידו בסיאול",
+  "pending": true
+ },
+ "2026-11-05|sudan": {
+  "src": "img/2026-11-05-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sunset_on_the_rising_city,_Addis_Ababa_-_Flickr_-_jeanotr.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Jean Rebiffé from Addis Ababa, Ethiopia",
+  "title": "Sunset on the rising city, Addis Ababa - Flickr - jeanotr.jpg",
+  "he": "קו הרקיע של אדיס אבבה",
+  "pending": true
  }
 }
