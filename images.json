@@ -1662,5 +1662,95 @@
  },
  "2026-11-04|poland-court": {
   "none": true
+ },
+ "2026-11-05|us-midterms": {
+  "src": "img/2026-11-05-us-midterms.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-05|hormuz": {
+  "src": "img/2026-11-05-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בלב ים",
+  "pending": true
+ },
+ "2026-11-05|ai": {
+  "src": "img/2026-11-05-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yeouido_Skyline_seen_Yongsan_Station_2023.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Ox1997cow",
+  "title": "Yeouido Skyline seen Yongsan Station 2023.jpg",
+  "he": "קו הרקיע של יואידו בסיאול",
+  "pending": true
+ },
+ "2026-11-05|shekel": {
+  "src": "img/2026-11-05-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-05|gold": {
+  "src": "img/2026-11-05-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ibex73",
+  "title": "Gold ingot and bar of Banque de France.jpg",
+  "he": "מטילי זהב",
+  "pending": true
+ },
+ "2026-11-05|sudan": {
+  "src": "img/2026-11-05-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Addis_Ababa_skyline.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Simfan34",
+  "title": "Addis Ababa skyline.jpg",
+  "he": "קו הרקיע של אדיס אבבה",
+  "pending": true
+ },
+ "2026-11-05|ratehikes": {
+  "src": "img/2026-11-05-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-05|venezuela": {
+  "src": "img/2026-11-05-venezuela.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Caracas_skyline_and_Avila_mountain_from_my_penthouse.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Flauta",
+  "title": "Caracas skyline and Avila mountain from my penthouse.JPG",
+  "he": "קו הרקיע של קראקס",
+  "pending": true
+ },
+ "2026-11-05|nato-east": {
+  "src": "img/2026-11-05-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Olsztyn_2023_034_Old_Town_Hall.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Scotch Mist",
+  "title": "Olsztyn 2023 034 Old Town Hall.jpg",
+  "he": "העיר העתיקה באולשטין שבצפון פולין",
+  "pending": true
+ },
+ "2026-11-05|hk-stocks": {
+  "src": "img/2026-11-05-hk-stocks.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Exchange_Square_(%E4%BA%A4%E6%98%93%E5%BB%A3%E5%A1%B2),_Hong_Kong_Stock_Exchange,_Hong_Kong_SAR,_China_(Ank_Kumar,_Infosys_Limited)_03.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ank Kumar",
+  "title": "Exchange Square (交易廣塲), Hong Kong Stock Exchange, Hong Kong SAR, China (Ank Kumar, Infosys Limited) 03.jpg",
+  "he": "מתחם הבורסה בהונג קונג",
+  "pending": true
  }
 }
