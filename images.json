@@ -1814,5 +1814,14 @@
   "credit": "Wikimedia Commons",
   "title": "Sudan agriculture Landsat.jpg",
   "he": "שטחים חקלאיים לאורך הנילוס בסודן, צילום לוויין"
+ },
+ "2026-11-06|hk-stocks": {
+  "src": "img/2026-11-06-hk-stocks.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Yeouido,_a_prominent_finance_district_in_Seoul.jpg",
+  "license": "CC BY 4.0",
+  "credit": "S h y numis",
+  "title": "Skyline of Yeouido, a prominent finance district in Seoul.jpg",
+  "he": "קו הרקיע של רובע יואידו בסיאול",
+  "pending": true
  }
 }
