@@ -1742,5 +1742,95 @@
   "credit": "Jean Rebiffé from Addis Ababa, Ethiopia",
   "title": "Sunset on the rising city, Addis Ababa - Flickr - jeanotr.jpg",
   "he": "שקיעה מעל אדיס אבבה"
+ },
+ "2026-11-06|ai": {
+  "src": "img/2026-11-06-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-06|hk-stocks": {
+  "src": "img/2026-11-06-hk-stocks.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yeouido_Skyline_seen_Yongsan_Station_2023.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Ox1997cow",
+  "title": "Yeouido Skyline seen Yongsan Station 2023.jpg",
+  "he": "קו הרקיע של רובע יואידו בסיאול",
+  "pending": true
+ },
+ "2026-11-06|hormuz": {
+  "src": "img/2026-11-06-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בלב ים",
+  "pending": true
+ },
+ "2026-11-06|shekel": {
+  "src": "img/2026-11-06-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-06|ratehikes": {
+  "src": "img/2026-11-06-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-06|boe": {
+  "src": "img/2026-11-06-boe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Diliff",
+  "title": "Bank of England Building, London, UK - Diliff.jpg",
+  "he": "בניין בנק אנגליה בלונדון",
+  "pending": true
+ },
+ "2026-11-06|yemen": {
+  "src": "img/2026-11-06-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Old_City_Market,_Sanaa_(10035332343).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Rod Waddington from Kergunyah, Australia",
+  "title": "Old City Market, Sanaa (10035332343).jpg",
+  "he": "העיר העתיקה של צנעא",
+  "pending": true
+ },
+ "2026-11-06|syria": {
+  "src": "img/2026-11-06-syria.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Umayyad_Mosque,_Damascus.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Bernard Gagnon",
+  "title": "Umayyad Mosque, Damascus.jpg",
+  "he": "המסגד האומיי בדמשק",
+  "pending": true
+ },
+ "2026-11-06|ebola": {
+  "src": "img/2026-11-06-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:World_Health_Organisation_headquarters,_Geneva,_north_and_west_sides_2007.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Yann Forget",
+  "title": "World Health Organisation headquarters, Geneva, north and west sides 2007.jpg",
+  "he": "מטה ארגון הבריאות העולמי בז׳נבה",
+  "pending": true
+ },
+ "2026-11-06|sudan": {
+  "src": "img/2026-11-06-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sudan_agriculture_Landsat.jpg",
+  "license": "Public domain",
+  "credit": "Wikimedia Commons",
+  "title": "Sudan agriculture Landsat.jpg",
+  "he": "הנילוס הכחול בסודן",
+  "pending": true
  }
 }
