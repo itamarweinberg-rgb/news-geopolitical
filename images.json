@@ -1822,5 +1822,104 @@
   "credit": "S h y numis",
   "title": "Skyline of Yeouido, a prominent finance district in Seoul.jpg",
   "he": "קו הרקיע של רובע יואידו בסיאול"
+ },
+ "2026-11-07|ratehikes": {
+  "src": "img/2026-11-07-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-07|iran": {
+  "src": "img/2026-11-07-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Azadi_Tower_at_night_in_low_angle.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "بهادر های زاده",
+  "title": "Azadi Tower at night in low angle.jpg",
+  "he": "מגדל אזאדי בטהרן",
+  "pending": true
+ },
+ "2026-11-07|mecca-pact": {
+  "src": "img/2026-11-07-mecca-pact.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Grand_National_Assembly_of_Turkey_MPs_in_June_2015.jpg",
+  "license": "Public domain",
+  "credit": "Yıldız Yazıcıoğlu",
+  "title": "Grand National Assembly of Turkey MPs in June 2015.jpg",
+  "he": "בניין הפרלמנט הטורקי באנקרה",
+  "pending": true
+ },
+ "2026-11-07|paraguay": {
+  "src": "img/2026-11-07-paraguay.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Palacio_de_los_L%C3%B3pez_Asunci%C3%B3n_1.jpg",
+  "license": "CC0",
+  "credit": "MosheA",
+  "title": "Palacio de los López Asunción 1.jpg",
+  "he": "ארמון הנשיאות באסונסיון",
+  "pending": true
+ },
+ "2026-11-07|hormuz": {
+  "src": "img/2026-11-07-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים",
+  "pending": true
+ },
+ "2026-11-07|ai": {
+  "src": "img/2026-11-07-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BalticServers_data_center.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "BalticServers.com",
+  "title": "BalticServers data center.jpg",
+  "he": "חדר שרתים במרכז נתונים",
+  "pending": true
+ },
+ "2026-11-07|ukraine": {
+  "src": "img/2026-11-07-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Moscow_oil_refinery_(52205614839).jpg",
+  "license": "CC BY 2.0",
+  "credit": "kishjar? from Moscow, Russia",
+  "title": "Moscow oil refinery (52205614839).jpg",
+  "he": "בית זיקוק נפט ברוסיה",
+  "pending": true
+ },
+ "2026-11-07|trade": {
+  "src": "img/2026-11-07-trade.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Auditorium_of_the_Great_Hall_of_the_People-20131231-RM-192738.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ermell",
+  "title": "Auditorium of the Great Hall of the People-20131231-RM-192738.jpg",
+  "he": "היכל העם בבייג׳ינג",
+  "pending": true
+ },
+ "2026-11-07|china": {
+  "src": "img/2026-11-07-china.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "CEphoto, Uwe Aranas",
+  "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
+  "he": "מגדל טאיפיי 101",
+  "pending": true
+ },
+ "2026-11-07|gold": {
+  "src": "img/2026-11-07-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Diliff",
+  "title": "Bank of England Building, London, UK - Diliff.jpg",
+  "he": "בניין בנק אנגליה בלונדון",
+  "pending": true
+ },
+ "2026-11-07|tanzania": {
+  "src": "img/2026-11-07-tanzania.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Dar_Es_Salaam_Skyline_(34011488084).jpg",
+  "license": "CC BY 2.0",
+  "credit": "David Stanley from Nanaimo, Canada",
+  "title": "Dar Es Salaam Skyline (34011488084).jpg",
+  "he": "קו הרקיע של דאר א-סלאם",
+  "pending": true
  }
 }
