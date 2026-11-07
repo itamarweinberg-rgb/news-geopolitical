@@ -1904,12 +1904,6 @@
   "he": "קו הרקיע של דאר א-סלאם"
  },
  "2026-11-07|mecca-pact": {
-  "src": "img/2026-11-07-mecca-pact.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Grand_National_Assembly_of_Turkey_MPs.jpg",
-  "license": "Public domain",
-  "credit": "Yıldız Yazıcıoğlu (VOA)",
-  "title": "Grand National Assembly of Turkey MPs.jpg",
-  "he": "בניין הפרלמנט הטורקי באנקרה",
-  "pending": true
+  "none": true
  }
 }
