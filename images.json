@@ -1905,5 +1905,95 @@
  },
  "2026-11-07|mecca-pact": {
   "none": true
+ },
+ "2026-11-08|iran": {
+  "src": "img/2026-11-08-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Baku_-_Baku8423.jpg",
+  "license": "CC0",
+  "credit": "lumoplank",
+  "title": "Baku - Baku8423.jpg",
+  "he": "ספינת משא בים הכספי",
+  "pending": true
+ },
+ "2026-11-08|yemen": {
+  "src": "img/2026-11-08-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oil_storage_tanks,_Purfleet_-_geograph.org.uk_-_7146167.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "David Martin",
+  "title": "Oil storage tanks, Purfleet - geograph.org.uk - 7146167.jpg",
+  "he": "מכלי אחסון נפט",
+  "pending": true
+ },
+ "2026-11-08|ukraine": {
+  "src": "img/2026-11-08-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pivnichnyi_Bridge_-_Kyiv_-_2021.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Фазель Налгієв",
+  "title": "Pivnichnyi Bridge - Kyiv - 2021.jpg",
+  "he": "הגשר הצפוני מעל הדנייפר בקייב",
+  "pending": true
+ },
+ "2026-11-08|rare-earths": {
+  "src": "img/2026-11-08-rare-earths.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:RE_mine_in_Baiyun_Ebo,_Inner_Mongolia.jpg",
+  "license": "Public domain",
+  "credit": "NASA/GSFC/METI/ERSDAC/JAROS & U.S. / Japan ASTER Science Team",
+  "title": "RE mine in Baiyun Ebo, Inner Mongolia.jpg",
+  "he": "מכרה המתכות הנדירות באיאן אובו",
+  "pending": true
+ },
+ "2026-11-08|france-debt": {
+  "src": "img/2026-11-08-france-debt.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:H%C3%B4tel_de_Matignon_2017.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ScareCriterion12",
+  "title": "Hôtel de Matignon 2017.jpg",
+  "he": "מלון מטיניון, משכן ראש ממשלת צרפת",
+  "pending": true
+ },
+ "2026-11-08|ebola": {
+  "src": "img/2026-11-08-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ituri_Province,_Bunia,_Camp_Ndoromo-_Medal_Award_ceremony_for_Bangladeshi_Peacekeepers_who_served_the_peacekeeping_Mission_in_Ituri._(24458565398).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "MONUSCO Photos",
+  "title": "Ituri Province, Bunia, Camp Ndoromo- Medal Award ceremony for Bangladeshi Peacekeepers who served the peacekeeping Mission in Ituri. (24458565398).jpg",
+  "he": "העיר בוניה שבמחוז איטורי",
+  "pending": true
+ },
+ "2026-11-08|china-mna": {
+  "src": "img/2026-11-08-china-mna.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:ASEA_and_ABB_industrial_robots.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dependability",
+  "title": "ASEA and ABB industrial robots.jpg",
+  "he": "רובוט תעשייתי של ABB",
+  "pending": true
+ },
+ "2026-11-08|brazil": {
+  "src": "img/2026-11-08-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Discurso_do_presidente_do_Tribunal_Superior_Eleitoral,_Nelson_Hungria,_tendo_%C3%A0_sua_direita_o_vice-presidente_da_Rep%C3%BAblica_Jo%C3%A3o_Goulart_-_BR_RJANRIO_PH_0_FOT_00694_0069,_Acervo_do_Arquivo_Nacional.jpg",
+  "license": "Public domain",
+  "credit": "Agência Nacional",
+  "title": "Discurso do presidente do Tribunal Superior Eleitoral, Nelson Hungria, tendo à sua direita o vice-presidente da República João Goulart - BR RJANRIO PH 0 FOT 00694 0069, Acervo do Arquivo Nacional.jpg",
+  "he": "בניין בית הדין העליון לבחירות בברזיליה",
+  "pending": true
+ },
+ "2026-11-08|sudan": {
+  "src": "img/2026-11-08-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Near_the_sunset.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Bukasha",
+  "title": "Near the sunset.jpg",
+  "he": "העיר כדוגלי בדרום כורדופאן",
+  "pending": true
+ },
+ "2026-11-08|cuba": {
+  "src": "img/2026-11-08-cuba.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Havana_-_Harbor_entrance.jpg",
+  "license": "Public domain",
+  "credit": "Roberts & Co., Havana (publisher)",
+  "title": "Havana - Harbor entrance.jpg",
+  "he": "נמל הוואנה",
+  "pending": true
  }
 }
