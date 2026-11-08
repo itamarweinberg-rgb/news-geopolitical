@@ -1953,5 +1953,41 @@
   "credit": "Roberts & Co., Havana (publisher)",
   "title": "Havana - Harbor entrance.jpg",
   "he": "הכניסה לנמל הוואנה, גלויה ישנה"
+ },
+ "2026-11-08|iran": {
+  "src": "img/2026-11-08-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Qeshm_Island_Iran.jpg",
+  "license": "CC BY-SA 3.0 igo",
+  "credit": "Envisat satellite",
+  "title": "Qeshm Island Iran.jpg",
+  "he": "חוף האי קשם במצר הורמוז",
+  "pending": true
+ },
+ "2026-11-08|ebola": {
+  "src": "img/2026-11-08-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bunia,_Ituri_Province,_DR_Congo-_MONUSCO_Guatemala_and_Bangladesh_Contingents_ready_to_confront_illegal_armed_groups.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "MONUSCO Photos",
+  "title": "Bunia, Ituri Province, DR Congo- MONUSCO Guatemala and Bangladesh Contingents ready to confront illegal armed groups.jpg",
+  "he": "העיר בוניה שבמחוז איטורי",
+  "pending": true
+ },
+ "2026-11-08|brazil": {
+  "src": "img/2026-11-08-brazil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PalaciodoplanaltoFR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dasfour2022",
+  "title": "PalaciodoplanaltoFR.jpg",
+  "he": "ארמון פלנלטו, משכן נשיא ברזיל",
+  "pending": true
+ },
+ "2026-11-08|sudan": {
+  "src": "img/2026-11-08-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Confluence_of_Nile_(Khartoum)_001.jpg",
+  "license": "CC BY-SA 3.0 cz",
+  "credit": "Petr Adam Dohnálek",
+  "title": "Confluence of Nile (Khartoum) 001.jpg",
+  "he": "מפגש הנילוסים בחרטום",
+  "pending": true
  }
 }
