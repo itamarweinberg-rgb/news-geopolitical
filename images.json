@@ -2039,5 +2039,14 @@
   "credit": "Flocci Nivis",
   "title": "20250708 Teide 03.jpg",
   "he": "הר הגעש טיידה באיים הקנריים"
+ },
+ "2026-11-09|ukraine": {
+  "src": "img/2026-11-09-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kyiv_skyline_(15688086793).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Sergey Galyonkin from Raleigh, USA",
+  "title": "Kyiv skyline (15688086793).jpg",
+  "he": "קו הרקיע של קייב",
+  "pending": true
  }
 }
