@@ -2054,8 +2054,7 @@
   "license": "CC BY 4.0",
   "credit": "P. Hughes",
   "title": "Doha - West Bay Skyline 03.jpg",
-  "he": "קו הרקיע של דוחא",
-  "pending": true
+  "he": "קו הרקיע של דוחא"
  },
  "2026-11-10|rare-earths": {
   "src": "img/2026-11-10-rare-earths.jpg",
@@ -2063,8 +2062,7 @@
   "license": "Public domain",
   "credit": "NASA/GSFC/METI/ERSDAC/JAROS & U.S. / Japan ASTER Science Team",
   "title": "RE mine in Baiyun Ebo, Inner Mongolia.jpg",
-  "he": "מכרה באיאן אובו במונגוליה הפנימית",
-  "pending": true
+  "he": "מכרה באיאן אובו במונגוליה הפנימית, צילום לוויין"
  },
  "2026-11-10|ukraine": {
   "src": "img/2026-11-10-ukraine.jpg",
@@ -2072,8 +2070,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "FritzDaCat",
   "title": "Abu Dhabi Skyline fron Corniche Rd.JPG",
-  "he": "קו הרקיע של אבו דאבי",
-  "pending": true
+  "he": "קו הרקיע של אבו דאבי"
  },
  "2026-11-10|ratehikes": {
   "src": "img/2026-11-10-ratehikes.jpg",
@@ -2081,8 +2078,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-11-10|hormuz": {
   "src": "img/2026-11-10-hormuz.jpg",
@@ -2090,8 +2086,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה לניירות ערך בניו יורק",
-  "pending": true
+  "he": "בניין הבורסה לניירות ערך בניו יורק"
  },
  "2026-11-10|ai": {
   "src": "img/2026-11-10-ai.jpg",
@@ -2099,8 +2094,7 @@
   "license": "CC BY 2.0",
   "credit": "Will Buckner",
   "title": "Nvidia sign.jpg",
-  "he": "מטה אנבידיה בסנטה קלרה",
-  "pending": true
+  "he": "מטה אנבידיה בסנטה קלרה"
  },
  "2026-11-10|horn": {
   "src": "img/2026-11-10-horn.jpg",
@@ -2108,8 +2102,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "george kaguangi",
   "title": "Moyale road.jpg",
-  "he": "העיירה מויאלה בצפון קניה",
-  "pending": true
+  "he": "העיירה מויאלה בצפון קניה"
  },
  "2026-11-10|climate": {
   "src": "img/2026-11-10-climate.jpg",
@@ -2117,8 +2110,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "REHBER0770",
   "title": "Antalya kaleiçi 2.jpg",
-  "he": "הנמל העתיק של אנטליה",
-  "pending": true
+  "he": "הנמל העתיק של אנטליה"
  },
  "2026-11-10|yemen": {
   "src": "img/2026-11-10-yemen.jpg",
@@ -2126,7 +2118,9 @@
   "license": "CC BY-SA 4.0",
   "credit": "B.alotaby",
   "title": "Riyadh Skyline.jpg",
-  "he": "מגדל קינגדום סנטר בריאד",
-  "pending": true
+  "he": "קו הרקיע של ריאד"
+ },
+ "2026-11-10|france-debt": {
+  "none": true
  }
 }
