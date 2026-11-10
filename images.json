@@ -2047,5 +2047,86 @@
   "credit": "Sergey Galyonkin from Raleigh, USA",
   "title": "Kyiv skyline (15688086793).jpg",
   "he": "קו הרקיע של קייב"
+ },
+ "2026-11-10|iran": {
+  "src": "img/2026-11-10-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Doha_-_West_Bay_Skyline_03.jpg",
+  "license": "CC BY 4.0",
+  "credit": "P. Hughes",
+  "title": "Doha - West Bay Skyline 03.jpg",
+  "he": "קו הרקיע של דוחא",
+  "pending": true
+ },
+ "2026-11-10|rare-earths": {
+  "src": "img/2026-11-10-rare-earths.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:RE_mine_in_Baiyun_Ebo,_Inner_Mongolia.jpg",
+  "license": "Public domain",
+  "credit": "NASA/GSFC/METI/ERSDAC/JAROS & U.S. / Japan ASTER Science Team",
+  "title": "RE mine in Baiyun Ebo, Inner Mongolia.jpg",
+  "he": "מכרה באיאן אובו במונגוליה הפנימית",
+  "pending": true
+ },
+ "2026-11-10|ukraine": {
+  "src": "img/2026-11-10-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Abu_Dhabi_Skyline_fron_Corniche_Rd.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "FritzDaCat",
+  "title": "Abu Dhabi Skyline fron Corniche Rd.JPG",
+  "he": "קו הרקיע של אבו דאבי",
+  "pending": true
+ },
+ "2026-11-10|ratehikes": {
+  "src": "img/2026-11-10-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-10|hormuz": {
+  "src": "img/2026-11-10-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-10|ai": {
+  "src": "img/2026-11-10-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Will Buckner",
+  "title": "Nvidia sign.jpg",
+  "he": "מטה אנבידיה בסנטה קלרה",
+  "pending": true
+ },
+ "2026-11-10|horn": {
+  "src": "img/2026-11-10-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Moyale_road.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "george kaguangi",
+  "title": "Moyale road.jpg",
+  "he": "העיירה מויאלה בצפון קניה",
+  "pending": true
+ },
+ "2026-11-10|climate": {
+  "src": "img/2026-11-10-climate.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Antalya_kalei%C3%A7i_2.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "REHBER0770",
+  "title": "Antalya kaleiçi 2.jpg",
+  "he": "הנמל העתיק של אנטליה",
+  "pending": true
+ },
+ "2026-11-10|yemen": {
+  "src": "img/2026-11-10-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "B.alotaby",
+  "title": "Riyadh Skyline.jpg",
+  "he": "מגדל קינגדום סנטר בריאד",
+  "pending": true
  }
 }
