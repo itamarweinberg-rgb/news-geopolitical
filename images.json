@@ -2188,13 +2188,7 @@
   "he": "נמל התעופה או. אר. טמבו ביוהנסבורג"
  },
  "2026-11-11|china-economy": {
-  "src": "img/2026-11-11-china-economy.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Yantian_International_Container_Terminal_19-10-2026(2).jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "LN9267",
-  "title": "Yantian International Container Terminal 19-10-2026(2).jpg",
-  "he": "נמל המכולות יאנטיאן בשנזן",
-  "pending": true
+  "none": true
  },
  "2026-11-11|gaza": {
   "src": "img/2026-11-11-gaza.jpg",
@@ -2202,17 +2196,10 @@
   "license": "CC BY 2.0",
   "credit": "Jelger Groeneveld",
   "title": "Kerem Shalom goods scanner.jpg",
-  "he": "מעבר כרם שלום",
-  "pending": true
+  "he": "סורק המטענים במעבר כרם שלום"
  },
  "2026-11-11|yemen": {
-  "src": "img/2026-11-11-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Views_of_land_seen_in_the_Swallows_voyage_up_the_Red_Sea_in_1776._Plate_II_-_by_AD_(Alexander_Dalrymple)_;_Palmer_sc._-_btv1b532624287.jpg",
-  "license": "Public domain",
-  "credit": "Dalrymple, Alexander (1737-1808). Éditeur scientifique\nPalmer, William (17..-18.",
-  "title": "Views of land seen in the Swallows voyage up the Red Sea in 1776. Plate II - by AD (Alexander Dalrymple) ; Palmer sc. - btv1b532624287.jpg",
-  "he": "חוף הים האדום בינבוע",
-  "pending": true
+  "none": true
  },
  "2026-11-11|venezuela": {
   "src": "img/2026-11-11-venezuela.jpg",
@@ -2220,7 +2207,6 @@
   "license": "CC0",
   "credit": "Wilfredor",
   "title": "General Rafael Urdaneta Bridge view from the lake to Cabimas side.jpg",
-  "he": "אגם מרקאיבו במערב ונצואלה",
-  "pending": true
+  "he": "הגשר מעל אגם מרקאיבו בוונצואלה"
  }
 }
