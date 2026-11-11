@@ -2122,5 +2122,113 @@
  },
  "2026-11-10|france-debt": {
   "none": true
+ },
+ "2026-11-11|ratehikes": {
+  "src": "img/2026-11-11-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-11|iran": {
+  "src": "img/2026-11-11-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Doha_-_West_Bay_Skyline_04.jpg",
+  "license": "CC BY 4.0",
+  "credit": "P. Hughes",
+  "title": "Doha - West Bay Skyline 04.jpg",
+  "he": "קו הרקיע של דוחא",
+  "pending": true
+ },
+ "2026-11-11|ukraine": {
+  "src": "img/2026-11-11-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Abu_Dhabi_Skyline_fron_Corniche_Rd.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "FritzDaCat",
+  "title": "Abu Dhabi Skyline fron Corniche Rd.JPG",
+  "he": "קו הרקיע של אבו דאבי",
+  "pending": true
+ },
+ "2026-11-11|eu": {
+  "src": "img/2026-11-11-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Europa_Building_in_Brussels.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "PPEscientist",
+  "title": "Europa Building in Brussels.jpg",
+  "he": "בניין אירופה, מושב המועצה האירופית בבריסל",
+  "pending": true
+ },
+ "2026-11-11|china-economy": {
+  "src": "img/2026-11-11-china-economy.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Yantian_International_Container_Terminal_19-10-2026(10).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "LN9267",
+  "title": "Yantian International Container Terminal 19-10-2026(10).jpg",
+  "he": "נמל המכולות יאנטיאן בשנזן",
+  "pending": true
+ },
+ "2026-11-11|gaza": {
+  "src": "img/2026-11-11-gaza.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kerem_Shalom_border_crossing_-_US_Shannon_visit_(29233312732).jpg",
+  "license": "CC BY 2.0",
+  "credit": "U.S. Embassy Jerusalem",
+  "title": "Kerem Shalom border crossing - US Shannon visit (29233312732).jpg",
+  "he": "מעבר כרם שלום",
+  "pending": true
+ },
+ "2026-11-11|yemen": {
+  "src": "img/2026-11-11-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sketch_of_part_of_the_red_sea,_1776_;_Sketch_of_Bareedy,_1776_-_by_Dalrymple._Harbour_of_Bareedy_on_the_coast_of_Arabia_in_the_Red_Sea,_1776_-_by_George_Trotter_-_btv1b532619206.jpg",
+  "license": "Public domain",
+  "credit": "Dalrymple, Alexander (1737-1808). Cartographe\nTrotter, George (17..-17..). Carto",
+  "title": "Sketch of part of the red sea, 1776 ; Sketch of Bareedy, 1776 - by Dalrymple. Harbour of Bareedy on the coast of Arabia in the Red Sea, 1776 - by George Trotter - btv1b532619206.jpg",
+  "he": "חוף הים האדום בינבוע",
+  "pending": true
+ },
+ "2026-11-11|china": {
+  "src": "img/2026-11-11-china.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "CEphoto, Uwe Aranas",
+  "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
+  "he": "מגדל טאיפיי 101",
+  "pending": true
+ },
+ "2026-11-11|indonesia": {
+  "src": "img/2026-11-11-indonesia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Istana_Merdeka.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "MichaelJLowe",
+  "title": "Istana Merdeka.jpg",
+  "he": "ארמון מרדקה, ארמון הנשיאות בג׳קרטה",
+  "pending": true
+ },
+ "2026-11-11|korea": {
+  "src": "img/2026-11-11-korea.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Busan_Container_Terminal_2006.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Niels Johannes",
+  "title": "Busan Container Terminal 2006.jpg",
+  "he": "נמל המכולות של בוסאן",
+  "pending": true
+ },
+ "2026-11-11|venezuela": {
+  "src": "img/2026-11-11-venezuela.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Iguana_in_the_Maracaibo_wild.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Wilfredor",
+  "title": "Iguana in the Maracaibo wild.jpg",
+  "he": "אגם מרקאיבו במערב ונצואלה",
+  "pending": true
+ },
+ "2026-11-11|africa-recruits": {
+  "src": "img/2026-11-11-africa-recruits.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Johannesburg_O.R._Tambo_International_Airport_03.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ad Meskens\nYou are free to use this picture for any purpose as long as you credi",
+  "title": "Johannesburg O.R. Tambo International Airport 03.jpg",
+  "he": "נמל התעופה או. אר. טמבו ביוהנסבורג",
+  "pending": true
  }
 }
