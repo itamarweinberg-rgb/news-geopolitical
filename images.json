@@ -2264,5 +2264,32 @@
   "credit": "Grace Tshiyonga",
   "title": "Lac Kivu 2.jpg",
   "he": "אגם קיבו במזרח קונגו"
+ },
+ "2026-11-12|ai": {
+  "src": "img/2026-11-12-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Racks_Amravati_Data_Center.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "PiDatacenters",
+  "title": "Racks Amravati Data Center.jpg",
+  "he": "ארונות שרתים במרכז נתונים",
+  "pending": true
+ },
+ "2026-11-12|uk-bases": {
+  "src": "img/2026-11-12-uk-bases.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:KC-135_-_RAF_Mildenhall_2008_(3124254053).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Tim Felce (Airwolfhound)",
+  "title": "KC-135 - RAF Mildenhall 2008 (3124254053).jpg",
+  "he": "בסיס חיל האוויר מילדנהול באנגליה",
+  "pending": true
+ },
+ "2026-11-12|venezuela": {
+  "src": "img/2026-11-12-venezuela.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pal%C3%A1cio_do_Planalto_em_2020.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Senado Federal",
+  "title": "Palácio do Planalto em 2020.jpg",
+  "he": "ארמון הנשיאות פלנלטו בברזיליה",
+  "pending": true
  }
 }
