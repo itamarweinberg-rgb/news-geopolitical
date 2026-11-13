@@ -2352,5 +2352,23 @@
   "credit": "ISS Expedition 25 crew",
   "title": "Merowe Dam, Nile River, Republic of the Sudan.JPG",
   "he": "סכר מרואה בסודן"
+ },
+ "2026-11-13|ebola": {
+  "src": "img/2026-11-13-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chuduku_in_Goma.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Izzobae",
+  "title": "Chuduku in Goma.jpg",
+  "he": "העיר גומה במזרח קונגו",
+  "pending": true
+ },
+ "2026-11-13|sahel": {
+  "src": "img/2026-11-13-sahel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Niamey,_Niger_River_bank.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "https://www.flickr.com/people/rolandh/ Roland (diasUndKompott)",
+  "title": "Niamey, Niger River bank.jpg",
+  "he": "נהר הניז׳ר בניאמיי",
+  "pending": true
  }
 }
