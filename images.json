@@ -2288,5 +2288,95 @@
   "credit": "Senado Federal",
   "title": "Palácio do Planalto em 2020.jpg",
   "he": "ארמון הנשיאות פלנלטו בברזיליה"
+ },
+ "2026-11-13|ai": {
+  "src": "img/2026-11-13-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Will Buckner",
+  "title": "Nvidia sign.jpg",
+  "he": "מטה אנבידיה בסנטה קלרה",
+  "pending": true
+ },
+ "2026-11-13|bonds": {
+  "src": "img/2026-11-13-bonds.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-13|hormuz": {
+  "src": "img/2026-11-13-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+  "license": "Public domain",
+  "credit": "NASA",
+  "title": "STS004-37-716 - Strait of Hormuz.jpg",
+  "he": "מצר הורמוז מהחלל",
+  "pending": true
+ },
+ "2026-11-13|ukraine": {
+  "src": "img/2026-11-13-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vista_general_del_Kremlin,_Mosc%C3%BA,_Rusia,_2016-10-03,_DD_18-19_HDR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Diego Delso",
+  "title": "Vista general del Kremlin, Moscú, Rusia, 2016-10-03, DD 18-19 HDR.jpg",
+  "he": "הקרמלין במוסקבה",
+  "pending": true
+ },
+ "2026-11-13|baltic-oil": {
+  "src": "img/2026-11-13-baltic-oil.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Novotrans_Ust-Luga_4.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Пресс-служба компании «Новотранс»",
+  "title": "Novotrans Ust-Luga 4.jpg",
+  "he": "נמל אוסט-לוגה",
+  "pending": true
+ },
+ "2026-11-13|shekel": {
+  "src": "img/2026-11-13-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-13|eu": {
+  "src": "img/2026-11-13-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chapel_Royal_Interior_1,_Dublin_Castle,_Dublin,_Ireland_-_Diliff.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Diliff",
+  "title": "Chapel Royal Interior 1, Dublin Castle, Dublin, Ireland - Diliff.jpg",
+  "he": "טירת דבלין",
+  "pending": true
+ },
+ "2026-11-13|ebola": {
+  "src": "img/2026-11-13-ebola.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Goma_PHOTO_DU_JOUR_DU_SAMEDI_21_MAI_2022.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "MONUSCO Photos",
+  "title": "Goma PHOTO DU JOUR DU SAMEDI 21 MAI 2022.jpg",
+  "he": "העיר גומה במזרח קונגו",
+  "pending": true
+ },
+ "2026-11-13|sahel": {
+  "src": "img/2026-11-13-sahel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Niger_river_in_Niamey.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "diasUndKompott",
+  "title": "Niger river in Niamey.jpg",
+  "he": "נהר הניז׳ר בניאמיי",
+  "pending": true
+ },
+ "2026-11-13|sudan": {
+  "src": "img/2026-11-13-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Merowe_Dam,_Nile_River,_Republic_of_the_Sudan.JPG",
+  "license": "Public domain",
+  "credit": "ISS Expedition 25 crew",
+  "title": "Merowe Dam, Nile River, Republic of the Sudan.JPG",
+  "he": "סכר מרואה בסודן",
+  "pending": true
  }
 }
