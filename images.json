@@ -2295,8 +2295,7 @@
   "license": "CC BY 2.0",
   "credit": "Will Buckner",
   "title": "Nvidia sign.jpg",
-  "he": "מטה אנבידיה בסנטה קלרה",
-  "pending": true
+  "he": "מטה אנבידיה בסנטה קלרה"
  },
  "2026-11-13|bonds": {
   "src": "img/2026-11-13-bonds.jpg",
@@ -2304,8 +2303,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-11-13|hormuz": {
   "src": "img/2026-11-13-hormuz.jpg",
@@ -2313,8 +2311,7 @@
   "license": "Public domain",
   "credit": "NASA",
   "title": "STS004-37-716 - Strait of Hormuz.jpg",
-  "he": "מצר הורמוז מהחלל",
-  "pending": true
+  "he": "מצר הורמוז מהחלל"
  },
  "2026-11-13|ukraine": {
   "src": "img/2026-11-13-ukraine.jpg",
@@ -2322,8 +2319,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Diego Delso",
   "title": "Vista general del Kremlin, Moscú, Rusia, 2016-10-03, DD 18-19 HDR.jpg",
-  "he": "הקרמלין במוסקבה",
-  "pending": true
+  "he": "הקרמלין במוסקבה"
  },
  "2026-11-13|baltic-oil": {
   "src": "img/2026-11-13-baltic-oil.jpg",
@@ -2331,8 +2327,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Пресс-служба компании «Новотранс»",
   "title": "Novotrans Ust-Luga 4.jpg",
-  "he": "נמל אוסט-לוגה",
-  "pending": true
+  "he": "נמל אוסט-לוגה"
  },
  "2026-11-13|shekel": {
   "src": "img/2026-11-13-shekel.jpg",
@@ -2340,8 +2335,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-11-13|eu": {
   "src": "img/2026-11-13-eu.jpg",
@@ -2349,26 +2343,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Diliff",
   "title": "Chapel Royal Interior 1, Dublin Castle, Dublin, Ireland - Diliff.jpg",
-  "he": "טירת דבלין",
-  "pending": true
- },
- "2026-11-13|ebola": {
-  "src": "img/2026-11-13-ebola.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Goma_PHOTO_DU_JOUR_DU_SAMEDI_21_MAI_2022.jpg",
-  "license": "CC BY-SA 2.0",
-  "credit": "MONUSCO Photos",
-  "title": "Goma PHOTO DU JOUR DU SAMEDI 21 MAI 2022.jpg",
-  "he": "העיר גומה במזרח קונגו",
-  "pending": true
- },
- "2026-11-13|sahel": {
-  "src": "img/2026-11-13-sahel.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Niger_river_in_Niamey.jpg",
-  "license": "CC BY-SA 2.0",
-  "credit": "diasUndKompott",
-  "title": "Niger river in Niamey.jpg",
-  "he": "נהר הניז׳ר בניאמיי",
-  "pending": true
+  "he": "הקפלה המלכותית בטירת דבלין"
  },
  "2026-11-13|sudan": {
   "src": "img/2026-11-13-sudan.jpg",
@@ -2376,7 +2351,6 @@
   "license": "Public domain",
   "credit": "ISS Expedition 25 crew",
   "title": "Merowe Dam, Nile River, Republic of the Sudan.JPG",
-  "he": "סכר מרואה בסודן",
-  "pending": true
+  "he": "סכר מרואה בסודן"
  }
 }
