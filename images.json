@@ -2354,13 +2354,7 @@
   "he": "סכר מרואה בסודן"
  },
  "2026-11-13|ebola": {
-  "src": "img/2026-11-13-ebola.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Chuduku_in_Goma.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Izzobae",
-  "title": "Chuduku in Goma.jpg",
-  "he": "העיר גומה במזרח קונגו",
-  "pending": true
+  "none": true
  },
  "2026-11-13|sahel": {
   "src": "img/2026-11-13-sahel.jpg",
@@ -2368,7 +2362,6 @@
   "license": "CC BY-SA 2.0",
   "credit": "https://www.flickr.com/people/rolandh/ Roland (diasUndKompott)",
   "title": "Niamey, Niger River bank.jpg",
-  "he": "נהר הניז׳ר בניאמיי",
-  "pending": true
+  "he": "נהר הניז׳ר בניאמיי"
  }
 }
