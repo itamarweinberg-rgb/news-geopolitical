@@ -2363,5 +2363,95 @@
   "credit": "https://www.flickr.com/people/rolandh/ Roland (diasUndKompott)",
   "title": "Niamey, Niger River bank.jpg",
   "he": "נהר הניז׳ר בניאמיי"
+ },
+ "2026-11-14|ai": {
+  "src": "img/2026-11-14-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Will Buckner",
+  "title": "Nvidia sign.jpg",
+  "he": "מטה אנבידיה בסנטה קלרה",
+  "pending": true
+ },
+ "2026-11-14|ratehikes": {
+  "src": "img/2026-11-14-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-14|hormuz": {
+  "src": "img/2026-11-14-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+  "license": "Public domain",
+  "credit": "NASA",
+  "title": "STS004-37-716 - Strait of Hormuz.jpg",
+  "he": "מצר הורמוז מהחלל",
+  "pending": true
+ },
+ "2026-11-14|shekel": {
+  "src": "img/2026-11-14-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-14|eu": {
+  "src": "img/2026-11-14-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chapel_Royal_Interior_1,_Dublin_Castle,_Dublin,_Ireland_-_Diliff.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Diliff",
+  "title": "Chapel Royal Interior 1, Dublin Castle, Dublin, Ireland - Diliff.jpg",
+  "he": "טירת דבלין",
+  "pending": true
+ },
+ "2026-11-14|india": {
+  "src": "img/2026-11-14-india.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mumbai_Skyline_at_Night.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Cididity Hat",
+  "title": "Mumbai Skyline at Night.jpg",
+  "he": "קו הרקיע של מומבאי",
+  "pending": true
+ },
+ "2026-11-14|indonesia": {
+  "src": "img/2026-11-14-indonesia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Istana_Merdeka.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "MichaelJLowe",
+  "title": "Istana Merdeka.jpg",
+  "he": "ארמון מרדקה, ארמון הנשיאות בג׳קרטה",
+  "pending": true
+ },
+ "2026-11-14|gold": {
+  "src": "img/2026-11-14-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Diliff",
+  "title": "Bank of England Building, London, UK - Diliff.jpg",
+  "he": "בניין בנק אנגליה בלונדון",
+  "pending": true
+ },
+ "2026-11-14|taiwan-malaysia": {
+  "src": "img/2026-11-14-taiwan-malaysia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Penang_Bridge_in_extension.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Marufish from Alor Setar, Malaysia",
+  "title": "Penang Bridge in extension.jpg",
+  "he": "גשר פנאנג במלזיה",
+  "pending": true
+ },
+ "2026-11-14|s-sudan": {
+  "src": "img/2026-11-14-s-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Juba_City.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Rigan123",
+  "title": "Juba City.jpg",
+  "he": "העיר ג׳ובה, בירת דרום סודן",
+  "pending": true
  }
 }
