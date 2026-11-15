@@ -2443,5 +2443,86 @@
   "credit": "Rigan123",
   "title": "Juba City.jpg",
   "he": "העיר ג׳ובה, בירת דרום סודן"
+ },
+ "2026-11-15|iran": {
+  "src": "img/2026-11-15-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_White_House,_Washington,_D.C._USA2.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Diego Delso",
+  "title": "The White House, Washington, D.C. USA2.jpg",
+  "he": "הבית הלבן בוושינגטון",
+  "pending": true
+ },
+ "2026-11-15|hormuz": {
+  "src": "img/2026-11-15-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+  "license": "Public domain",
+  "credit": "NASA",
+  "title": "STS004-37-716 - Strait of Hormuz.jpg",
+  "he": "מצר הורמוז מהחלל",
+  "pending": true
+ },
+ "2026-11-15|shenzhen": {
+  "src": "img/2026-11-15-shenzhen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ping_An_Finance_Centre_Shenzhen_China_(36533732800).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Chris from Shenzhen, China",
+  "title": "Ping An Finance Centre Shenzhen China (36533732800).jpg",
+  "he": "מגדל פינג אן בשנג׳ן",
+  "pending": true
+ },
+ "2026-11-15|yemen": {
+  "src": "img/2026-11-15-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "B.alotaby",
+  "title": "Riyadh Skyline.jpg",
+  "he": "מגדל קינגדום סנטר בריאד",
+  "pending": true
+ },
+ "2026-11-15|turkey-qatar": {
+  "src": "img/2026-11-15-turkey-qatar.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Pond_and_Fence_along_the_Bosporus_Strait,_Dolmabah%C3%A7e_Palace,_Istanbul.jpg",
+  "license": "CC0",
+  "credit": "Julian Lupyan",
+  "title": "Pond and Fence along the Bosporus Strait, Dolmabahçe Palace, Istanbul.jpg",
+  "he": "ארמון דולמהבחצ׳ה באיסטנבול",
+  "pending": true
+ },
+ "2026-11-15|us-aviation": {
+  "src": "img/2026-11-15-us-aviation.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:12_FAA_FEDERAL_AVIATION_ADMINISTRATION_GE_GENERAL_ELECTRIC_COANNULAR_NOZZLE_CONFIGURATIONS_-_NARA_-_17448284.jpg",
+  "license": "Public domain",
+  "credit": "Unknown authorUnknown author or not provided",
+  "title": "12 FAA FEDERAL AVIATION ADMINISTRATION GE GENERAL ELECTRIC COANNULAR NOZZLE CONFIGURATIONS - NARA - 17448284.jpg",
+  "he": "מטה מינהל התעופה הפדרלי בוושינגטון",
+  "pending": true
+ },
+ "2026-11-15|sudan": {
+  "src": "img/2026-11-15-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:SudanCamels.jpg",
+  "license": "Public domain",
+  "credit": "Tropical Photo Stores, G. Karakashian, Khartoum (Sudan)",
+  "title": "SudanCamels.jpg",
+  "he": "העיר אל-עובייד בסודן",
+  "pending": true
+ },
+ "2026-11-15|uk-bases": {
+  "src": "img/2026-11-15-uk-bases.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:F-35A_Lightning_II%27s_land_at_Royal_Air_Force_Lakenheath_(33333775974).jpg",
+  "license": "Public domain",
+  "credit": "US Air Force from USA\n\nTech. Sgt. Matthew Plew/48th Fighter Wing Public Affairs",
+  "title": "F-35A Lightning II's land at Royal Air Force Lakenheath (33333775974).jpg",
+  "he": "בסיס חיל האוויר לייקנהית׳ באנגליה",
+  "pending": true
+ },
+ "2026-11-15|venezuela": {
+  "src": "img/2026-11-15-venezuela.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Iguana_in_the_Maracaibo_wild.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Wilfredor",
+  "title": "Iguana in the Maracaibo wild.jpg",
+  "he": "אגם מרקאיבו בוונצואלה",
+  "pending": true
  }
 }
