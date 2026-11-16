@@ -2569,5 +2569,23 @@
  },
  "2026-11-16|brazil-real": {
   "none": true
+ },
+ "2026-11-16|hormuz": {
+  "src": "img/2026-11-16-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oil_tanker,_gas_tanker_in_the_high_sea_Refinery_Industry_cargo_ship_(52848038105).jpg",
+  "license": "CC BY 2.0",
+  "credit": "Jernej Furman from Slovenia",
+  "title": "Oil tanker, gas tanker in the high sea Refinery Industry cargo ship (52848038105).jpg",
+  "he": "מכלית נפט בים",
+  "pending": true
+ },
+ "2026-11-16|nile": {
+  "src": "img/2026-11-16-nile.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Blue_Nile_Falls-03,_by_CT_Snow.jpg",
+  "license": "CC BY 2.0",
+  "credit": "CT Snow from Hsinchu, Taiwan",
+  "title": "Blue Nile Falls-03, by CT Snow.jpg",
+  "he": "מפלי הנילוס הכחול באתיופיה",
+  "pending": true
  }
 }
