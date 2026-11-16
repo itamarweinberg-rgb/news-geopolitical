@@ -2517,17 +2517,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "CEphoto, Uwe Aranas",
   "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
-  "he": "מגדל טאיפיי 101 בטייוואן",
-  "pending": true
- },
- "2026-11-16|hormuz": {
-  "src": "img/2026-11-16-hormuz.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "ITookSomePhotos",
-  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בים",
-  "pending": true
+  "he": "מגדל טאיפיי 101 בטייוואן"
  },
  "2026-11-16|shenzhen": {
   "src": "img/2026-11-16-shenzhen.jpg",
@@ -2535,8 +2525,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "Chris from Shenzhen, China",
   "title": "Ping An Finance Centre Shenzhen China (36533732800).jpg",
-  "he": "מגדל פינג אן בשנג׳ן",
-  "pending": true
+  "he": "מגדל פינג אן בשנג׳ן"
  },
  "2026-11-16|ratehikes": {
   "src": "img/2026-11-16-ratehikes.jpg",
@@ -2544,8 +2533,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-11-16|anthropic-ipo": {
   "src": "img/2026-11-16-anthropic-ipo.jpg",
@@ -2553,8 +2541,7 @@
   "license": "CC BY 2.0",
   "credit": "ajay_suresh",
   "title": "Nasdaq MarketSite (51494550508).jpg",
-  "he": "בניין נאסד״ק בטיימס סקוור",
-  "pending": true
+  "he": "בניין נאסד״ק בטיימס סקוור"
  },
  "2026-11-16|europe-protest": {
   "src": "img/2026-11-16-europe-protest.jpg",
@@ -2562,8 +2549,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "ekeidar",
   "title": "Meteronom at Letná Park - panoramio - ekeidar.jpg",
-  "he": "פארק לטנה בפראג",
-  "pending": true
+  "he": "פארק לטנה בפראג"
  },
  "2026-11-16|china": {
   "src": "img/2026-11-16-china.jpg",
@@ -2571,8 +2557,7 @@
   "license": "CC0",
   "credit": "Brutalist Pilipinas",
   "title": "Philippine International Convention Center interior.jpg",
-  "he": "מרכז הכנסים הבינלאומי במנילה",
-  "pending": true
+  "he": "מרכז הכנסים הבינלאומי במנילה"
  },
  "2026-11-16|horn": {
   "src": "img/2026-11-16-horn.jpg",
@@ -2580,16 +2565,9 @@
   "license": "Public domain",
   "credit": "Mulugeta Atsbeha",
   "title": "Destroyed playground in Mekelle, Tigray (2022).jpg",
-  "he": "העיר מקלה שבתיגראי",
-  "pending": true
+  "he": "העיר מקלה שבתיגראי"
  },
- "2026-11-16|nile": {
-  "src": "img/2026-11-16-nile.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:GERD_Dam_desert_dust.jpg",
-  "license": "Public domain",
-  "credit": "PMO - Ethiopia",
-  "title": "GERD Dam desert dust.jpg",
-  "he": "סכר התחייה הגדול באתיופיה",
-  "pending": true
+ "2026-11-16|brazil-real": {
+  "none": true
  }
 }
