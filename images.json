@@ -2587,17 +2587,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה לניירות ערך בניו יורק",
-  "pending": true
- },
- "2026-11-17|hormuz": {
-  "src": "img/2026-11-17-hormuz.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "ITookSomePhotos",
-  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בלב ים",
-  "pending": true
+  "he": "בניין הבורסה לניירות ערך בניו יורק"
  },
  "2026-11-17|yemen": {
   "src": "img/2026-11-17-yemen.jpg",
@@ -2605,8 +2595,7 @@
   "license": "Public domain",
   "credit": "Earth Science and Remote Sensing Unit, NASA Johnson Space Center",
   "title": "Bab-el-Mandeb, outer space.jpg",
-  "he": "מצר באב אל-מנדב",
-  "pending": true
+  "he": "מצר באב אל-מנדב"
  },
  "2026-11-17|trade": {
   "src": "img/2026-11-17-trade.jpg",
@@ -2614,8 +2603,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "BalticServers.com",
   "title": "BalticServers data center.jpg",
-  "he": "חדר שרתים במרכז נתונים",
-  "pending": true
+  "he": "חדר שרתים במרכז נתונים"
  },
  "2026-11-17|ratehikes": {
   "src": "img/2026-11-17-ratehikes.jpg",
@@ -2623,8 +2611,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "The wub",
   "title": "Federal Reserve Bank, San Francisco.jpg",
-  "he": "בניין הפדרל ריזרב של סן פרנסיסקו",
-  "pending": true
+  "he": "בניין הפדרל ריזרב של סן פרנסיסקו"
  },
  "2026-11-17|shekel": {
   "src": "img/2026-11-17-shekel.jpg",
@@ -2632,17 +2619,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
- },
- "2026-11-17|oil-surplus": {
-  "src": "img/2026-11-17-oil-surplus.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Snowfall_at_night_over_Brofjorden_and_Preemraff_oil_refinery.jpg",
-  "license": "CC0",
-  "credit": "W.carter",
-  "title": "Snowfall at night over Brofjorden and Preemraff oil refinery.jpg",
-  "he": "בית זיקוק לנפט בלילה",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-11-17|gold": {
   "src": "img/2026-11-17-gold.jpg",
@@ -2650,8 +2627,7 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
  },
  "2026-11-17|ebola": {
   "src": "img/2026-11-17-ebola.jpg",
@@ -2659,8 +2635,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Yann Forget",
   "title": "World Health Organisation headquarters, Geneva, north and west sides 2007.jpg",
-  "he": "מטה ארגון הבריאות העולמי בז׳נבה",
-  "pending": true
+  "he": "מטה ארגון הבריאות העולמי בז׳נבה"
  },
  "2026-11-17|us-midterms": {
   "src": "img/2026-11-17-us-midterms.jpg",
@@ -2668,7 +2643,6 @@
   "license": "CC BY-SA 3.0",
   "credit": "Martin Falbisoner",
   "title": "US Capitol west side.JPG",
-  "he": "בניין הקפיטול בוושינגטון",
-  "pending": true
+  "he": "בניין הקפיטול בוושינגטון"
  }
 }
