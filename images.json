@@ -2646,21 +2646,9 @@
   "he": "בניין הקפיטול בוושינגטון"
  },
  "2026-11-17|hormuz": {
-  "src": "img/2026-11-17-hormuz.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Oil_tanker,_gas_tanker_in_the_high_sea_Refinery_Industry_cargo_ship_(52848038105).jpg",
-  "license": "CC BY 2.0",
-  "credit": "Jernej Furman from Slovenia",
-  "title": "Oil tanker, gas tanker in the high sea Refinery Industry cargo ship (52848038105).jpg",
-  "he": "מכלית נפט בלב ים",
-  "pending": true
+  "none": true
  },
  "2026-11-17|oil-surplus": {
-  "src": "img/2026-11-17-oil-surplus.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow_Oil_Refinery_01.jpg",
-  "license": "CC BY 4.0",
-  "credit": "MBH",
-  "title": "Moscow Oil Refinery 01.jpg",
-  "he": "בית זיקוק לנפט בלילה",
-  "pending": true
+  "none": true
  }
 }
