@@ -2650,5 +2650,113 @@
  },
  "2026-11-17|oil-surplus": {
   "none": true
+ },
+ "2026-11-18|ai": {
+  "src": "img/2026-11-18-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Will Buckner",
+  "title": "Nvidia sign.jpg",
+  "he": "מטה אנבידיה בסנטה קלרה",
+  "pending": true
+ },
+ "2026-11-18|shenzhen": {
+  "src": "img/2026-11-18-shenzhen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PING_AN_FINANCE_CENTER,_SHENZHEN_(17).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dinkun Chen",
+  "title": "PING AN FINANCE CENTER, SHENZHEN (17).jpg",
+  "he": "מגדל פינג אן בשנג׳ן",
+  "pending": true
+ },
+ "2026-11-18|iran": {
+  "src": "img/2026-11-18-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Azadi_Tower_at_night_in_low_angle.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "بهادر های زاده",
+  "title": "Azadi Tower at night in low angle.jpg",
+  "he": "מגדל אזאדי בטהרן",
+  "pending": true
+ },
+ "2026-11-18|ratehikes": {
+  "src": "img/2026-11-18-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-18|ukraine": {
+  "src": "img/2026-11-18-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2022-10-11_Enl_crimea_bridge.jpg",
+  "license": "Public domain",
+  "credit": "Yuriy Shapoval",
+  "title": "2022-10-11 Enl crimea bridge.jpg",
+  "he": "גשר קרץ׳ מעל מצר קרץ׳",
+  "pending": true
+ },
+ "2026-11-18|yemen": {
+  "src": "img/2026-11-18-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_of_aden_in_1890-1900.jpg",
+  "license": "Public domain",
+  "credit": "alamree",
+  "title": "Port of aden in 1890-1900.jpg",
+  "he": "נמל עדן בתימן",
+  "pending": true
+ },
+ "2026-11-18|oil-surplus": {
+  "src": "img/2026-11-18-oil-surplus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים",
+  "pending": true
+ },
+ "2026-11-18|gold": {
+  "src": "img/2026-11-18-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bullion_Gold_bar_at_Swiss_Money_Museum_(Ank_Kumar,_Infosys).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ank Kumar",
+  "title": "Bullion Gold bar at Swiss Money Museum (Ank Kumar, Infosys).jpg",
+  "he": "מטילי זהב",
+  "pending": true
+ },
+ "2026-11-18|us-outages": {
+  "src": "img/2026-11-18-us-outages.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Jandakot_Airport_Air_Traffic_Control_Tower,_August_2023_02.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Calistemon",
+  "title": "Jandakot Airport Air Traffic Control Tower, August 2023 02.jpg",
+  "he": "מגדל פיקוח טיסות",
+  "pending": true
+ },
+ "2026-11-18|hk-stocks": {
+  "src": "img/2026-11-18-hk-stocks.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "CEphoto, Uwe Aranas",
+  "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
+  "he": "מגדל טאיפיי 101",
+  "pending": true
+ },
+ "2026-11-18|ai-law": {
+  "src": "img/2026-11-18-ai-law.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:San_Francisco_City_Hall_September_2013_panorama_3.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "King of Hearts",
+  "title": "San Francisco City Hall September 2013 panorama 3.jpg",
+  "he": "בניין העירייה של סן פרנסיסקו",
+  "pending": true
+ },
+ "2026-11-18|sudan": {
+  "src": "img/2026-11-18-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Nile_Khartoum_Bahri.jpg",
+  "license": "CC BY 2.0",
+  "credit": "David Stanley from Nanaimo, Canada",
+  "title": "The Nile Khartoum Bahri.jpg",
+  "he": "הנילוס הכחול בח׳רטום",
+  "pending": true
  }
 }
