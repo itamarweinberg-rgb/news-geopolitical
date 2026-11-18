@@ -2722,5 +2722,32 @@
   "credit": "David Stanley from Nanaimo, Canada",
   "title": "The Nile Khartoum Bahri.jpg",
   "he": "הנילוס הכחול בח׳רטום"
+ },
+ "2026-11-18|ukraine": {
+  "src": "img/2026-11-18-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kerch_Strait_Bridge.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Paraserg",
+  "title": "Kerch Strait Bridge.jpg",
+  "he": "גשר קרץ׳ מעל מצר קרץ׳",
+  "pending": true
+ },
+ "2026-11-18|yemen": {
+  "src": "img/2026-11-18-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Green_Lighthouse.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "T3n60",
+  "title": "Green Lighthouse.jpg",
+  "he": "נמל עדן בתימן",
+  "pending": true
+ },
+ "2026-11-18|us-outages": {
+  "src": "img/2026-11-18-us-outages.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nellis_AFB_Air_Traffic_Control_Tower.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Noah Wulf",
+  "title": "Nellis AFB Air Traffic Control Tower.jpg",
+  "he": "מגדל פיקוח טיסות",
+  "pending": true
  }
 }
