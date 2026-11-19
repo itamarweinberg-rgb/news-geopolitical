@@ -2748,8 +2748,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Sparktour",
   "title": "Civic Center, Shenzhen Lianhuashan Park (2018.9) Daytime.jpg",
-  "he": "מרכז העירייה של שנג׳ן",
-  "pending": true
+  "he": "מרכז העירייה של שנג׳ן"
  },
  "2026-11-19|ratehikes": {
   "src": "img/2026-11-19-ratehikes.jpg",
@@ -2757,8 +2756,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-11-19|anthropic-ipo": {
   "src": "img/2026-11-19-anthropic-ipo.jpg",
@@ -2766,8 +2764,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה לניירות ערך בניו יורק",
-  "pending": true
+  "he": "בניין הבורסה לניירות ערך בניו יורק"
  },
  "2026-11-19|hormuz": {
   "src": "img/2026-11-19-hormuz.jpg",
@@ -2775,8 +2772,7 @@
   "license": "Public domain",
   "credit": "NASA",
   "title": "STS004-37-716 - Strait of Hormuz.jpg",
-  "he": "מצר הורמוז",
-  "pending": true
+  "he": "מצר הורמוז"
  },
  "2026-11-19|shekel": {
   "src": "img/2026-11-19-shekel.jpg",
@@ -2784,8 +2780,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-11-19|gold": {
   "src": "img/2026-11-19-gold.jpg",
@@ -2793,8 +2788,7 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
  },
  "2026-11-19|boe": {
   "src": "img/2026-11-19-boe.jpg",
@@ -2802,8 +2796,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Diliff",
   "title": "Bank of England Building, London, UK - Diliff.jpg",
-  "he": "בניין בנק אנגליה בלונדון",
-  "pending": true
+  "he": "בניין בנק אנגליה בלונדון"
  },
  "2026-11-19|ecb": {
   "src": "img/2026-11-19-ecb.jpg",
@@ -2811,8 +2804,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "DXR",
   "title": "Seat of the European Central Bank and Frankfurt Skyline at dawn 20150422 1.jpg",
-  "he": "מטה הבנק המרכזי האירופי בפרנקפורט",
-  "pending": true
+  "he": "מטה הבנק המרכזי האירופי בפרנקפורט"
  },
  "2026-11-19|japan": {
   "src": "img/2026-11-19-japan.jpg",
@@ -2820,8 +2812,7 @@
   "license": "CC0",
   "credit": "Daderot",
   "title": "National Diet Building - Tokyo, Japan - DSC06736.JPG",
-  "he": "בניין הפרלמנט היפני בטוקיו",
-  "pending": true
+  "he": "בניין הפרלמנט היפני בטוקיו"
  },
  "2026-11-19|oil-surplus": {
   "src": "img/2026-11-19-oil-surplus.jpg",
@@ -2829,7 +2820,9 @@
   "license": "CC BY 4.0",
   "credit": "Quintin Soloviev",
   "title": "Oil pumpjack in the Permian Basin.jpg",
-  "he": "משאבת נפט בטקסס",
-  "pending": true
+  "he": "משאבת נפט בטקסס"
+ },
+ "2026-11-19|sudan": {
+  "none": true
  }
 }
