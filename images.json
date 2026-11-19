@@ -2741,5 +2741,95 @@
   "credit": "Noah Wulf",
   "title": "Nellis AFB Air Traffic Control Tower.jpg",
   "he": "מגדל פיקוח טיסות בנבדה"
+ },
+ "2026-11-19|shenzhen": {
+  "src": "img/2026-11-19-shenzhen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Civic_Center,_Shenzhen_Lianhuashan_Park_(2018.9)_Daytime.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Sparktour",
+  "title": "Civic Center, Shenzhen Lianhuashan Park (2018.9) Daytime.jpg",
+  "he": "מרכז העירייה של שנג׳ן",
+  "pending": true
+ },
+ "2026-11-19|ratehikes": {
+  "src": "img/2026-11-19-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-19|anthropic-ipo": {
+  "src": "img/2026-11-19-anthropic-ipo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-19|hormuz": {
+  "src": "img/2026-11-19-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+  "license": "Public domain",
+  "credit": "NASA",
+  "title": "STS004-37-716 - Strait of Hormuz.jpg",
+  "he": "מצר הורמוז",
+  "pending": true
+ },
+ "2026-11-19|shekel": {
+  "src": "img/2026-11-19-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-19|gold": {
+  "src": "img/2026-11-19-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ibex73",
+  "title": "Gold ingot and bar of Banque de France.jpg",
+  "he": "מטילי זהב",
+  "pending": true
+ },
+ "2026-11-19|boe": {
+  "src": "img/2026-11-19-boe.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_England_Building,_London,_UK_-_Diliff.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Diliff",
+  "title": "Bank of England Building, London, UK - Diliff.jpg",
+  "he": "בניין בנק אנגליה בלונדון",
+  "pending": true
+ },
+ "2026-11-19|ecb": {
+  "src": "img/2026-11-19-ecb.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "DXR",
+  "title": "Seat of the European Central Bank and Frankfurt Skyline at dawn 20150422 1.jpg",
+  "he": "מטה הבנק המרכזי האירופי בפרנקפורט",
+  "pending": true
+ },
+ "2026-11-19|japan": {
+  "src": "img/2026-11-19-japan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Diet_Building_-_Tokyo,_Japan_-_DSC06736.JPG",
+  "license": "CC0",
+  "credit": "Daderot",
+  "title": "National Diet Building - Tokyo, Japan - DSC06736.JPG",
+  "he": "בניין הפרלמנט היפני בטוקיו",
+  "pending": true
+ },
+ "2026-11-19|oil-surplus": {
+  "src": "img/2026-11-19-oil-surplus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oil_pumpjack_in_the_Permian_Basin.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Quintin Soloviev",
+  "title": "Oil pumpjack in the Permian Basin.jpg",
+  "he": "משאבת נפט בטקסס",
+  "pending": true
  }
 }
