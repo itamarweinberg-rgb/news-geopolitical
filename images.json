@@ -2831,8 +2831,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה לניירות ערך בניו יורק",
-  "pending": true
+  "he": "בניין הבורסה לניירות ערך בניו יורק"
  },
  "2026-11-20|shenzhen": {
   "src": "img/2026-11-20-shenzhen.jpg",
@@ -2840,8 +2839,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Sparktour",
   "title": "Civic Center, Shenzhen Lianhuashan Park (2018.9) Daytime.jpg",
-  "he": "מרכז העירייה של שנג׳ן",
-  "pending": true
+  "he": "מרכז העירייה של שנג׳ן"
  },
  "2026-11-20|icj": {
   "src": "img/2026-11-20-icj.jpg",
@@ -2849,8 +2847,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Velvet",
   "title": "La haye palais paix jardin face.JPG",
-  "he": "ארמון השלום בהאג, מושב בית הדין",
-  "pending": true
+  "he": "ארמון השלום בהאג, מושב בית הדין"
  },
  "2026-11-20|ukraine": {
   "src": "img/2026-11-20-ukraine.jpg",
@@ -2858,8 +2855,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Alexxx1979",
   "title": "Kerch. Crimean Bridge P5020707 2350.jpg",
-  "he": "גשר קרים מעל מצר קרץ׳",
-  "pending": true
+  "he": "גשר קרים מעל מצר קרץ׳"
  },
  "2026-11-20|shekel": {
   "src": "img/2026-11-20-shekel.jpg",
@@ -2867,17 +2863,10 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-11-20|hormuz": {
-  "src": "img/2026-11-20-hormuz.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "ITookSomePhotos",
-  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בים הפתוח",
-  "pending": true
+  "none": true
  },
  "2026-11-20|yemen": {
   "src": "img/2026-11-20-yemen.jpg",
@@ -2885,8 +2874,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "B.alotaby",
   "title": "KAFD seen from North east side of Riyadh City.jpg",
-  "he": "מגדל קרן ההשקעות הציבורית בריאד",
-  "pending": true
+  "he": "רובע הפיננסים של ריאד"
  },
  "2026-11-20|gold": {
   "src": "img/2026-11-20-gold.jpg",
@@ -2894,8 +2882,7 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
  },
  "2026-11-20|uk-eu": {
   "src": "img/2026-11-20-uk-eu.jpg",
@@ -2903,8 +2890,7 @@
   "license": "CC BY 4.0",
   "credit": "KenSwe72",
   "title": "Berlaymont building Brussels.jpg",
-  "he": "בניין ברלמון, מטה הנציבות האירופית",
-  "pending": true
+  "he": "בניין ברלמון, מטה הנציבות האירופית"
  },
  "2026-11-20|horn": {
   "src": "img/2026-11-20-horn.jpg",
@@ -2912,8 +2898,7 @@
   "license": "CC0",
   "credit": "Mamadoudiallo26",
   "title": "Port de Berbera.jpg",
-  "he": "נמל ברברה שבסומלילנד",
-  "pending": true
+  "he": "נמל ברברה שבסומלילנד"
  },
  "2026-11-20|mongolia": {
   "src": "img/2026-11-20-mongolia.jpg",
@@ -2921,7 +2906,6 @@
   "license": "CC BY 4.0",
   "credit": "Alexkom000",
   "title": "2024-10-18 Ulaanbaatar, Government Palace.jpg",
-  "he": "ארמון הממשלה באולן בטור",
-  "pending": true
+  "he": "ארמון הממשלה באולן בטור"
  }
 }
