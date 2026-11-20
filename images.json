@@ -2824,5 +2824,104 @@
  },
  "2026-11-19|sudan": {
   "none": true
+ },
+ "2026-11-20|anthropic-ipo": {
+  "src": "img/2026-11-20-anthropic-ipo.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-20|shenzhen": {
+  "src": "img/2026-11-20-shenzhen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Civic_Center,_Shenzhen_Lianhuashan_Park_(2018.9)_Daytime.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Sparktour",
+  "title": "Civic Center, Shenzhen Lianhuashan Park (2018.9) Daytime.jpg",
+  "he": "מרכז העירייה של שנג׳ן",
+  "pending": true
+ },
+ "2026-11-20|icj": {
+  "src": "img/2026-11-20-icj.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:La_haye_palais_paix_jardin_face.JPG",
+  "license": "CC BY-SA 4.0",
+  "credit": "Velvet",
+  "title": "La haye palais paix jardin face.JPG",
+  "he": "ארמון השלום בהאג, מושב בית הדין",
+  "pending": true
+ },
+ "2026-11-20|ukraine": {
+  "src": "img/2026-11-20-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kerch._Crimean_Bridge_P5020707_2350.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Alexxx1979",
+  "title": "Kerch. Crimean Bridge P5020707 2350.jpg",
+  "he": "גשר קרים מעל מצר קרץ׳",
+  "pending": true
+ },
+ "2026-11-20|shekel": {
+  "src": "img/2026-11-20-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-20|hormuz": {
+  "src": "img/2026-11-20-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים הפתוח",
+  "pending": true
+ },
+ "2026-11-20|yemen": {
+  "src": "img/2026-11-20-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:KAFD_seen_from_North_east_side_of_Riyadh_City.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "B.alotaby",
+  "title": "KAFD seen from North east side of Riyadh City.jpg",
+  "he": "מגדל קרן ההשקעות הציבורית בריאד",
+  "pending": true
+ },
+ "2026-11-20|gold": {
+  "src": "img/2026-11-20-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ibex73",
+  "title": "Gold ingot and bar of Banque de France.jpg",
+  "he": "מטילי זהב",
+  "pending": true
+ },
+ "2026-11-20|uk-eu": {
+  "src": "img/2026-11-20-uk-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Berlaymont_building_Brussels.jpg",
+  "license": "CC BY 4.0",
+  "credit": "KenSwe72",
+  "title": "Berlaymont building Brussels.jpg",
+  "he": "בניין ברלמון, מטה הנציבות האירופית",
+  "pending": true
+ },
+ "2026-11-20|horn": {
+  "src": "img/2026-11-20-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Port_de_Berbera.jpg",
+  "license": "CC0",
+  "credit": "Mamadoudiallo26",
+  "title": "Port de Berbera.jpg",
+  "he": "נמל ברברה שבסומלילנד",
+  "pending": true
+ },
+ "2026-11-20|mongolia": {
+  "src": "img/2026-11-20-mongolia.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-10-18_Ulaanbaatar,_Government_Palace.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Alexkom000",
+  "title": "2024-10-18 Ulaanbaatar, Government Palace.jpg",
+  "he": "ארמון הממשלה באולן בטור",
+  "pending": true
  }
 }
