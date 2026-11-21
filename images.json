@@ -2907,5 +2907,104 @@
   "credit": "Alexkom000",
   "title": "2024-10-18 Ulaanbaatar, Government Palace.jpg",
   "he": "ארמון הממשלה באולן בטור"
+ },
+ "2026-11-21|ai": {
+  "src": "img/2026-11-21-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-21|shekel": {
+  "src": "img/2026-11-21-shekel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Israel.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "אורי פרקש",
+  "title": "Bank of Israel.jpg",
+  "he": "בניין בנק ישראל בירושלים",
+  "pending": true
+ },
+ "2026-11-21|iran": {
+  "src": "img/2026-11-21-iran.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Azadi_Tower_at_night_in_low_angle.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "بهادر های زاده",
+  "title": "Azadi Tower at night in low angle.jpg",
+  "he": "מגדל אזאדי בטהרן",
+  "pending": true
+ },
+ "2026-11-21|oil-surplus": {
+  "src": "img/2026-11-21-oil-surplus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים",
+  "pending": true
+ },
+ "2026-11-21|ai-law": {
+  "src": "img/2026-11-21-ai-law.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nvidia_sign.jpg",
+  "license": "CC BY 2.0",
+  "credit": "Will Buckner",
+  "title": "Nvidia sign.jpg",
+  "he": "מטה אנבידיה בסנטה קלרה",
+  "pending": true
+ },
+ "2026-11-21|iraq-militias": {
+  "src": "img/2026-11-21-iraq-militias.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Oil_pipelines,_jubail_desert,_Saudi_Arabia_-_panoramio.jpg",
+  "license": "CC BY 3.0",
+  "credit": "Suresh Babunair",
+  "title": "Oil pipelines, jubail desert, Saudi Arabia - panoramio.jpg",
+  "he": "צינור נפט במדבר",
+  "pending": true
+ },
+ "2026-11-21|horn": {
+  "src": "img/2026-11-21-horn.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Addis_Ababa_skyline.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Simfan34",
+  "title": "Addis Ababa skyline.jpg",
+  "he": "קו הרקיע של אדיס אבבה",
+  "pending": true
+ },
+ "2026-11-21|sabotage": {
+  "src": "img/2026-11-21-sabotage.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Narva_Hermanni_linnus_2020_01.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Vaido Otsar",
+  "title": "Narva Hermanni linnus 2020 01.jpg",
+  "he": "מבצר נרווה באסטוניה",
+  "pending": true
+ },
+ "2026-11-21|myanmar": {
+  "src": "img/2026-11-21-myanmar.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Speaker_of_the_Assembly_of_the_Union_of_Myanmar.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Htoo Tay Zar",
+  "title": "Speaker of the Assembly of the Union of Myanmar.jpg",
+  "he": "בניין הפרלמנט בנייפידו",
+  "pending": true
+ },
+ "2026-11-21|bangladesh": {
+  "src": "img/2026-11-21-bangladesh.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Parliament_House,Dhaka,Bangladesh.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ali Morshed noton",
+  "title": "National Parliament House,Dhaka,Bangladesh.jpg",
+  "he": "בניין הפרלמנט הלאומי בדאקה",
+  "pending": true
+ },
+ "2026-11-21|seabed": {
+  "src": "img/2026-11-21-seabed.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Manganese-nodule-09_hg.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Hannes Grobe",
+  "title": "Manganese-nodule-09 hg.jpg",
+  "he": "גושים פולימטליים מקרקעית הים",
+  "pending": true
  }
 }
