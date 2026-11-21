@@ -2989,12 +2989,6 @@
   "he": "גושים פולימטליים מקרקעית הים"
  },
  "2026-11-21|iraq-militias": {
-  "src": "img/2026-11-21-iraq-militias.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Abu_Rudeis_oil_Town_(FL45972529).jpg",
-  "license": "CC BY 4.0",
-  "credit": "IPPA photographer",
-  "title": "Abu Rudeis oil Town (FL45972529).jpg",
-  "he": "צינור נפט במדבר",
-  "pending": true
+  "none": true
  }
 }
