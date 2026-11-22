@@ -2990,5 +2990,95 @@
  },
  "2026-11-21|iraq-militias": {
   "none": true
+ },
+ "2026-11-22|hormuz": {
+  "src": "img/2026-11-22-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "ITookSomePhotos",
+  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
+  "he": "מכלית נפט בים הפתוח",
+  "pending": true
+ },
+ "2026-11-22|yemen": {
+  "src": "img/2026-11-22-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "B.alotaby",
+  "title": "Riyadh Skyline.jpg",
+  "he": "מגדל קינגדום סנטר בריאד",
+  "pending": true
+ },
+ "2026-11-22|ukraine": {
+  "src": "img/2026-11-22-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kyiv_is_Southern_bridge.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Wladoff",
+  "title": "Kyiv is Southern bridge.jpg",
+  "he": "הגשר הדרומי בקייב",
+  "pending": true
+ },
+ "2026-11-22|climate": {
+  "src": "img/2026-11-22-climate.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Antalya_kalei%C3%A7i_2.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "REHBER0770",
+  "title": "Antalya kaleiçi 2.jpg",
+  "he": "הנמל העתיק של אנטליה",
+  "pending": true
+ },
+ "2026-11-22|em-fx": {
+  "src": "img/2026-11-22-em-fx.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Telef%C3%A9rico_de_Santiago,_en_el_Cerro_San_Crist%C3%B3bal._Santiago_de_Chile.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "CARLOS TEIXIDOR CADENAS",
+  "title": "Teleférico de Santiago, en el Cerro San Cristóbal. Santiago de Chile.jpg",
+  "he": "המגדל הגדול בסנטיאגו",
+  "pending": true
+ },
+ "2026-11-22|japan": {
+  "src": "img/2026-11-22-japan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:National_Diet_Building_-_Tokyo,_Japan_-_DSC06736.JPG",
+  "license": "CC0",
+  "credit": "Daderot",
+  "title": "National Diet Building - Tokyo, Japan - DSC06736.JPG",
+  "he": "בניין הפרלמנט היפני בטוקיו",
+  "pending": true
+ },
+ "2026-11-22|sudan": {
+  "src": "img/2026-11-22-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nile_River_Khartoum_(34004265326).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Hans Birger Nilsen",
+  "title": "Nile River Khartoum (34004265326).jpg",
+  "he": "הנילוס בחרטום",
+  "pending": true
+ },
+ "2026-11-22|italy-law": {
+  "src": "img/2026-11-22-italy-law.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:2024-10-11_Rome,_Palazzo_Montecitorio.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Alexkom000",
+  "title": "2024-10-11 Rome, Palazzo Montecitorio.jpg",
+  "he": "ארמון מונטצ׳יטוריו, בית הנבחרים ברומא",
+  "pending": true
+ },
+ "2026-11-22|uk-eu": {
+  "src": "img/2026-11-22-uk-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Europa_Building_in_Brussels.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "PPEscientist",
+  "title": "Europa Building in Brussels.jpg",
+  "he": "בניין אירופה, מושב מועצת האיחוד",
+  "pending": true
+ },
+ "2026-11-22|peru": {
+  "src": "img/2026-11-22-peru.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Lago_de_Junin-Juni_Peru.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Bernd Wolniczak (Bernd)",
+  "title": "Lago de Junin-Juni Peru.jpg",
+  "he": "אגם חונין בהרי האנדים",
+  "pending": true
  }
 }
