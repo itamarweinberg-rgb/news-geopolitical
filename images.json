@@ -2992,13 +2992,7 @@
   "none": true
  },
  "2026-11-22|hormuz": {
-  "src": "img/2026-11-22-hormuz.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Solomon_Sea_(oil_tanker),_in_the_Solent,_England.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "ITookSomePhotos",
-  "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בים הפתוח",
-  "pending": true
+  "none": true
  },
  "2026-11-22|yemen": {
   "src": "img/2026-11-22-yemen.jpg",
@@ -3006,8 +3000,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "B.alotaby",
   "title": "Riyadh Skyline.jpg",
-  "he": "מגדל קינגדום סנטר בריאד",
-  "pending": true
+  "he": "קו הרקיע של ריאד"
  },
  "2026-11-22|ukraine": {
   "src": "img/2026-11-22-ukraine.jpg",
@@ -3015,8 +3008,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Wladoff",
   "title": "Kyiv is Southern bridge.jpg",
-  "he": "הגשר הדרומי בקייב",
-  "pending": true
+  "he": "הגשר הדרומי בקייב"
  },
  "2026-11-22|climate": {
   "src": "img/2026-11-22-climate.jpg",
@@ -3024,8 +3016,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "REHBER0770",
   "title": "Antalya kaleiçi 2.jpg",
-  "he": "הנמל העתיק של אנטליה",
-  "pending": true
+  "he": "הנמל העתיק של אנטליה"
  },
  "2026-11-22|em-fx": {
   "src": "img/2026-11-22-em-fx.jpg",
@@ -3033,8 +3024,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "CARLOS TEIXIDOR CADENAS",
   "title": "Teleférico de Santiago, en el Cerro San Cristóbal. Santiago de Chile.jpg",
-  "he": "המגדל הגדול בסנטיאגו",
-  "pending": true
+  "he": "קו הרקיע של סנטיאגו, צ׳ילה"
  },
  "2026-11-22|japan": {
   "src": "img/2026-11-22-japan.jpg",
@@ -3042,8 +3032,7 @@
   "license": "CC0",
   "credit": "Daderot",
   "title": "National Diet Building - Tokyo, Japan - DSC06736.JPG",
-  "he": "בניין הפרלמנט היפני בטוקיו",
-  "pending": true
+  "he": "בניין הפרלמנט היפני בטוקיו"
  },
  "2026-11-22|sudan": {
   "src": "img/2026-11-22-sudan.jpg",
@@ -3051,8 +3040,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "Hans Birger Nilsen",
   "title": "Nile River Khartoum (34004265326).jpg",
-  "he": "הנילוס בחרטום",
-  "pending": true
+  "he": "הנילוס בחרטום"
  },
  "2026-11-22|italy-law": {
   "src": "img/2026-11-22-italy-law.jpg",
@@ -3060,8 +3048,7 @@
   "license": "CC BY 4.0",
   "credit": "Alexkom000",
   "title": "2024-10-11 Rome, Palazzo Montecitorio.jpg",
-  "he": "ארמון מונטצ׳יטוריו, בית הנבחרים ברומא",
-  "pending": true
+  "he": "ארמון מונטצ׳יטוריו, בית הנבחרים ברומא"
  },
  "2026-11-22|uk-eu": {
   "src": "img/2026-11-22-uk-eu.jpg",
@@ -3069,8 +3056,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "PPEscientist",
   "title": "Europa Building in Brussels.jpg",
-  "he": "בניין אירופה, מושב מועצת האיחוד",
-  "pending": true
+  "he": "בניין אירופה, מושב מועצת האיחוד"
  },
  "2026-11-22|peru": {
   "src": "img/2026-11-22-peru.jpg",
@@ -3078,7 +3064,6 @@
   "license": "CC BY-SA 4.0",
   "credit": "Bernd Wolniczak (Bernd)",
   "title": "Lago de Junin-Juni Peru.jpg",
-  "he": "אגם חונין בהרי האנדים",
-  "pending": true
+  "he": "אגם חונין בהרי האנדים"
  }
 }
