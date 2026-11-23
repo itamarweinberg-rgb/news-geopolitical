@@ -3116,5 +3116,32 @@
  },
  "2026-11-23|crypto": {
   "none": true
+ },
+ "2026-11-23|ai": {
+  "src": "img/2026-11-23-ai.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Skyline_of_Yeouido,_a_prominent_finance_district_in_Seoul.jpg",
+  "license": "CC BY 4.0",
+  "credit": "S h y numis",
+  "title": "Skyline of Yeouido, a prominent finance district in Seoul.jpg",
+  "he": "קו הרקיע של רובע יאואידו בסיאול",
+  "pending": true
+ },
+ "2026-11-23|yemen": {
+  "src": "img/2026-11-23-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Satorp_Jer_Refinery,_Jubail_-_panoramio.jpg",
+  "license": "CC BY 3.0",
+  "credit": "Suresh Babunair",
+  "title": "Satorp Jer Refinery, Jubail - panoramio.jpg",
+  "he": "בית זיקוק נפט בסעודיה",
+  "pending": true
+ },
+ "2026-11-23|oil-surplus": {
+  "src": "img/2026-11-23-oil-surplus.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wien_-_OPEC-Zentrale,_Portal.JPG",
+  "license": "CC BY-SA 4.0",
+  "credit": "C.Stadler/Bwag",
+  "title": "Wien - OPEC-Zentrale, Portal.JPG",
+  "he": "מטה אופ״ק בווינה",
+  "pending": true
  }
 }
