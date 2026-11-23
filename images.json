@@ -3066,23 +3066,13 @@
   "title": "Lago de Junin-Juni Peru.jpg",
   "he": "אגם חונין בהרי האנדים"
  },
- "2026-11-23|ai": {
-  "src": "img/2026-11-23-ai.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Yeouido_Skyline_seen_Yongsan_Station_2023.jpg",
-  "license": "CC BY-SA 3.0",
-  "credit": "Ox1997cow",
-  "title": "Yeouido Skyline seen Yongsan Station 2023.jpg",
-  "he": "קו הרקיע של רובע יאואידו בסיאול",
-  "pending": true
- },
  "2026-11-23|gulf": {
   "src": "img/2026-11-23-gulf.jpg",
   "page": "https://commons.wikimedia.org/wiki/File:Manama_Bahrain_World_Trade_Centre_%26_Bahrain_Financial_Harbour_1.jpg",
   "license": "CC BY-SA 4.0",
   "credit": "Zairon",
   "title": "Manama Bahrain World Trade Centre & Bahrain Financial Harbour 1.jpg",
-  "he": "מרכז הסחר העולמי במנאמה",
-  "pending": true
+  "he": "מרכז הסחר העולמי במנאמה"
  },
  "2026-11-23|climate": {
   "src": "img/2026-11-23-climate.jpg",
@@ -3090,8 +3080,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "REHBER0770",
   "title": "Antalya kaleiçi 2.jpg",
-  "he": "הנמל העתיק של אנטליה",
-  "pending": true
+  "he": "הנמל העתיק של אנטליה"
  },
  "2026-11-23|shekel": {
   "src": "img/2026-11-23-shekel.jpg",
@@ -3099,17 +3088,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
- },
- "2026-11-23|yemen": {
-  "src": "img/2026-11-23-yemen.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Hrs_140925-D-ZZ999-001_Airstrikes_from_Saudi_Arabia,_UAE_and_the_USA_against_oil_refineries_in_eastern_Syria_controlled_by_the_ISIL_(2014).jpg",
-  "license": "Public domain",
-  "credit": "DoD graphic",
-  "title": "Hrs 140925-D-ZZ999-001 Airstrikes from Saudi Arabia, UAE and the USA against oil refineries in eastern Syria controlled by the ISIL (2014).jpg",
-  "he": "בית זיקוק נפט בסעודיה",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-11-23|ukraine": {
   "src": "img/2026-11-23-ukraine.jpg",
@@ -3117,17 +3096,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Wladoff",
   "title": "Kyiv is Southern bridge.jpg",
-  "he": "הגשר הדרומי בקייב",
-  "pending": true
- },
- "2026-11-23|oil-surplus": {
-  "src": "img/2026-11-23-oil-surplus.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Vienna_OPEC_Headquarters_(9812748993).jpg",
-  "license": "CC0",
-  "credit": "Gary Todd from Xinzheng, China",
-  "title": "Vienna OPEC Headquarters (9812748993).jpg",
-  "he": "מטה אופ״ק בווינה",
-  "pending": true
+  "he": "הגשר הדרומי בקייב"
  },
  "2026-11-23|gold": {
   "src": "img/2026-11-23-gold.jpg",
@@ -3135,8 +3104,7 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
  },
  "2026-11-23|gaza": {
   "src": "img/2026-11-23-gaza.jpg",
@@ -3144,7 +3112,9 @@
   "license": "Public domain",
   "credit": "U.S. Army photo by Staff Sgt. Michael Ito",
   "title": "Humanitarian aid at the Zikim crossing (9417302).jpg",
-  "he": "משאיות סיוע הומניטרי",
-  "pending": true
+  "he": "משאיות סיוע הומניטרי"
+ },
+ "2026-11-23|crypto": {
+  "none": true
  }
 }
