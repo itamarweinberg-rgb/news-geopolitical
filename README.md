@@ -2,7 +2,7 @@
 
 תדריך גאופוליטי וכלכלי יומי בעברית, עם מפות וגרפים. מתעדכן אוטומטית כל בוקר.
 
-האתר: https://itamarweinberg-rgb.github.io/news-geopolitical/
+האתר: https://kavhamashve.co.il/
 
 המידע לצורכי עיון בלבד ואינו ייעוץ השקעות.
 
