@@ -3212,12 +3212,6 @@
   "none": true
  },
  "2026-11-24|ukraine": {
-  "src": "img/2026-11-24-ukraine.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Moscow_Oil_Refinery_01.jpg",
-  "license": "CC BY 4.0",
-  "credit": "MBH",
-  "title": "Moscow Oil Refinery 01.jpg",
-  "he": "בית זיקוק בלילה",
-  "pending": true
+  "none": true
  }
 }
