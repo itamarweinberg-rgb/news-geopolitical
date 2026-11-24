@@ -1,0 +1,11 @@
+name: DNS check
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for h in kavhamashve.co.il www.kavhamashve.co.il; do echo "== $h"; dig +short A $h @8.8.8.8; dig +short CNAME $h @8.8.8.8; done
+          echo "== NS"; dig +short NS kavhamashve.co.il @8.8.8.8
+          echo "== http"; curl -sS -o /dev/null -w "%{http_code} %{redirect_url}\n" http://kavhamashve.co.il/ || true
+          curl -sS -o /dev/null -w "%{http_code} %{redirect_url}\n" http://www.kavhamashve.co.il/ || true
