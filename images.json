@@ -3142,8 +3142,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "Carlos Delgado",
   "title": "Wall Street - New York Stock Exchange.jpg",
-  "he": "בניין הבורסה של ניו יורק",
-  "pending": true
+  "he": "בניין הבורסה של ניו יורק"
  },
  "2026-11-24|nvidia-board": {
   "src": "img/2026-11-24-nvidia-board.jpg",
@@ -3151,8 +3150,7 @@
   "license": "CC BY 2.0",
   "credit": "Will Buckner",
   "title": "Nvidia sign.jpg",
-  "he": "מטה אנבידיה בסנטה קלרה",
-  "pending": true
+  "he": "מטה אנבידיה בסנטה קלרה"
  },
  "2026-11-24|oil-surplus": {
   "src": "img/2026-11-24-oil-surplus.jpg",
@@ -3160,8 +3158,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "ITookSomePhotos",
   "title": "Solomon Sea (oil tanker), in the Solent, England.jpg",
-  "he": "מכלית נפט בלב ים",
-  "pending": true
+  "he": "מכלית נפט בלב ים"
  },
  "2026-11-24|libya-front": {
   "src": "img/2026-11-24-libya-front.jpg",
@@ -3169,8 +3166,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "56ab118",
   "title": "جزيرة الجعب, بنغازي, ليبيا.jpg",
-  "he": "העיר בנגאזי",
-  "pending": true
+  "he": "העיר בנגאזי"
  },
  "2026-11-24|shekel": {
   "src": "img/2026-11-24-shekel.jpg",
@@ -3178,8 +3174,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "אורי פרקש",
   "title": "Bank of Israel.jpg",
-  "he": "בניין בנק ישראל בירושלים",
-  "pending": true
+  "he": "בניין בנק ישראל בירושלים"
  },
  "2026-11-24|ratehikes": {
   "src": "img/2026-11-24-ratehikes.jpg",
@@ -3187,8 +3182,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-11-24|datacenter-tax": {
   "src": "img/2026-11-24-datacenter-tax.jpg",
@@ -3196,17 +3190,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "BalticServers.com",
   "title": "BalticServers data center.jpg",
-  "he": "חדר שרתים במרכז נתונים",
-  "pending": true
- },
- "2026-11-24|ukraine": {
-  "src": "img/2026-11-24-ukraine.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Snowfall_at_night_over_Brofjorden_and_Preemraff_oil_refinery.jpg",
-  "license": "CC0",
-  "credit": "W.carter",
-  "title": "Snowfall at night over Brofjorden and Preemraff oil refinery.jpg",
-  "he": "בית זיקוק בלילה",
-  "pending": true
+  "he": "חדר שרתים במרכז נתונים"
  },
  "2026-11-24|belgium": {
   "src": "img/2026-11-24-belgium.jpg",
@@ -3214,8 +3198,7 @@
   "license": "CC BY 4.0",
   "credit": "Trougnouf (Benoit Brummer)",
   "title": "Palais de la Nation (DSC01812).jpg",
-  "he": "ארמון האומה, משכן הפרלמנט בבריסל",
-  "pending": true
+  "he": "ארמון האומה, משכן הפרלמנט בבריסל"
  },
  "2026-11-24|gold": {
   "src": "img/2026-11-24-gold.jpg",
@@ -3223,7 +3206,9 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
+ },
+ "2026-11-24|korea": {
+  "none": true
  }
 }
