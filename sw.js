@@ -1,5 +1,5 @@
 // Network first, so the app always shows today's briefing; the cache is only a fallback for reading offline.
-const CACHE = "briefing-v1";
+const CACHE = "briefing-v2";
 self.addEventListener("install", e => self.skipWaiting());
 self.addEventListener("activate", e => e.waitUntil(
   caches.keys().then(ks => Promise.all(ks.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim())
