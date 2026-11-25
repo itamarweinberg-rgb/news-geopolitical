@@ -3279,21 +3279,9 @@
   "he": "מטילי זהב"
  },
  "2026-11-25|sudan": {
-  "src": "img/2026-11-25-sudan.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Mickel_Edwerd_%26_Abdou_Salam_Ndiath_(1).jpg",
-  "license": "CC BY 2.0",
-  "credit": "IAEA Imagebank",
-  "title": "Mickel Edwerd & Abdou Salam Ndiath (1).jpg",
-  "he": "מטה האיחוד האפריקאי באדיס אבבה",
-  "pending": true
+  "none": true
  },
  "2026-11-25|china": {
-  "src": "img/2026-11-25-china.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Friedrich_Merz_and_Sanae_Takaichi_at_the_Prime_Minister%27s_Office_2026_(10).jpg",
-  "license": "CC BY 4.0",
-  "credit": "Cabinet Secretariat",
-  "title": "Friedrich Merz and Sanae Takaichi at the Prime Minister's Office 2026 (10).jpg",
-  "he": "משרד ראש הממשלה של יפן בטוקיו",
-  "pending": true
+  "none": true
  }
 }
