@@ -1,0 +1,8 @@
+name: DNS check
+on: workflow_dispatch
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for u in http://kavhamashve.co.il/ https://kavhamashve.co.il/ http://www.kavhamashve.co.il/ https://itamarweinberg-rgb.github.io/news-geopolitical/; do echo "== $u"; curl -sS -o /tmp/b -w "%{http_code} %{redirect_url}\n" "$u" || true; grep -o "<title>[^<]*" /tmp/b || true; done
