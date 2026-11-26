@@ -3283,5 +3283,86 @@
  },
  "2026-11-25|china": {
   "none": true
+ },
+ "2026-11-26|hormuz": {
+  "src": "img/2026-11-26-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+  "license": "Public domain",
+  "credit": "NASA",
+  "title": "STS004-37-716 - Strait of Hormuz.jpg",
+  "he": "מצר הורמוז מהאוויר",
+  "pending": true
+ },
+ "2026-11-26|ratehikes": {
+  "src": "img/2026-11-26-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eccles_Building_(26088200676).jpg",
+  "license": "Public domain",
+  "credit": "Federalreserve",
+  "title": "Eccles Building (26088200676).jpg",
+  "he": "בניין הפדרל ריזרב בוושינגטון",
+  "pending": true
+ },
+ "2026-11-26|eu": {
+  "src": "img/2026-11-26-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Europa_Building_in_Brussels.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "PPEscientist",
+  "title": "Europa Building in Brussels.jpg",
+  "he": "בניין אירופה, מושב מועצת האיחוד",
+  "pending": true
+ },
+ "2026-11-26|trade": {
+  "src": "img/2026-11-26-trade.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Winder_Building.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "APK",
+  "title": "Winder Building.jpg",
+  "he": "בניין משרד נציג הסחר בוושינגטון",
+  "pending": true
+ },
+ "2026-11-26|yemen": {
+  "src": "img/2026-11-26-yemen.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Riyadh_Skyline_showing_the_King_Abdullah_Financial_District_(KAFD)_and_the_famous_Kingdom_Tower_.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "B.alotaby",
+  "title": "Riyadh Skyline showing the King Abdullah Financial District (KAFD) and the famous Kingdom Tower .jpg",
+  "he": "הרובע הפיננסי בריאד",
+  "pending": true
+ },
+ "2026-11-26|huawei": {
+  "src": "img/2026-11-26-huawei.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sidejo_de_Huawei_en_%C5%9Cen%C4%B5eno_09.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "RG72",
+  "title": "Sidejo de Huawei en Ŝenĵeno 09.jpg",
+  "he": "מטה וואווי בשנזן",
+  "pending": true
+ },
+ "2026-11-26|ukraine": {
+  "src": "img/2026-11-26-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vista_general_del_Kremlin,_Mosc%C3%BA,_Rusia,_2016-10-03,_DD_18-19_HDR.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Diego Delso",
+  "title": "Vista general del Kremlin, Moscú, Rusia, 2016-10-03, DD 18-19 HDR.jpg",
+  "he": "הקרמלין במוסקבה",
+  "pending": true
+ },
+ "2026-11-26|sudan": {
+  "src": "img/2026-11-26-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D8%B3%D8%AF_%D8%A7%D9%84%D8%B1%D9%88%D8%B5%D9%8A%D8%B1%D8%B5.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Mohamed grgory",
+  "title": "سد الروصيرص.jpg",
+  "he": "סכר רוסיירס על הנילוס הכחול",
+  "pending": true
+ },
+ "2026-11-26|ecuador": {
+  "src": "img/2026-11-26-ecuador.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:The_Pentagon_January_2008.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "David B. Gleason from Chicago, IL",
+  "title": "The Pentagon January 2008.jpg",
+  "he": "בניין הפנטגון",
+  "pending": true
  }
 }
