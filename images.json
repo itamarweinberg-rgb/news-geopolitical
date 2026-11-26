@@ -3290,8 +3290,7 @@
   "license": "Public domain",
   "credit": "NASA",
   "title": "STS004-37-716 - Strait of Hormuz.jpg",
-  "he": "מצר הורמוז מהאוויר",
-  "pending": true
+  "he": "מצר הורמוז מהאוויר"
  },
  "2026-11-26|ratehikes": {
   "src": "img/2026-11-26-ratehikes.jpg",
@@ -3299,8 +3298,7 @@
   "license": "Public domain",
   "credit": "Federalreserve",
   "title": "Eccles Building (26088200676).jpg",
-  "he": "בניין הפדרל ריזרב בוושינגטון",
-  "pending": true
+  "he": "בניין הפדרל ריזרב בוושינגטון"
  },
  "2026-11-26|eu": {
   "src": "img/2026-11-26-eu.jpg",
@@ -3308,8 +3306,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "PPEscientist",
   "title": "Europa Building in Brussels.jpg",
-  "he": "בניין אירופה, מושב מועצת האיחוד",
-  "pending": true
+  "he": "בניין אירופה, מושב מועצת האיחוד"
  },
  "2026-11-26|trade": {
   "src": "img/2026-11-26-trade.jpg",
@@ -3317,8 +3314,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "APK",
   "title": "Winder Building.jpg",
-  "he": "בניין משרד נציג הסחר בוושינגטון",
-  "pending": true
+  "he": "בניין משרד נציג הסחר בוושינגטון"
  },
  "2026-11-26|yemen": {
   "src": "img/2026-11-26-yemen.jpg",
@@ -3326,8 +3322,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "B.alotaby",
   "title": "Riyadh Skyline showing the King Abdullah Financial District (KAFD) and the famous Kingdom Tower .jpg",
-  "he": "הרובע הפיננסי בריאד",
-  "pending": true
+  "he": "הרובע הפיננסי בריאד"
  },
  "2026-11-26|huawei": {
   "src": "img/2026-11-26-huawei.jpg",
@@ -3335,8 +3330,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "RG72",
   "title": "Sidejo de Huawei en Ŝenĵeno 09.jpg",
-  "he": "מטה וואווי בשנזן",
-  "pending": true
+  "he": "מטה וואווי בשנזן"
  },
  "2026-11-26|ukraine": {
   "src": "img/2026-11-26-ukraine.jpg",
@@ -3344,17 +3338,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Diego Delso",
   "title": "Vista general del Kremlin, Moscú, Rusia, 2016-10-03, DD 18-19 HDR.jpg",
-  "he": "הקרמלין במוסקבה",
-  "pending": true
- },
- "2026-11-26|sudan": {
-  "src": "img/2026-11-26-sudan.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:%D8%B3%D8%AF_%D8%A7%D9%84%D8%B1%D9%88%D8%B5%D9%8A%D8%B1%D8%B5.jpg",
-  "license": "CC BY-SA 4.0",
-  "credit": "Mohamed grgory",
-  "title": "سد الروصيرص.jpg",
-  "he": "סכר רוסיירס על הנילוס הכחול",
-  "pending": true
+  "he": "הקרמלין במוסקבה"
  },
  "2026-11-26|ecuador": {
   "src": "img/2026-11-26-ecuador.jpg",
@@ -3362,7 +3346,12 @@
   "license": "CC BY-SA 2.0",
   "credit": "David B. Gleason from Chicago, IL",
   "title": "The Pentagon January 2008.jpg",
-  "he": "בניין הפנטגון",
-  "pending": true
+  "he": "בניין הפנטגון"
+ },
+ "2026-11-26|libya-front": {
+  "none": true
+ },
+ "2026-11-26|pacific": {
+  "none": true
  }
 }
