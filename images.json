@@ -3353,5 +3353,14 @@
  },
  "2026-11-26|pacific": {
   "none": true
+ },
+ "2026-11-26|sudan": {
+  "src": "img/2026-11-26-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D8%AE%D8%B2%D8%A7%D9%86_%D8%A7%D9%84%D8%B1%D8%B5%D9%8A%D8%B1%D8%B5.jpg",
+  "license": "CC0",
+  "credit": "Mustafa Barrin",
+  "title": "خزان الرصيرص.jpg",
+  "he": "סכר רוסיירס על הנילוס הכחול",
+  "pending": true
  }
 }
