@@ -3361,5 +3361,95 @@
   "credit": "Mustafa Barrin",
   "title": "خزان الرصيرص.jpg",
   "he": "סכר רוסיירס על הנילוס הכחול"
+ },
+ "2026-11-27|hormuz": {
+  "src": "img/2026-11-27-hormuz.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:STS004-37-716_-_Strait_of_Hormuz.jpg",
+  "license": "Public domain",
+  "credit": "NASA",
+  "title": "STS004-37-716 - Strait of Hormuz.jpg",
+  "he": "מצר הורמוז מהאוויר",
+  "pending": true
+ },
+ "2026-11-27|eu": {
+  "src": "img/2026-11-27-eu.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Europa_Building_in_Brussels.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "PPEscientist",
+  "title": "Europa Building in Brussels.jpg",
+  "he": "בניין אירופה, מושב מועצת האיחוד בבריסל",
+  "pending": true
+ },
+ "2026-11-27|ecb": {
+  "src": "img/2026-11-27-ecb.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Seat_of_the_European_Central_Bank_and_Frankfurt_Skyline_at_dawn_20150422_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "DXR",
+  "title": "Seat of the European Central Bank and Frankfurt Skyline at dawn 20150422 1.jpg",
+  "he": "מטה הבנק המרכזי האירופי בפרנקפורט",
+  "pending": true
+ },
+ "2026-11-27|ratehikes": {
+  "src": "img/2026-11-27-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chohung_Bank_Headquarters_(2000).jpg",
+  "license": "CC BY 4.0",
+  "credit": "Seoul Institute",
+  "title": "Chohung Bank Headquarters (2000).jpg",
+  "he": "מטה הבנק המרכזי של קוריאה בסיאול",
+  "pending": true
+ },
+ "2026-11-27|japan": {
+  "src": "img/2026-11-27-japan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bank_of_Japan_Head_Office,_Tokyo_-_Aug_29,_2011.jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "yt_siden",
+  "title": "Bank of Japan Head Office, Tokyo - Aug 29, 2011.jpg",
+  "he": "מטה בנק יפן בטוקיו",
+  "pending": true
+ },
+ "2026-11-27|china": {
+  "src": "img/2026-11-27-china.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "CEphoto, Uwe Aranas",
+  "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
+  "he": "מגדל טאיפיי 101",
+  "pending": true
+ },
+ "2026-11-27|nato-east": {
+  "src": "img/2026-11-27-nato-east.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Brussels_NATO_Headquarters.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Ad Meskens",
+  "title": "Brussels NATO Headquarters.jpg",
+  "he": "מטה נאט״ו בבריסל",
+  "pending": true
+ },
+ "2026-11-27|sa-election": {
+  "src": "img/2026-11-27-sa-election.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cape_Town_(ZA),_Parliament_of_South_Africa_--_2024_--_3487.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Dietmar Rabich",
+  "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3487.jpg",
+  "he": "בניין הפרלמנט של דרום אפריקה בקייפטאון",
+  "pending": true
+ },
+ "2026-11-27|nile": {
+  "src": "img/2026-11-27-nile.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Sudan_Port_Sudan_Harbor_USAID.jpg",
+  "license": "Public domain",
+  "credit": "USAID",
+  "title": "Sudan Port Sudan Harbor USAID.jpg",
+  "he": "נמל פורט סודאן",
+  "pending": true
+ },
+ "2026-11-27|gold": {
+  "src": "img/2026-11-27-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ibex73",
+  "title": "Gold ingot and bar of Banque de France.jpg",
+  "he": "מטילי זהב",
+  "pending": true
  }
 }
