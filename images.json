@@ -3368,8 +3368,7 @@
   "license": "Public domain",
   "credit": "NASA",
   "title": "STS004-37-716 - Strait of Hormuz.jpg",
-  "he": "מצר הורמוז מהאוויר",
-  "pending": true
+  "he": "מצר הורמוז מהאוויר"
  },
  "2026-11-27|eu": {
   "src": "img/2026-11-27-eu.jpg",
@@ -3377,8 +3376,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "PPEscientist",
   "title": "Europa Building in Brussels.jpg",
-  "he": "בניין אירופה, מושב מועצת האיחוד בבריסל",
-  "pending": true
+  "he": "בניין אירופה, מושב מועצת האיחוד בבריסל"
  },
  "2026-11-27|ecb": {
   "src": "img/2026-11-27-ecb.jpg",
@@ -3386,17 +3384,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "DXR",
   "title": "Seat of the European Central Bank and Frankfurt Skyline at dawn 20150422 1.jpg",
-  "he": "מטה הבנק המרכזי האירופי בפרנקפורט",
-  "pending": true
- },
- "2026-11-27|ratehikes": {
-  "src": "img/2026-11-27-ratehikes.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Chohung_Bank_Headquarters_(2000).jpg",
-  "license": "CC BY 4.0",
-  "credit": "Seoul Institute",
-  "title": "Chohung Bank Headquarters (2000).jpg",
-  "he": "מטה הבנק המרכזי של קוריאה בסיאול",
-  "pending": true
+  "he": "מטה הבנק המרכזי האירופי בפרנקפורט"
  },
  "2026-11-27|japan": {
   "src": "img/2026-11-27-japan.jpg",
@@ -3404,8 +3392,7 @@
   "license": "CC BY-SA 2.0",
   "credit": "yt_siden",
   "title": "Bank of Japan Head Office, Tokyo - Aug 29, 2011.jpg",
-  "he": "מטה בנק יפן בטוקיו",
-  "pending": true
+  "he": "מטה בנק יפן בטוקיו"
  },
  "2026-11-27|china": {
   "src": "img/2026-11-27-china.jpg",
@@ -3413,8 +3400,7 @@
   "license": "CC BY-SA 3.0",
   "credit": "CEphoto, Uwe Aranas",
   "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
-  "he": "מגדל טאיפיי 101",
-  "pending": true
+  "he": "מגדל טאיפיי 101"
  },
  "2026-11-27|nato-east": {
   "src": "img/2026-11-27-nato-east.jpg",
@@ -3422,8 +3408,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Ad Meskens",
   "title": "Brussels NATO Headquarters.jpg",
-  "he": "מטה נאט״ו בבריסל",
-  "pending": true
+  "he": "מטה נאט״ו בבריסל"
  },
  "2026-11-27|sa-election": {
   "src": "img/2026-11-27-sa-election.jpg",
@@ -3431,17 +3416,7 @@
   "license": "CC BY-SA 4.0",
   "credit": "Dietmar Rabich",
   "title": "Cape Town (ZA), Parliament of South Africa -- 2024 -- 3487.jpg",
-  "he": "בניין הפרלמנט של דרום אפריקה בקייפטאון",
-  "pending": true
- },
- "2026-11-27|nile": {
-  "src": "img/2026-11-27-nile.jpg",
-  "page": "https://commons.wikimedia.org/wiki/File:Sudan_Port_Sudan_Harbor_USAID.jpg",
-  "license": "Public domain",
-  "credit": "USAID",
-  "title": "Sudan Port Sudan Harbor USAID.jpg",
-  "he": "נמל פורט סודאן",
-  "pending": true
+  "he": "בניין הפרלמנט של דרום אפריקה בקייפטאון"
  },
  "2026-11-27|gold": {
   "src": "img/2026-11-27-gold.jpg",
@@ -3449,7 +3424,6 @@
   "license": "CC BY 4.0",
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
-  "he": "מטילי זהב",
-  "pending": true
+  "he": "מטילי זהב"
  }
 }
