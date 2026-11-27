@@ -3425,5 +3425,23 @@
   "credit": "Ibex73",
   "title": "Gold ingot and bar of Banque de France.jpg",
   "he": "מטילי זהב"
+ },
+ "2026-11-27|ratehikes": {
+  "src": "img/2026-11-27-ratehikes.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Woori-Bank-headquarter.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Magneta6006",
+  "title": "Woori-Bank-headquarter.jpg",
+  "he": "מטה הבנק המרכזי של קוריאה בסיאול",
+  "pending": true
+ },
+ "2026-11-27|nile": {
+  "src": "img/2026-11-27-nile.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:PortSudan_center_harbour.jpg",
+  "license": "CC BY 3.0",
+  "credit": "Bertramz",
+  "title": "PortSudan center harbour.jpg",
+  "he": "נמל פורט סודאן",
+  "pending": true
  }
 }
