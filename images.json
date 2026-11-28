@@ -3487,5 +3487,14 @@
  },
  "2026-11-28|sudan": {
   "none": true
+ },
+ "2026-11-28|ukraine": {
+  "src": "img/2026-11-28-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Display_with_Period_Image_of_Derzhprom_Building_-_Museum_in_Derzhprom_-_Kharkiv_(Kharkov)_-_Ukraine_(30095276488).jpg",
+  "license": "CC BY-SA 2.0",
+  "credit": "Adam Jones from Kelowna, BC, Canada",
+  "title": "Display with Period Image of Derzhprom Building - Museum in Derzhprom - Kharkiv (Kharkov) - Ukraine (30095276488).jpg",
+  "he": "בניין דרז׳פרום בחרקוב",
+  "pending": true
  }
 }
