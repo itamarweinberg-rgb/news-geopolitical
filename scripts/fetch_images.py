@@ -68,7 +68,8 @@ def main():
             # `img` is a list of {"q": English Commons query, "he": short Hebrew caption},
             # tried in order; the caption of the query that matched is kept.
             opts = s["img"] if isinstance(s["img"], list) else [{"q": q} for q in s["img"].split(";")]
-            skip = set(rejected.get(key, []))
+            # Besides this story's own rejects, "*|<topic>" holds photos rejected for a topic on every day.
+            skip = set(rejected.get(key, [])) | set(rejected.get(f"*|{s['topic']}", []))
             # One story failing must not lose the photos already found for the others.
             try:
                 pick = next(({**c, "he": o.get("he", "")} for o in opts for c in candidates(o["q"].strip())
