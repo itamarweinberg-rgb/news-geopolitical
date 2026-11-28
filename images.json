@@ -3436,5 +3436,77 @@
   "credit": "Bertramz",
   "title": "PortSudan center harbour.jpg",
   "he": "נמל פורט סודאן"
+ },
+ "2026-11-28|wallstreet": {
+  "src": "img/2026-11-28-wallstreet.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Wall_Street_-_New_York_Stock_Exchange.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "Carlos Delgado",
+  "title": "Wall Street - New York Stock Exchange.jpg",
+  "he": "בניין הבורסה לניירות ערך בניו יורק",
+  "pending": true
+ },
+ "2026-11-28|hk-stocks": {
+  "src": "img/2026-11-28-hk-stocks.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Minor_skyscrapers_in_Lujiazui,_Shanghai_as_seen_from_Lujiazui_Pedestrian_Bridge_20120602_1.jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "DXR",
+  "title": "Minor skyscrapers in Lujiazui, Shanghai as seen from Lujiazui Pedestrian Bridge 20120602 1.jpg",
+  "he": "בניין הבורסה של שנגחאי",
+  "pending": true
+ },
+ "2026-11-28|opec": {
+  "src": "img/2026-11-28-opec.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Vienna_OPEC_Headquarters_(9812748993).jpg",
+  "license": "CC0",
+  "credit": "Gary Todd from Xinzheng, China",
+  "title": "Vienna OPEC Headquarters (9812748993).jpg",
+  "he": "מטה אופ״ק בווינה",
+  "pending": true
+ },
+ "2026-11-28|china": {
+  "src": "img/2026-11-28-china.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Taipei_Taiwan_Taipei-101-Tower-01.jpg",
+  "license": "CC BY-SA 3.0",
+  "credit": "CEphoto, Uwe Aranas",
+  "title": "Taipei Taiwan Taipei-101-Tower-01.jpg",
+  "he": "מגדל טאיפיי 101",
+  "pending": true
+ },
+ "2026-11-28|ukraine": {
+  "src": "img/2026-11-28-ukraine.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D0%91%D1%83%D0%B4%D0%B8%D0%BD%D0%BE%D0%BA_%D0%B4%D0%B5%D1%80%D0%B6%D0%BF%D1%80%D0%BE%D0%BC%D0%B8%D1%81%D0%BB%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D1%96_(%D0%94%D0%95%D0%A0%D0%96%D0%9F%D0%A0%D0%9E%D0%9C).jpg",
+  "license": "CC BY-SA 4.0",
+  "credit": "Anna Leonenko",
+  "title": "Будинок держпромисловості (ДЕРЖПРОМ).jpg",
+  "he": "בניין דרז׳פרום בחרקוב",
+  "pending": true
+ },
+ "2026-11-28|gold": {
+  "src": "img/2026-11-28-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_ingot_and_bar_of_Banque_de_France.jpg",
+  "license": "CC BY 4.0",
+  "credit": "Ibex73",
+  "title": "Gold ingot and bar of Banque de France.jpg",
+  "he": "מטילי זהב",
+  "pending": true
+ },
+ "2026-11-28|venezuela": {
+  "src": "img/2026-11-28-venezuela.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Miraflores_2010.JPG",
+  "license": "CC BY-SA 3.0",
+  "credit": "Guillermo Ramos Flamerich",
+  "title": "Miraflores 2010.JPG",
+  "he": "ארמון מירפלורס בקראקס",
+  "pending": true
+ },
+ "2026-11-28|sudan": {
+  "src": "img/2026-11-28-sudan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Abdou_Salam_Ndiath_(31).jpg",
+  "license": "CC BY 2.0",
+  "credit": "IAEA Imagebank",
+  "title": "Abdou Salam Ndiath (31).jpg",
+  "he": "מטה האיחוד האפריקאי באדיס אבבה",
+  "pending": true
  }
 }
