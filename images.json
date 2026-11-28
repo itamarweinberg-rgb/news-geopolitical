@@ -3482,5 +3482,14 @@
  },
  "2026-11-28|ukraine": {
   "none": true
+ },
+ "2026-11-28|gold": {
+  "src": "img/2026-11-28-gold.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Gold_Ingots_on_white_background.jpg",
+  "license": "Public domain",
+  "credit": "Szaaman",
+  "title": "Gold Ingots on white background.jpg",
+  "he": "מטילי זהב",
+  "pending": true
  }
 }
